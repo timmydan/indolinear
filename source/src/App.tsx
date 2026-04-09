@@ -7,14 +7,16 @@ const STATIC_MODE = import.meta.env.VITE_STATIC_MODE === 'true';
 
 async function apiFetch(path: string) {
   if (STATIC_MODE) {
+	  // Use import.meta.env.BASE_URL to ensure paths are correct regardless of where the app is hosted (e.g. GitHub Pages subfolder)
+    const base = import.meta.env.BASE_URL;
     if (path === '/api/books') {
-      return fetch('/data/books.json');
+      return fetch(`${base}data/books.json`);
     } else if (path.startsWith('/api/chapter/')) {
       const parts = path.split('/');
-      return fetch(`/data/chapter_${parts[3]}_${parts[4]}.json`);
+      return fetch(`${base}data/chapter_${parts[3]}_${parts[4]}.json`);
     } else if (path.startsWith('/api/strong/')) {
       const parts = path.split('/');
-      return fetch(`/data/strong_${parts[3]}_${parts[4]}.json`);
+      return fetch(`${base}data/strong_${parts[3]}_${parts[4]}.json`);
     }
   }
   return fetch(path);
