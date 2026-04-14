@@ -261,9 +261,9 @@ export default function App() {
               <span className="font-mono text-xs tracking-widest uppercase opacity-50">Fetching Chapter Data...</span>
             </div>
           ) : (
-            <div className="space-y-16">
+            <div className="space-y-8">
               {chapterData?.verses.map((verse) => (
-                <div key={verse.number} className="relative group pl-12 sm:pl-16 border-b border-[#1A1A1A]/5 last:border-0" style={{ paddingBottom: `${4 * spacing}rem` }}>
+                <div key={verse.number} className="relative group pl-12 sm:pl-16 border-b border-[#1A1A1A]/5 last:border-0" style={{ paddingBottom: `${0.5 * spacing}rem` }}>
                   {/* Verse Number */}
                   <div className="absolute left-0 top-0 font-serif italic opacity-40 group-hover:opacity-100 transition-opacity" style={{ fontSize: `${1.5 * textSize}rem` }}>
                     {verse.number}
@@ -272,7 +272,7 @@ export default function App() {
                   {/* Interlinear Row */}
                   <div 
                     className="flex flex-wrap"
-                    style={{ rowGap: `${3.5 * spacing}rem`, columnGap: `${2 * spacing}rem` }}
+                    style={{ rowGap: `${0.5 * spacing}rem`, columnGap: `${0.5 * spacing}rem` }}
                     dir={isRTL ? 'rtl' : 'ltr'}
                   >
                     {verse.originalUnits.map((unit, idx) => {
@@ -293,10 +293,10 @@ export default function App() {
                               }
                             }
                           }}
-                          className={`flex flex-col items-center p-3 transition-all cursor-pointer rounded-lg min-w-[90px] ${isHovered ? 'bg-[#1A1A1A] text-[#F5F2ED] shadow-2xl scale-110 z-10' : 'hover:bg-[#1A1A1A]/5'}`}
+                          className={`flex flex-col items-center p-2 transition-all cursor-pointer rounded-lg min-w-[90px] ${isHovered ? 'bg-[#1A1A1A] text-[#F5F2ED] shadow-2xl scale-110 z-10' : 'hover:bg-[#1A1A1A]/5'}`}
                         >
                           {/* Strong's Number */}
-                          <div className="h-4 flex items-center justify-center mb-1">
+                          <div className="h-4 flex items-center justify-center">
                             <span className={`font-mono tracking-tighter ${isHovered ? 'text-[#F5F2ED]/60' : 'text-[#1A1A1A]/30'}`} style={{ fontSize: `${10 * textSize}px` }}>
                               {unit.strong !== '0' ? unit.strong : ''}
                             </span>
@@ -324,7 +324,7 @@ export default function App() {
                           </div>
 
                           {/* Indonesian Translation */}
-                          <div className="mt-3 pt-3 border-t border-[#1A1A1A]/10 w-full flex justify-center">
+                          <div className="mt-2 pt-2 border-t border-[#1A1A1A]/10 w-full flex justify-center">
                             <span className={`font-medium text-center max-w-[140px] leading-snug ${isHovered ? 'text-[#F5F2ED]' : 'text-[#1A1A1A]/80'}`} style={{ fontSize: `${0.875 * textSize}rem` }}>
                               {hasInd ? unit.ind : ''}
                             </span>
