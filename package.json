@@ -9,7 +9,7 @@
     "build:static": "cross-env VITE_STATIC_MODE=true vite build",
     "export": "tsx export-static.ts",
     "preview": "vite preview",
-    "clean": "rm -rf dist",
+    "clean": "rm -rf docs",
     "lint": "tsc --noEmit"
   },
   "dependencies": {

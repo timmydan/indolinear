@@ -6,7 +6,10 @@ import {defineConfig, loadEnv} from 'vite';
 export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   return {
-	base: './',
+    base: './',
+    build: {
+      outDir: 'docs', // Output to docs/ instead of dist/ for GitHub Pages
+    },
     plugins: [react(), tailwindcss()],
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),

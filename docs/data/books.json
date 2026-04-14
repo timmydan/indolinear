@@ -1,0 +1,336 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "Kejadian\n"
+    },
+    {
+      "id": 2,
+      "name": "Keluaran\n"
+    },
+    {
+      "id": 3,
+      "name": "Imamat\n"
+    },
+    {
+      "id": 4,
+      "name": "Bilangan\n"
+    },
+    {
+      "id": 5,
+      "name": "Ulangan\n"
+    },
+    {
+      "id": 6,
+      "name": "Yosua\n"
+    },
+    {
+      "id": 7,
+      "name": "Hakim-hakim\n"
+    },
+    {
+      "id": 8,
+      "name": "Rut\n"
+    },
+    {
+      "id": 9,
+      "name": "1 Samuel\n"
+    },
+    {
+      "id": 10,
+      "name": "2 Samuel\n"
+    },
+    {
+      "id": 11,
+      "name": "1 Raja-raja\n"
+    },
+    {
+      "id": 12,
+      "name": "2 Raja-raja\n\n"
+    },
+    {
+      "id": 13,
+      "name": "1 Tawarikh\n"
+    },
+    {
+      "id": 14,
+      "name": "2 Tawarikh\n\n"
+    },
+    {
+      "id": 15,
+      "name": "Ezra\n"
+    },
+    {
+      "id": 16,
+      "name": "Nehemia\n"
+    },
+    {
+      "id": 17,
+      "name": "Ester\n"
+    },
+    {
+      "id": 18,
+      "name": "Ayub\n"
+    },
+    {
+      "id": 19,
+      "name": "Mazmur\n"
+    },
+    {
+      "id": 20,
+      "name": "Amsal\n"
+    },
+    {
+      "id": 21,
+      "name": "Penghkhotbah\n"
+    },
+    {
+      "id": 22,
+      "name": "Kidung Agung\n"
+    },
+    {
+      "id": 23,
+      "name": "Yesaya\n"
+    },
+    {
+      "id": 24,
+      "name": "Yeremia\n"
+    },
+    {
+      "id": 25,
+      "name": "Ratapan\n"
+    },
+    {
+      "id": 26,
+      "name": "Yehezkiel\n"
+    },
+    {
+      "id": 27,
+      "name": "Daniel\n"
+    },
+    {
+      "id": 28,
+      "name": "Hosea\n"
+    },
+    {
+      "id": 29,
+      "name": "Yoel\n"
+    },
+    {
+      "id": 30,
+      "name": "Amos\n"
+    },
+    {
+      "id": 31,
+      "name": "Obaja\n"
+    },
+    {
+      "id": 32,
+      "name": "Yunus\n"
+    },
+    {
+      "id": 33,
+      "name": "Mikha\n"
+    },
+    {
+      "id": 34,
+      "name": "Nahum\n"
+    },
+    {
+      "id": 35,
+      "name": "Habakuk\n"
+    },
+    {
+      "id": 36,
+      "name": "Zefanya\n"
+    },
+    {
+      "id": 37,
+      "name": "Hagai\n"
+    },
+    {
+      "id": 38,
+      "name": "Zakharia\n"
+    },
+    {
+      "id": 39,
+      "name": "Maleakhi\n"
+    },
+    {
+      "id": 40,
+      "name": "Matius\n"
+    },
+    {
+      "id": 41,
+      "name": "Markus\n"
+    },
+    {
+      "id": 42,
+      "name": "Lukas\n"
+    },
+    {
+      "id": 43,
+      "name": "Yohanes\n"
+    },
+    {
+      "id": 44,
+      "name": "Kita Para Rasul\n"
+    },
+    {
+      "id": 45,
+      "name": "Roma\n"
+    },
+    {
+      "id": 46,
+      "name": "1 Korintus\n"
+    },
+    {
+      "id": 47,
+      "name": "2 Korintus\n"
+    },
+    {
+      "id": 48,
+      "name": "Galatia\n"
+    },
+    {
+      "id": 49,
+      "name": "Efesus\n"
+    },
+    {
+      "id": 50,
+      "name": "Filipi\n"
+    },
+    {
+      "id": 51,
+      "name": "Kolose\n"
+    },
+    {
+      "id": 52,
+      "name": "1 Tesalonika\n"
+    },
+    {
+      "id": 53,
+      "name": "2 Tesalonika\n"
+    },
+    {
+      "id": 54,
+      "name": "1 Timotius\n"
+    },
+    {
+      "id": 55,
+      "name": "2 Timotius\n"
+    },
+    {
+      "id": 56,
+      "name": "Titus\n"
+    },
+    {
+      "id": 57,
+      "name": "Filemon\n"
+    },
+    {
+      "id": 58,
+      "name": "Ibrani\n"
+    },
+    {
+      "id": 59,
+      "name": "Yakobus\n"
+    },
+    {
+      "id": 60,
+      "name": "1 Petrus\n"
+    },
+    {
+      "id": 61,
+      "name": "2 Petrus\n"
+    },
+    {
+      "id": 62,
+      "name": "1 Yohanes\n"
+    },
+    {
+      "id": 63,
+      "name": "2 Yohanes\n"
+    },
+    {
+      "id": 64,
+      "name": "3 Yohanes\n"
+    },
+    {
+      "id": 65,
+      "name": "Yudas\n"
+    },
+    {
+      "id": 66,
+      "name": "Wahyu\n"
+    }
+  ],
+  "chaptersMap": {
+    "1": 50,
+    "2": 40,
+    "3": 27,
+    "4": 36,
+    "5": 34,
+    "6": 24,
+    "7": 21,
+    "8": 4,
+    "9": 31,
+    "10": 24,
+    "11": 22,
+    "12": 25,
+    "13": 29,
+    "14": 36,
+    "15": 10,
+    "16": 13,
+    "17": 10,
+    "18": 42,
+    "19": 150,
+    "20": 31,
+    "21": 12,
+    "22": 8,
+    "23": 66,
+    "24": 52,
+    "25": 5,
+    "26": 48,
+    "27": 12,
+    "28": 14,
+    "29": 3,
+    "30": 9,
+    "31": 1,
+    "32": 4,
+    "33": 7,
+    "34": 3,
+    "35": 3,
+    "36": 3,
+    "37": 2,
+    "38": 14,
+    "39": 4,
+    "40": 28,
+    "41": 16,
+    "42": 24,
+    "43": 21,
+    "44": 28,
+    "45": 16,
+    "46": 16,
+    "47": 13,
+    "48": 6,
+    "49": 6,
+    "50": 4,
+    "51": 4,
+    "52": 5,
+    "53": 3,
+    "54": 6,
+    "55": 4,
+    "56": 3,
+    "57": 1,
+    "58": 13,
+    "59": 5,
+    "60": 5,
+    "61": 3,
+    "62": 5,
+    "63": 1,
+    "64": 1,
+    "65": 1,
+    "66": 22
+  }
+}

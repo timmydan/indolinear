@@ -1,0 +1,6215 @@
+{
+  "title": "Yakobus 5",
+  "verses": [
+    {
+      "number": "1",
+      "originalUnits": [
+        {
+          "ind": "Jadi",
+          "origUnicode": "Ἄγε",
+          "origAscii": "Age",
+          "strong": "0071",
+          "morphology": "V-PAM-2S",
+          "lemma": "ἄγω",
+          "sabdaIndex": 0
+        },
+        {
+          "ind": "sekarang",
+          "origUnicode": "νῦν",
+          "origAscii": "nun",
+          "strong": "3568",
+          "morphology": "ADV",
+          "lemma": "νῦν",
+          "sabdaIndex": 1
+        },
+        {
+          "ind": "hai kamu",
+          "origUnicode": "οἱ",
+          "origAscii": "hoi",
+          "strong": "3588",
+          "morphology": "T-VPM",
+          "lemma": "ὁ",
+          "sabdaIndex": 2
+        },
+        {
+          "ind": "orang-orang kaya",
+          "origUnicode": "πλούσιοι,",
+          "origAscii": "plousioi",
+          "strong": "4145",
+          "morphology": "A-VPM",
+          "lemma": "πλούσιος",
+          "sabdaIndex": 3
+        },
+        {
+          "ind": "menangislah",
+          "origUnicode": "κλαύσατε",
+          "origAscii": "klausate",
+          "strong": "2799",
+          "morphology": "V-AAM-2P",
+          "lemma": "κλαίω",
+          "sabdaIndex": 4
+        },
+        {
+          "ind": "merataplah",
+          "origUnicode": "ὀλολύζοντες",
+          "origAscii": "ololuzontes",
+          "strong": "3649",
+          "morphology": "V-PAP-NPM",
+          "lemma": "ὀλολύζω",
+          "sabdaIndex": 6
+        },
+        {
+          "ind": "atas",
+          "origUnicode": "ἐπὶ",
+          "origAscii": "epi",
+          "strong": "1909",
+          "morphology": "PREP",
+          "lemma": "ἐπί",
+          "sabdaIndex": 7
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "ταῖς",
+          "origAscii": "tais",
+          "strong": "3588",
+          "morphology": "T-DPF",
+          "lemma": "ὁ",
+          "sabdaIndex": 8
+        },
+        {
+          "ind": "sengsara",
+          "origUnicode": "ταλαιπωρίαις",
+          "origAscii": "talaipōriais",
+          "strong": "5004",
+          "morphology": "N-DPF",
+          "lemma": "ταλαιπωρία",
+          "sabdaIndex": 9
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑμῶν",
+          "origAscii": "humōn",
+          "strong": "4771",
+          "morphology": "P-2GP",
+          "lemma": "σύ",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "",
+          "origUnicode": "ταῖς",
+          "origAscii": "tais",
+          "strong": "3588",
+          "morphology": "T-DPF",
+          "lemma": "ὁ",
+          "sabdaIndex": 11
+        },
+        {
+          "ind": "yang akan menimpa",
+          "origUnicode": "ἐπερχομέναις.",
+          "origAscii": "eperchomenais",
+          "strong": "1904",
+          "morphology": "V-PNP-DPF",
+          "lemma": "ἐπέρχομαι",
+          "sabdaIndex": 12
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "Jadi",
+          "strong": "71",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "sekarang",
+          "origUnicode": "νῦν",
+          "origAscii": "nun",
+          "strong": "3568",
+          "morphology": "ADV",
+          "lemma": "νῦν"
+        },
+        {
+          "ind": "hai kamu",
+          "origUnicode": "οἱ ταῖς ταῖς",
+          "origAscii": "hoi tais tais",
+          "strong": "3588",
+          "morphology": "T-VPM T-DPF T-DPF",
+          "lemma": "ὁ ὁ ὁ"
+        },
+        {
+          "ind": "orang-orang kaya",
+          "origUnicode": "πλούσιοι,",
+          "origAscii": "plousioi",
+          "strong": "4145",
+          "morphology": "A-VPM",
+          "lemma": "πλούσιος"
+        },
+        {
+          "ind": "menangislah",
+          "origUnicode": "κλαύσατε",
+          "origAscii": "klausate",
+          "strong": "2799",
+          "morphology": "V-AAM-2P",
+          "lemma": "κλαίω"
+        },
+        {
+          "ind": "dan",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "merataplah",
+          "origUnicode": "ὀλολύζοντες",
+          "origAscii": "ololuzontes",
+          "strong": "3649",
+          "morphology": "V-PAP-NPM",
+          "lemma": "ὀλολύζω"
+        },
+        {
+          "ind": "atas",
+          "origUnicode": "ἐπὶ",
+          "origAscii": "epi",
+          "strong": "1909",
+          "morphology": "PREP",
+          "lemma": "ἐπί"
+        },
+        {
+          "ind": "",
+          "origUnicode": "οἱ ταῖς ταῖς",
+          "origAscii": "hoi tais tais",
+          "strong": "3588",
+          "morphology": "T-VPM T-DPF T-DPF",
+          "lemma": "ὁ ὁ ὁ"
+        },
+        {
+          "ind": "sengsara",
+          "origUnicode": "ταλαιπωρίαις",
+          "origAscii": "talaipōriais",
+          "strong": "5004",
+          "morphology": "N-DPF",
+          "lemma": "ταλαιπωρία"
+        },
+        {
+          "ind": "kamu",
+          "strong": "5216",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "",
+          "origUnicode": "οἱ ταῖς ταῖς",
+          "origAscii": "hoi tais tais",
+          "strong": "3588",
+          "morphology": "T-VPM T-DPF T-DPF",
+          "lemma": "ὁ ὁ ὁ"
+        },
+        {
+          "ind": "yang akan menimpa",
+          "origUnicode": "ἐπερχομέναις.",
+          "origAscii": "eperchomenais",
+          "strong": "1904",
+          "morphology": "V-PNP-DPF",
+          "lemma": "ἐπέρχομαι"
+        }
+      ],
+      "origFullText": "Ἄγε νῦν οἱ πλούσιοι, κλαύσατε ὀλολύζοντες ἐπὶ ταῖς ταλαιπωρίαις ὑμῶν ταῖς ἐπερχομέναις."
+    },
+    {
+      "number": "2",
+      "originalUnits": [
+        {
+          "ind": "",
+          "origUnicode": "ὁ",
+          "origAscii": "ho",
+          "strong": "3588",
+          "morphology": "T-NSM",
+          "lemma": "ὁ",
+          "sabdaIndex": 0
+        },
+        {
+          "ind": "Kekayaanmu",
+          "origUnicode": "πλοῦτος",
+          "origAscii": "ploutos",
+          "strong": "4149",
+          "morphology": "N-NSM",
+          "lemma": "πλοῦτος",
+          "sabdaIndex": 1
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑμῶν",
+          "origAscii": "humōn",
+          "strong": "4771",
+          "morphology": "P-2GP",
+          "lemma": "σύ",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "sudah busuk",
+          "origUnicode": "σέσηπεν",
+          "origAscii": "sesēpen",
+          "strong": "4595",
+          "morphology": "V-2RAI-3S",
+          "lemma": "σήπω",
+          "sabdaIndex": 3
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 4
+        },
+        {
+          "ind": "",
+          "origUnicode": "τὰ",
+          "origAscii": "ta",
+          "strong": "3588",
+          "morphology": "T-NPN",
+          "lemma": "ὁ",
+          "sabdaIndex": 5
+        },
+        {
+          "ind": "pakaianmu",
+          "origUnicode": "ἱμάτια",
+          "origAscii": "himatia",
+          "strong": "2440",
+          "morphology": "N-NPN",
+          "lemma": "ἱμάτιον",
+          "sabdaIndex": 6
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑμῶν",
+          "origAscii": "humōn",
+          "strong": "4771",
+          "morphology": "P-2GP",
+          "lemma": "σύ",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "dimakan",
+          "origUnicode": "σητόβρωτα",
+          "origAscii": "sētobrōta",
+          "strong": "4598",
+          "morphology": "A-NPN",
+          "lemma": "σητόβρωτος",
+          "sabdaIndex": 8
+        },
+        {
+          "ind": "ngengat",
+          "origUnicode": "γέγονεν·",
+          "origAscii": "gegonen",
+          "strong": "1096",
+          "morphology": "V-2RAI-3S",
+          "lemma": "γίνομαι",
+          "sabdaIndex": 9
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "",
+          "origUnicode": "ὁ τὰ",
+          "origAscii": "ho ta",
+          "strong": "3588",
+          "morphology": "T-NSM T-NPN",
+          "lemma": "ὁ ὁ"
+        },
+        {
+          "ind": "Kekayaanmu",
+          "origUnicode": "πλοῦτος",
+          "origAscii": "ploutos",
+          "strong": "4149",
+          "morphology": "N-NSM",
+          "lemma": "πλοῦτος"
+        },
+        {
+          "ind": "",
+          "strong": "5216",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "sudah busuk",
+          "origUnicode": "σέσηπεν",
+          "origAscii": "sesēpen",
+          "strong": "4595",
+          "morphology": "V-2RAI-3S",
+          "lemma": "σήπω"
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί"
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ τὰ",
+          "origAscii": "ho ta",
+          "strong": "3588",
+          "morphology": "T-NSM T-NPN",
+          "lemma": "ὁ ὁ"
+        },
+        {
+          "ind": "pakaianmu",
+          "origUnicode": "ἱμάτια",
+          "origAscii": "himatia",
+          "strong": "2440",
+          "morphology": "N-NPN",
+          "lemma": "ἱμάτιον"
+        },
+        {
+          "ind": "",
+          "strong": "5216",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "dimakan",
+          "origUnicode": "σητόβρωτα",
+          "origAscii": "sētobrōta",
+          "strong": "4598",
+          "morphology": "A-NPN",
+          "lemma": "σητόβρωτος"
+        },
+        {
+          "ind": "ngengat",
+          "origUnicode": "γέγονεν·",
+          "origAscii": "gegonen",
+          "strong": "1096",
+          "morphology": "V-2RAI-3S",
+          "lemma": "γίνομαι"
+        },
+        {
+          "ind": "telah",
+          "origUnicode": "γέγονεν·",
+          "origAscii": "gegonen",
+          "strong": "1096",
+          "morphology": "V-2RAI-3S",
+          "lemma": "γίνομαι"
+        }
+      ],
+      "origFullText": "ὁ πλοῦτος ὑμῶν σέσηπεν καὶ τὰ ἱμάτια ὑμῶν σητόβρωτα γέγονεν·"
+    },
+    {
+      "number": "3",
+      "originalUnits": [
+        {
+          "ind": "",
+          "origUnicode": "ὁ",
+          "origAscii": "ho",
+          "strong": "3588",
+          "morphology": "T-NSM",
+          "lemma": "ὁ",
+          "sabdaIndex": 0
+        },
+        {
+          "ind": "Emas",
+          "origUnicode": "χρυσὸς",
+          "origAscii": "chrusos",
+          "strong": "5557",
+          "morphology": "N-NSM",
+          "lemma": "χρυσός",
+          "sabdaIndex": 1
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑμῶν",
+          "origAscii": "humōn",
+          "strong": "4771",
+          "morphology": "P-2GP",
+          "lemma": "σύ",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 3
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ",
+          "origAscii": "ho",
+          "strong": "3588",
+          "morphology": "T-NSM",
+          "lemma": "ὁ",
+          "sabdaIndex": 4
+        },
+        {
+          "ind": "perakmu",
+          "origUnicode": "ἄργυρος",
+          "origAscii": "arguros",
+          "strong": "0696",
+          "morphology": "N-NSM",
+          "lemma": "ἄργυρος",
+          "sabdaIndex": 5
+        },
+        {
+          "ind": "sudah berkarat",
+          "origUnicode": "κατίωται",
+          "origAscii": "katiōtai",
+          "strong": "2728",
+          "morphology": "V-RPI-3S",
+          "lemma": "κατιόομαι",
+          "sabdaIndex": 6
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 7
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ",
+          "origAscii": "ho",
+          "strong": "3588",
+          "morphology": "T-NSM",
+          "lemma": "ὁ",
+          "sabdaIndex": 8
+        },
+        {
+          "ind": "karatnya",
+          "origUnicode": "ἰὸς",
+          "origAscii": "ios",
+          "strong": "2447",
+          "morphology": "N-NSM",
+          "lemma": "ἰός (2)",
+          "sabdaIndex": 9
+        },
+        {
+          "ind": "",
+          "origUnicode": "αὐτῶν",
+          "origAscii": "autōn",
+          "strong": "0846",
+          "morphology": "P-GPM",
+          "lemma": "αὐτός",
+          "sabdaIndex": 10
+        },
+        {
+          "ind": "akan menjadi",
+          "origUnicode": "εἰς",
+          "origAscii": "eis",
+          "strong": "1519",
+          "morphology": "PREP",
+          "lemma": "εἰς",
+          "sabdaIndex": 11
+        },
+        {
+          "ind": "kesaksian",
+          "origUnicode": "μαρτύριον",
+          "origAscii": "marturion",
+          "strong": "3142",
+          "morphology": "N-ASN",
+          "lemma": "μαρτύριον",
+          "sabdaIndex": 12
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑμῖν",
+          "origAscii": "humin",
+          "strong": "4771",
+          "morphology": "P-2DP",
+          "lemma": "σύ",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "akan",
+          "origUnicode": "ἔσται",
+          "origAscii": "estai",
+          "strong": "1510",
+          "morphology": "V-FDI-3S",
+          "lemma": "εἰμί",
+          "sabdaIndex": 14
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 15
+        },
+        {
+          "ind": "memakan",
+          "origUnicode": "φάγεται",
+          "origAscii": "phagetai",
+          "strong": "5315",
+          "morphology": "V-FMI-3S",
+          "lemma": "φαγεῖν",
+          "sabdaIndex": 16
+        },
+        {
+          "ind": "",
+          "origUnicode": "τὰς",
+          "origAscii": "tas",
+          "strong": "3588",
+          "morphology": "T-APF",
+          "lemma": "ὁ",
+          "sabdaIndex": 17
+        },
+        {
+          "ind": "dagingmu",
+          "origUnicode": "σάρκας",
+          "origAscii": "sarkas",
+          "strong": "4561",
+          "morphology": "N-APF",
+          "lemma": "σάρξ",
+          "sabdaIndex": 18
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑμῶν",
+          "origAscii": "humōn",
+          "strong": "4771",
+          "morphology": "P-2GP",
+          "lemma": "σύ",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "seperti",
+          "origUnicode": "ὡς",
+          "origAscii": "hōs",
+          "strong": "5613",
+          "morphology": "PRT",
+          "lemma": "ὡς",
+          "sabdaIndex": 20
+        },
+        {
+          "ind": "api",
+          "origUnicode": "πῦρ·",
+          "origAscii": "pur",
+          "strong": "4442",
+          "morphology": "N-NSN",
+          "lemma": "πῦρ",
+          "sabdaIndex": 21
+        },
+        {
+          "ind": "Kamu telah mengumpulkan harta",
+          "origUnicode": "ἐθησαυρίσατε",
+          "origAscii": "ethēsaurisate",
+          "strong": "2343",
+          "morphology": "V-AAI-2P",
+          "lemma": "θησαυρίζω",
+          "sabdaIndex": 22
+        },
+        {
+          "ind": "pada",
+          "origUnicode": "ἐν",
+          "origAscii": "en",
+          "strong": "1722",
+          "morphology": "PREP",
+          "lemma": "ἐν",
+          "sabdaIndex": 23
+        },
+        {
+          "ind": "yang sedang berakhir",
+          "origUnicode": "ἐσχάταις",
+          "origAscii": "eschatais",
+          "strong": "2078",
+          "morphology": "A-DPF",
+          "lemma": "ἔσχατος",
+          "sabdaIndex": 25
+        },
+        {
+          "ind": "hari-hari",
+          "origUnicode": "ἡμέραις.",
+          "origAscii": "hēmerais",
+          "strong": "2250",
+          "morphology": "N-DPF",
+          "lemma": "ἡμέρα",
+          "sabdaIndex": 26
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "",
+          "origUnicode": "ὁ ὁ ὁ τὰς",
+          "origAscii": "ho ho ho tas",
+          "strong": "3588",
+          "morphology": "T-NSM T-NSM T-NSM T-APF",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "Emas",
+          "origUnicode": "χρυσὸς",
+          "origAscii": "chrusos",
+          "strong": "5557",
+          "morphology": "N-NSM",
+          "lemma": "χρυσός"
+        },
+        {
+          "ind": "perakmu",
+          "strong": "5216",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ καὶ καὶ",
+          "origAscii": "kai kai kai",
+          "strong": "2532",
+          "morphology": "CONJ CONJ CONJ",
+          "lemma": "καί καί καί"
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ ὁ ὁ τὰς",
+          "origAscii": "ho ho ho tas",
+          "strong": "3588",
+          "morphology": "T-NSM T-NSM T-NSM T-APF",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "perakmu",
+          "strong": "696",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "sudah berkarat",
+          "origUnicode": "κατίωται",
+          "origAscii": "katiōtai",
+          "strong": "2728",
+          "morphology": "V-RPI-3S",
+          "lemma": "κατιόομαι"
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ καὶ καὶ",
+          "origAscii": "kai kai kai",
+          "strong": "2532",
+          "morphology": "CONJ CONJ CONJ",
+          "lemma": "καί καί καί"
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ ὁ ὁ τὰς",
+          "origAscii": "ho ho ho tas",
+          "strong": "3588",
+          "morphology": "T-NSM T-NSM T-NSM T-APF",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "karatnya",
+          "origUnicode": "ἰὸς",
+          "origAscii": "ios",
+          "strong": "2447",
+          "morphology": "N-NSM",
+          "lemma": "ἰός (2)"
+        },
+        {
+          "ind": "",
+          "strong": "846",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "akan menjadi",
+          "origUnicode": "εἰς",
+          "origAscii": "eis",
+          "strong": "1519",
+          "morphology": "PREP",
+          "lemma": "εἰς"
+        },
+        {
+          "ind": "kesaksian",
+          "origUnicode": "μαρτύριον",
+          "origAscii": "marturion",
+          "strong": "3142",
+          "morphology": "N-ASN",
+          "lemma": "μαρτύριον"
+        },
+        {
+          "ind": "terhadap kamu",
+          "strong": "5213",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "akan",
+          "origUnicode": "ἔσται",
+          "origAscii": "estai",
+          "strong": "1510",
+          "morphology": "V-FDI-3S",
+          "lemma": "εἰμί"
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ καὶ καὶ",
+          "origAscii": "kai kai kai",
+          "strong": "2532",
+          "morphology": "CONJ CONJ CONJ",
+          "lemma": "καί καί καί"
+        },
+        {
+          "ind": "memakan",
+          "origUnicode": "φάγεται",
+          "origAscii": "phagetai",
+          "strong": "5315",
+          "morphology": "V-FMI-3S",
+          "lemma": "φαγεῖν"
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ ὁ ὁ τὰς",
+          "origAscii": "ho ho ho tas",
+          "strong": "3588",
+          "morphology": "T-NSM T-NSM T-NSM T-APF",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "dagingmu",
+          "origUnicode": "σάρκας",
+          "origAscii": "sarkas",
+          "strong": "4561",
+          "morphology": "N-APF",
+          "lemma": "σάρξ"
+        },
+        {
+          "ind": "",
+          "strong": "5216",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "seperti",
+          "origUnicode": "ὡς",
+          "origAscii": "hōs",
+          "strong": "5613",
+          "morphology": "PRT",
+          "lemma": "ὡς"
+        },
+        {
+          "ind": "api",
+          "origUnicode": "πῦρ·",
+          "origAscii": "pur",
+          "strong": "4442",
+          "morphology": "N-NSN",
+          "lemma": "πῦρ"
+        },
+        {
+          "ind": "Kamu telah mengumpulkan harta",
+          "origUnicode": "ἐθησαυρίσατε",
+          "origAscii": "ethēsaurisate",
+          "strong": "2343",
+          "morphology": "V-AAI-2P",
+          "lemma": "θησαυρίζω"
+        },
+        {
+          "ind": "pada",
+          "origUnicode": "ἐν",
+          "origAscii": "en",
+          "strong": "1722",
+          "morphology": "PREP",
+          "lemma": "ἐν"
+        },
+        {
+          "ind": "yang sedang",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "berakhir",
+          "origUnicode": "ἐσχάταις",
+          "origAscii": "eschatais",
+          "strong": "2078",
+          "morphology": "A-DPF",
+          "lemma": "ἔσχατος"
+        },
+        {
+          "ind": "hari-hari",
+          "origUnicode": "ἡμέραις.",
+          "origAscii": "hēmerais",
+          "strong": "2250",
+          "morphology": "N-DPF",
+          "lemma": "ἡμέρα"
+        }
+      ],
+      "origFullText": "ὁ χρυσὸς ὑμῶν καὶ ὁ ἄργυρος κατίωται καὶ ὁ ἰὸς αὐτῶν εἰς μαρτύριον ὑμῖν ἔσται καὶ φάγεται τὰς σάρκας ὑμῶν ὡς πῦρ· ἐθησαυρίσατε ἐν ἐσχάταις ἡμέραις."
+    },
+    {
+      "number": "4",
+      "originalUnits": [
+        {
+          "ind": "Sesungguhnya",
+          "origUnicode": "ἰδοὺ",
+          "origAscii": "idou",
+          "strong": "2400",
+          "morphology": "INJ",
+          "lemma": "ἰδού",
+          "sabdaIndex": 0
+        },
+        {
+          "ind": "karena",
+          "origUnicode": "ὁ",
+          "origAscii": "ho",
+          "strong": "3588",
+          "morphology": "T-NSM",
+          "lemma": "ὁ",
+          "sabdaIndex": 1
+        },
+        {
+          "ind": "upah",
+          "origUnicode": "μισθὸς",
+          "origAscii": "misthos",
+          "strong": "3408",
+          "morphology": "N-NSM",
+          "lemma": "μισθός",
+          "sabdaIndex": 2
+        },
+        {
+          "ind": "",
+          "origUnicode": "τῶν",
+          "origAscii": "tōn",
+          "strong": "3588",
+          "morphology": "T-GPM",
+          "lemma": "ὁ",
+          "sabdaIndex": 3
+        },
+        {
+          "ind": "buruh",
+          "origUnicode": "ἐργατῶν",
+          "origAscii": "ergatōn",
+          "strong": "2040",
+          "morphology": "N-GPM",
+          "lemma": "ἐργάτης",
+          "sabdaIndex": 4
+        },
+        {
+          "ind": "",
+          "origUnicode": "τῶν",
+          "origAscii": "tōn",
+          "strong": "3588",
+          "morphology": "T-GPM",
+          "lemma": "ὁ",
+          "sabdaIndex": 5
+        },
+        {
+          "ind": "yang telah menuai",
+          "origUnicode": "ἀμησάντων",
+          "origAscii": "amēsantōn",
+          "strong": "0270",
+          "morphology": "V-AAP-GPM",
+          "lemma": "ἀμάω",
+          "sabdaIndex": 6
+        },
+        {
+          "ind": "hasil",
+          "origUnicode": "τὰς",
+          "origAscii": "tas",
+          "strong": "3588",
+          "morphology": "T-APF",
+          "lemma": "ὁ",
+          "sabdaIndex": 7
+        },
+        {
+          "ind": "ladangmu",
+          "origUnicode": "χώρας",
+          "origAscii": "chōras",
+          "strong": "5561",
+          "morphology": "N-APF",
+          "lemma": "χώρα",
+          "sabdaIndex": 8
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑμῶν",
+          "origAscii": "humōn",
+          "strong": "4771",
+          "morphology": "P-2GP",
+          "lemma": "σύ",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "yang kamu",
+          "origUnicode": "ὁ",
+          "origAscii": "ho",
+          "strong": "3588",
+          "morphology": "T-NSM",
+          "lemma": "ὁ",
+          "sabdaIndex": 10
+        },
+        {
+          "ind": "tahan",
+          "origUnicode": "ἀπεστερημένος",
+          "origAscii": "apesterēmenos",
+          "strong": "0650",
+          "morphology": "V-RPP-NSM",
+          "lemma": "ἀποστερέω",
+          "sabdaIndex": 11
+        },
+        {
+          "ind": "dari",
+          "origUnicode": "ἀφ᾽",
+          "origAscii": "aph᾽",
+          "strong": "0575",
+          "morphology": "PREP",
+          "lemma": "ἀπό",
+          "sabdaIndex": 12
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑμῶν",
+          "origAscii": "humōn",
+          "strong": "4771",
+          "morphology": "P-2GP",
+          "lemma": "σύ",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "teriakan besar",
+          "origUnicode": "κράζει",
+          "origAscii": "krazei",
+          "strong": "2896",
+          "morphology": "V-PAI-3S",
+          "lemma": "κράζω",
+          "sabdaIndex": 14
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 15
+        },
+        {
+          "ind": "",
+          "origUnicode": "αἱ",
+          "origAscii": "hai",
+          "strong": "3588",
+          "morphology": "T-NPF",
+          "lemma": "ὁ",
+          "sabdaIndex": 16
+        },
+        {
+          "ind": "keluhan",
+          "origUnicode": "βοαὶ",
+          "origAscii": "boai",
+          "strong": "0995",
+          "morphology": "N-NPF",
+          "lemma": "βοή",
+          "sabdaIndex": 17
+        },
+        {
+          "ind": "mereka yang",
+          "origUnicode": "τῶν",
+          "origAscii": "tōn",
+          "strong": "3588",
+          "morphology": "T-GPM",
+          "lemma": "ὁ",
+          "sabdaIndex": 18
+        },
+        {
+          "ind": "menyabit",
+          "origUnicode": "θερισάντων",
+          "origAscii": "therisantōn",
+          "strong": "2325",
+          "morphology": "V-AAP-GPM",
+          "lemma": "θερίζω",
+          "sabdaIndex": 19
+        },
+        {
+          "ind": "ke",
+          "origUnicode": "εἰς",
+          "origAscii": "eis",
+          "strong": "1519",
+          "morphology": "PREP",
+          "lemma": "εἰς",
+          "sabdaIndex": 20
+        },
+        {
+          "ind": "",
+          "origUnicode": "τὰ",
+          "origAscii": "ta",
+          "strong": "3588",
+          "morphology": "T-APN",
+          "lemma": "ὁ",
+          "sabdaIndex": 21
+        },
+        {
+          "ind": "telinga",
+          "origUnicode": "ὦτα",
+          "origAscii": "ōta",
+          "strong": "3775",
+          "morphology": "N-APN",
+          "lemma": "οὖς",
+          "sabdaIndex": 22
+        },
+        {
+          "ind": "Tuhan",
+          "origUnicode": "κυρίου",
+          "origAscii": "kuriou",
+          "strong": "2962",
+          "morphology": "N-GSM-T",
+          "lemma": "κύριος",
+          "sabdaIndex": 23
+        },
+        {
+          "ind": "semesta alam",
+          "origUnicode": "σαβαὼθ",
+          "origAscii": "sabaōth",
+          "strong": "4519",
+          "morphology": "N-GPM-T",
+          "lemma": "σαβαώθ",
+          "sabdaIndex": 24
+        },
+        {
+          "ind": "telah sampai panenmu",
+          "origUnicode": "εἰσεληλύθασιν.",
+          "origAscii": "eiselēluthasin",
+          "strong": "1525",
+          "morphology": "V-2RAI-3P",
+          "lemma": "εἰσέρχομαι",
+          "sabdaIndex": 25
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "Sesungguhnya",
+          "origUnicode": "ἰδοὺ",
+          "origAscii": "idou",
+          "strong": "2400",
+          "morphology": "INJ",
+          "lemma": "ἰδού"
+        },
+        {
+          "ind": "karena",
+          "origUnicode": "ὁ τῶν τῶν τὰς ὁ αἱ τῶν τὰ",
+          "origAscii": "ho tōn tōn tas ho hai tōn ta",
+          "strong": "3588",
+          "morphology": "T-NSM T-GPM T-GPM T-APF T-NSM T-NPF T-GPM T-APN",
+          "lemma": "ὁ ὁ ὁ ὁ ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "upah",
+          "origUnicode": "μισθὸς",
+          "origAscii": "misthos",
+          "strong": "3408",
+          "morphology": "N-NSM",
+          "lemma": "μισθός"
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ τῶν τῶν τὰς ὁ αἱ τῶν τὰ",
+          "origAscii": "ho tōn tōn tas ho hai tōn ta",
+          "strong": "3588",
+          "morphology": "T-NSM T-GPM T-GPM T-APF T-NSM T-NPF T-GPM T-APN",
+          "lemma": "ὁ ὁ ὁ ὁ ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "buruh",
+          "origUnicode": "ἐργατῶν",
+          "origAscii": "ergatōn",
+          "strong": "2040",
+          "morphology": "N-GPM",
+          "lemma": "ἐργάτης"
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ τῶν τῶν τὰς ὁ αἱ τῶν τὰ",
+          "origAscii": "ho tōn tōn tas ho hai tōn ta",
+          "strong": "3588",
+          "morphology": "T-NSM T-GPM T-GPM T-APF T-NSM T-NPF T-GPM T-APN",
+          "lemma": "ὁ ὁ ὁ ὁ ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "yang telah menuai",
+          "strong": "270",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "hasil",
+          "origUnicode": "ὁ τῶν τῶν τὰς ὁ αἱ τῶν τὰ",
+          "origAscii": "ho tōn tōn tas ho hai tōn ta",
+          "strong": "3588",
+          "morphology": "T-NSM T-GPM T-GPM T-APF T-NSM T-NPF T-GPM T-APN",
+          "lemma": "ὁ ὁ ὁ ὁ ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "ladangmu",
+          "origUnicode": "χώρας",
+          "origAscii": "chōras",
+          "strong": "5561",
+          "morphology": "N-APF",
+          "lemma": "χώρα"
+        },
+        {
+          "ind": "",
+          "strong": "5216",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "yang kamu",
+          "origUnicode": "ὁ τῶν τῶν τὰς ὁ αἱ τῶν τὰ",
+          "origAscii": "ho tōn tōn tas ho hai tōn ta",
+          "strong": "3588",
+          "morphology": "T-NSM T-GPM T-GPM T-APF T-NSM T-NPF T-GPM T-APN",
+          "lemma": "ὁ ὁ ὁ ὁ ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "tahan",
+          "strong": "650",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "dari",
+          "strong": "575",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "telah terdengar",
+          "strong": "5216",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "teriakan besar",
+          "origUnicode": "κράζει",
+          "origAscii": "krazei",
+          "strong": "2896",
+          "morphology": "V-PAI-3S",
+          "lemma": "κράζω"
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί"
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ τῶν τῶν τὰς ὁ αἱ τῶν τὰ",
+          "origAscii": "ho tōn tōn tas ho hai tōn ta",
+          "strong": "3588",
+          "morphology": "T-NSM T-GPM T-GPM T-APF T-NSM T-NPF T-GPM T-APN",
+          "lemma": "ὁ ὁ ὁ ὁ ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "keluhan",
+          "strong": "995",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "mereka yang",
+          "origUnicode": "ὁ τῶν τῶν τὰς ὁ αἱ τῶν τὰ",
+          "origAscii": "ho tōn tōn tas ho hai tōn ta",
+          "strong": "3588",
+          "morphology": "T-NSM T-GPM T-GPM T-APF T-NSM T-NPF T-GPM T-APN",
+          "lemma": "ὁ ὁ ὁ ὁ ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "menyabit",
+          "origUnicode": "θερισάντων",
+          "origAscii": "therisantōn",
+          "strong": "2325",
+          "morphology": "V-AAP-GPM",
+          "lemma": "θερίζω"
+        },
+        {
+          "ind": "ke",
+          "origUnicode": "εἰς",
+          "origAscii": "eis",
+          "strong": "1519",
+          "morphology": "PREP",
+          "lemma": "εἰς"
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ τῶν τῶν τὰς ὁ αἱ τῶν τὰ",
+          "origAscii": "ho tōn tōn tas ho hai tōn ta",
+          "strong": "3588",
+          "morphology": "T-NSM T-GPM T-GPM T-APF T-NSM T-NPF T-GPM T-APN",
+          "lemma": "ὁ ὁ ὁ ὁ ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "telinga",
+          "origUnicode": "ὦτα",
+          "origAscii": "ōta",
+          "strong": "3775",
+          "morphology": "N-APN",
+          "lemma": "οὖς"
+        },
+        {
+          "ind": "Tuhan",
+          "origUnicode": "κυρίου",
+          "origAscii": "kuriou",
+          "strong": "2962",
+          "morphology": "N-GSM-T",
+          "lemma": "κύριος"
+        },
+        {
+          "ind": "semesta alam",
+          "origUnicode": "σαβαὼθ",
+          "origAscii": "sabaōth",
+          "strong": "4519",
+          "morphology": "N-GPM-T",
+          "lemma": "σαβαώθ"
+        },
+        {
+          "ind": "telah sampai",
+          "origUnicode": "εἰσεληλύθασιν.",
+          "origAscii": "eiselēluthasin",
+          "strong": "1525",
+          "morphology": "V-2RAI-3P",
+          "lemma": "εἰσέρχομαι"
+        },
+        {
+          "ind": "panenmu",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        }
+      ],
+      "origFullText": "ἰδοὺ ὁ μισθὸς τῶν ἐργατῶν τῶν ἀμησάντων τὰς χώρας ὑμῶν ὁ ἀπεστερημένος ἀφ᾽ ὑμῶν κράζει καὶ αἱ βοαὶ τῶν θερισάντων εἰς τὰ ὦτα κυρίου σαβαὼθ εἰσεληλύθασιν."
+    },
+    {
+      "number": "5",
+      "originalUnits": [
+        {
+          "ind": "Dalam kemewahan",
+          "origUnicode": "ἐτρυφήσατε",
+          "origAscii": "etruphēsate",
+          "strong": "5171",
+          "morphology": "V-AAI-2P",
+          "lemma": "τρυφάω",
+          "sabdaIndex": 0
+        },
+        {
+          "ind": "di",
+          "origUnicode": "ἐπὶ",
+          "origAscii": "epi",
+          "strong": "1909",
+          "morphology": "PREP",
+          "lemma": "ἐπί",
+          "sabdaIndex": 1
+        },
+        {
+          "ind": "",
+          "origUnicode": "τῆς",
+          "origAscii": "tēs",
+          "strong": "3588",
+          "morphology": "T-GSF",
+          "lemma": "ὁ",
+          "sabdaIndex": 2
+        },
+        {
+          "ind": "bumi",
+          "origUnicode": "γῆς",
+          "origAscii": "gēs",
+          "strong": "1093",
+          "morphology": "N-GSF",
+          "lemma": "γῆ",
+          "sabdaIndex": 3
+        },
+        {
+          "ind": "",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 4
+        },
+        {
+          "ind": "kamu telah hidup dan berfoya-foya",
+          "origUnicode": "ἐσπαταλήσατε,",
+          "origAscii": "espatalēsate",
+          "strong": "4684",
+          "morphology": "V-AAI-2P",
+          "lemma": "σπαταλάω",
+          "sabdaIndex": 5
+        },
+        {
+          "ind": "kamu telah memuaskan",
+          "origUnicode": "ἐθρέψατε",
+          "origAscii": "ethrepsate",
+          "strong": "5142",
+          "morphology": "V-AAI-2P",
+          "lemma": "τρέφω",
+          "sabdaIndex": 6
+        },
+        {
+          "ind": "",
+          "origUnicode": "τὰς",
+          "origAscii": "tas",
+          "strong": "3588",
+          "morphology": "T-APF",
+          "lemma": "ὁ",
+          "sabdaIndex": 7
+        },
+        {
+          "ind": "hatimu",
+          "origUnicode": "καρδίας",
+          "origAscii": "kardias",
+          "strong": "2588",
+          "morphology": "N-APF",
+          "lemma": "καρδία",
+          "sabdaIndex": 8
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑμῶν",
+          "origAscii": "humōn",
+          "strong": "4771",
+          "morphology": "P-2GP",
+          "lemma": "σύ",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὡς",
+          "origAscii": "hōs",
+          "strong": "5613",
+          "morphology": "PRT",
+          "lemma": "ὡς",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "sama seperti pada",
+          "origUnicode": "ἐν",
+          "origAscii": "en",
+          "strong": "1722",
+          "morphology": "PREP",
+          "lemma": "ἐν",
+          "sabdaIndex": 10
+        },
+        {
+          "ind": "hari",
+          "origUnicode": "ἡμέρᾳ",
+          "origAscii": "hēmera",
+          "strong": "2250",
+          "morphology": "N-DSF",
+          "lemma": "ἡμέρα",
+          "sabdaIndex": 11
+        },
+        {
+          "ind": "penyembelihan",
+          "origUnicode": "σφαγῆς.",
+          "origAscii": "sphagēs",
+          "strong": "4967",
+          "morphology": "N-GSF",
+          "lemma": "σφαγή",
+          "sabdaIndex": 12
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "Dalam kemewahan",
+          "origUnicode": "ἐτρυφήσατε",
+          "origAscii": "etruphēsate",
+          "strong": "5171",
+          "morphology": "V-AAI-2P",
+          "lemma": "τρυφάω"
+        },
+        {
+          "ind": "di",
+          "origUnicode": "ἐπὶ",
+          "origAscii": "epi",
+          "strong": "1909",
+          "morphology": "PREP",
+          "lemma": "ἐπί"
+        },
+        {
+          "ind": "",
+          "origUnicode": "τῆς τὰς",
+          "origAscii": "tēs tas",
+          "strong": "3588",
+          "morphology": "T-GSF T-APF",
+          "lemma": "ὁ ὁ"
+        },
+        {
+          "ind": "bumi",
+          "origUnicode": "γῆς",
+          "origAscii": "gēs",
+          "strong": "1093",
+          "morphology": "N-GSF",
+          "lemma": "γῆ"
+        },
+        {
+          "ind": "",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί"
+        },
+        {
+          "ind": "kamu telah hidup dan berfoya-foya",
+          "origUnicode": "ἐσπαταλήσατε,",
+          "origAscii": "espatalēsate",
+          "strong": "4684",
+          "morphology": "V-AAI-2P",
+          "lemma": "σπαταλάω"
+        },
+        {
+          "ind": "kamu telah memuaskan",
+          "origUnicode": "ἐθρέψατε",
+          "origAscii": "ethrepsate",
+          "strong": "5142",
+          "morphology": "V-AAI-2P",
+          "lemma": "τρέφω"
+        },
+        {
+          "ind": "",
+          "origUnicode": "τῆς τὰς",
+          "origAscii": "tēs tas",
+          "strong": "3588",
+          "morphology": "T-GSF T-APF",
+          "lemma": "ὁ ὁ"
+        },
+        {
+          "ind": "hatimu",
+          "origUnicode": "καρδίας",
+          "origAscii": "kardias",
+          "strong": "2588",
+          "morphology": "N-APF",
+          "lemma": "καρδία"
+        },
+        {
+          "ind": "",
+          "strong": "5216",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "sama seperti pada",
+          "origUnicode": "ἐν",
+          "origAscii": "en",
+          "strong": "1722",
+          "morphology": "PREP",
+          "lemma": "ἐν"
+        },
+        {
+          "ind": "hari",
+          "origUnicode": "ἡμέρᾳ",
+          "origAscii": "hēmera",
+          "strong": "2250",
+          "morphology": "N-DSF",
+          "lemma": "ἡμέρα"
+        },
+        {
+          "ind": "penyembelihan",
+          "origUnicode": "σφαγῆς.",
+          "origAscii": "sphagēs",
+          "strong": "4967",
+          "morphology": "N-GSF",
+          "lemma": "σφαγή"
+        }
+      ],
+      "origFullText": "ἐτρυφήσατε ἐπὶ τῆς γῆς καὶ ἐσπαταλήσατε, ἐθρέψατε τὰς καρδίας ὑμῶν ὡς ἐν ἡμέρᾳ σφαγῆς."
+    },
+    {
+      "number": "6",
+      "originalUnits": [
+        {
+          "ind": "Kamu telah menghukum",
+          "origUnicode": "κατεδικάσατε,",
+          "origAscii": "katedikasate",
+          "strong": "2613",
+          "morphology": "V-AAI-2P",
+          "lemma": "καταδικάζω",
+          "sabdaIndex": 0
+        },
+        {
+          "ind": "bahkan membunuh",
+          "origUnicode": "ἐφονεύσατε",
+          "origAscii": "ephoneusate",
+          "strong": "5407",
+          "morphology": "V-AAI-2P",
+          "lemma": "φονεύω",
+          "sabdaIndex": 2
+        },
+        {
+          "ind": "orang",
+          "origUnicode": "τὸν",
+          "origAscii": "ton",
+          "strong": "3588",
+          "morphology": "T-ASM",
+          "lemma": "ὁ",
+          "sabdaIndex": 3
+        },
+        {
+          "ind": "yang benar",
+          "origUnicode": "δίκαιον·",
+          "origAscii": "dikaion",
+          "strong": "1342",
+          "morphology": "A-ASM",
+          "lemma": "δίκαιος",
+          "sabdaIndex": 4
+        },
+        {
+          "ind": "tidak",
+          "origUnicode": "οὐκ",
+          "origAscii": "ouk",
+          "strong": "3756",
+          "morphology": "PRT-N",
+          "lemma": "οὐ",
+          "sabdaIndex": 5
+        },
+        {
+          "ind": "dan ia dapat melawan",
+          "origUnicode": "ἀντιτάσσεται",
+          "origAscii": "antitassetai",
+          "strong": "0498",
+          "morphology": "V-PMI-3S",
+          "lemma": "ἀντιτάσσω",
+          "sabdaIndex": 7
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑμῖν.¶",
+          "origAscii": "humin",
+          "strong": "4771",
+          "morphology": "P-2DP",
+          "lemma": "σύ",
+          "sabdaIndex": -1
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "Kamu telah menghukum",
+          "origUnicode": "κατεδικάσατε,",
+          "origAscii": "katedikasate",
+          "strong": "2613",
+          "morphology": "V-AAI-2P",
+          "lemma": "καταδικάζω"
+        },
+        {
+          "ind": "bahkan",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "membunuh",
+          "origUnicode": "ἐφονεύσατε",
+          "origAscii": "ephoneusate",
+          "strong": "5407",
+          "morphology": "V-AAI-2P",
+          "lemma": "φονεύω"
+        },
+        {
+          "ind": "orang",
+          "origUnicode": "τὸν",
+          "origAscii": "ton",
+          "strong": "3588",
+          "morphology": "T-ASM",
+          "lemma": "ὁ"
+        },
+        {
+          "ind": "yang benar",
+          "origUnicode": "δίκαιον·",
+          "origAscii": "dikaion",
+          "strong": "1342",
+          "morphology": "A-ASM",
+          "lemma": "δίκαιος"
+        },
+        {
+          "ind": "tidak",
+          "origUnicode": "οὐκ",
+          "origAscii": "ouk",
+          "strong": "3756",
+          "morphology": "PRT-N",
+          "lemma": "οὐ"
+        },
+        {
+          "ind": "dan",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "ia dapat melawan",
+          "strong": "498",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "kamu",
+          "strong": "5213",
+          "morphology": "",
+          "lemma": ""
+        }
+      ],
+      "origFullText": "κατεδικάσατε, ἐφονεύσατε τὸν δίκαιον· οὐκ ἀντιτάσσεται ὑμῖν.¶"
+    },
+    {
+      "number": "7",
+      "originalUnits": [
+        {
+          "ind": "bersabarlah",
+          "origUnicode": "Μακροθυμήσατε",
+          "origAscii": "Makrothumēsate",
+          "strong": "3114",
+          "morphology": "V-AAM-2P",
+          "lemma": "μακροθυμέω",
+          "sabdaIndex": 0
+        },
+        {
+          "ind": "Karena itu",
+          "origUnicode": "οὖν,",
+          "origAscii": "oun",
+          "strong": "3767",
+          "morphology": "CONJ",
+          "lemma": "οὖν",
+          "sabdaIndex": 1
+        },
+        {
+          "ind": "saudara-saudara",
+          "origUnicode": "ἀδελφοί,",
+          "origAscii": "adelphoi",
+          "strong": "0080",
+          "morphology": "N-VPM",
+          "lemma": "ἀδελφός",
+          "sabdaIndex": 2
+        },
+        {
+          "ind": "sampai",
+          "origUnicode": "ἕως",
+          "origAscii": "he'ōs",
+          "strong": "2193",
+          "morphology": "PREP",
+          "lemma": "ἕως",
+          "sabdaIndex": 3
+        },
+        {
+          "ind": "kepada",
+          "origUnicode": "τῆς",
+          "origAscii": "tēs",
+          "strong": "3588",
+          "morphology": "T-GSF",
+          "lemma": "ὁ",
+          "sabdaIndex": 4
+        },
+        {
+          "ind": "kedatangan",
+          "origUnicode": "παρουσίας",
+          "origAscii": "parousias",
+          "strong": "3952",
+          "morphology": "N-GSF",
+          "lemma": "παρουσία",
+          "sabdaIndex": 5
+        },
+        {
+          "ind": "",
+          "origUnicode": "τοῦ",
+          "origAscii": "tou",
+          "strong": "3588",
+          "morphology": "T-GSM",
+          "lemma": "ὁ",
+          "sabdaIndex": 6
+        },
+        {
+          "ind": "Tuhan",
+          "origUnicode": "κυρίου.",
+          "origAscii": "kuriou",
+          "strong": "2962",
+          "morphology": "N-GSM-T",
+          "lemma": "κύριος",
+          "sabdaIndex": 7
+        },
+        {
+          "ind": "Sesungguhnya",
+          "origUnicode": "ἰδοὺ",
+          "origAscii": "idou",
+          "strong": "2400",
+          "morphology": "INJ",
+          "lemma": "ἰδού",
+          "sabdaIndex": 8
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ",
+          "origAscii": "ho",
+          "strong": "3588",
+          "morphology": "T-NSM",
+          "lemma": "ὁ",
+          "sabdaIndex": 9
+        },
+        {
+          "ind": "petani",
+          "origUnicode": "γεωργὸς",
+          "origAscii": "geōrgos",
+          "strong": "1092",
+          "morphology": "N-NSM",
+          "lemma": "γεωργός",
+          "sabdaIndex": 10
+        },
+        {
+          "ind": "menantikan",
+          "origUnicode": "ἐκδέχεται",
+          "origAscii": "ekdechetai",
+          "strong": "1551",
+          "morphology": "V-PNI-3S",
+          "lemma": "ἐκδέχομαι",
+          "sabdaIndex": 11
+        },
+        {
+          "ind": "",
+          "origUnicode": "τὸν",
+          "origAscii": "ton",
+          "strong": "3588",
+          "morphology": "T-ASM",
+          "lemma": "ὁ",
+          "sabdaIndex": 12
+        },
+        {
+          "ind": "yang berharga",
+          "origUnicode": "τίμιον",
+          "origAscii": "timion",
+          "strong": "5093",
+          "morphology": "A-ASM",
+          "lemma": "τίμιος",
+          "sabdaIndex": 13
+        },
+        {
+          "ind": "hasil",
+          "origUnicode": "καρπὸν",
+          "origAscii": "karpon",
+          "strong": "2590",
+          "morphology": "N-ASM",
+          "lemma": "καρπός",
+          "sabdaIndex": 14
+        },
+        {
+          "ind": "dari",
+          "origUnicode": "τῆς",
+          "origAscii": "tēs",
+          "strong": "3588",
+          "morphology": "T-GSF",
+          "lemma": "ὁ",
+          "sabdaIndex": 15
+        },
+        {
+          "ind": "tanahnya",
+          "origUnicode": "γῆς",
+          "origAscii": "gēs",
+          "strong": "1093",
+          "morphology": "N-GSF",
+          "lemma": "γῆ",
+          "sabdaIndex": 16
+        },
+        {
+          "ind": "sabar",
+          "origUnicode": "μακροθυμῶν",
+          "origAscii": "makrothumōn",
+          "strong": "3114",
+          "morphology": "V-PAP-NSM",
+          "lemma": "μακροθυμέω",
+          "sabdaIndex": 18
+        },
+        {
+          "ind": "dan ia",
+          "origUnicode": "ἐπ᾽",
+          "origAscii": "ep᾽",
+          "strong": "1909",
+          "morphology": "PREP",
+          "lemma": "ἐπί",
+          "sabdaIndex": 19
+        },
+        {
+          "ind": "",
+          "origUnicode": "αὐτῷ",
+          "origAscii": "autō",
+          "strong": "0846",
+          "morphology": "P-DSM",
+          "lemma": "αὐτός",
+          "sabdaIndex": 20
+        },
+        {
+          "ind": "sampai",
+          "origUnicode": "ἕως",
+          "origAscii": "he'ōs",
+          "strong": "2193",
+          "morphology": "PREP",
+          "lemma": "ἕως",
+          "sabdaIndex": 21
+        },
+        {
+          "ind": "",
+          "origUnicode": "ἂν",
+          "origAscii": "an",
+          "strong": "0302",
+          "morphology": "PRT",
+          "lemma": "ἄν",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "telah turun",
+          "origUnicode": "λάβῃ",
+          "origAscii": "labē",
+          "strong": "2983",
+          "morphology": "V-2AAS-3S",
+          "lemma": "λαμβάνω",
+          "sabdaIndex": 22
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑετὸν",
+          "origAscii": "hu'eton",
+          "strong": "5205",
+          "morphology": "N-ASM",
+          "lemma": "ὑετός",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "hujan musim gugur",
+          "origUnicode": "πρόϊμον",
+          "origAscii": "proimon",
+          "strong": "4406",
+          "morphology": "A-ASM",
+          "lemma": "πρώϊμος",
+          "sabdaIndex": 23
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 24
+        },
+        {
+          "ind": "hujan musim semi",
+          "origUnicode": "ὄψιμον·",
+          "origAscii": "opsimon",
+          "strong": "3797",
+          "morphology": "A-ASM",
+          "lemma": "ὄψιμος",
+          "sabdaIndex": 25
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "bersabarlah",
+          "origUnicode": "Μακροθυμήσατε μακροθυμῶν",
+          "origAscii": "Makrothumēsate makrothumōn",
+          "strong": "3114",
+          "morphology": "V-AAM-2P V-PAP-NSM",
+          "lemma": "μακροθυμέω μακροθυμέω"
+        },
+        {
+          "ind": "Karena itu",
+          "origUnicode": "οὖν,",
+          "origAscii": "oun",
+          "strong": "3767",
+          "morphology": "CONJ",
+          "lemma": "οὖν"
+        },
+        {
+          "ind": "saudara-saudara",
+          "strong": "80",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "sampai",
+          "origUnicode": "ἕως ἕως",
+          "origAscii": "he'ōs he'ōs",
+          "strong": "2193",
+          "morphology": "PREP PREP",
+          "lemma": "ἕως ἕως"
+        },
+        {
+          "ind": "kepada",
+          "origUnicode": "τῆς τοῦ ὁ τὸν τῆς",
+          "origAscii": "tēs tou ho ton tēs",
+          "strong": "3588",
+          "morphology": "T-GSF T-GSM T-NSM T-ASM T-GSF",
+          "lemma": "ὁ ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "kedatangan",
+          "origUnicode": "παρουσίας",
+          "origAscii": "parousias",
+          "strong": "3952",
+          "morphology": "N-GSF",
+          "lemma": "παρουσία"
+        },
+        {
+          "ind": "",
+          "origUnicode": "τῆς τοῦ ὁ τὸν τῆς",
+          "origAscii": "tēs tou ho ton tēs",
+          "strong": "3588",
+          "morphology": "T-GSF T-GSM T-NSM T-ASM T-GSF",
+          "lemma": "ὁ ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "Tuhan",
+          "origUnicode": "κυρίου.",
+          "origAscii": "kuriou",
+          "strong": "2962",
+          "morphology": "N-GSM-T",
+          "lemma": "κύριος"
+        },
+        {
+          "ind": "Sesungguhnya",
+          "origUnicode": "ἰδοὺ",
+          "origAscii": "idou",
+          "strong": "2400",
+          "morphology": "INJ",
+          "lemma": "ἰδού"
+        },
+        {
+          "ind": "",
+          "origUnicode": "τῆς τοῦ ὁ τὸν τῆς",
+          "origAscii": "tēs tou ho ton tēs",
+          "strong": "3588",
+          "morphology": "T-GSF T-GSM T-NSM T-ASM T-GSF",
+          "lemma": "ὁ ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "petani",
+          "origUnicode": "γεωργὸς",
+          "origAscii": "geōrgos",
+          "strong": "1092",
+          "morphology": "N-NSM",
+          "lemma": "γεωργός"
+        },
+        {
+          "ind": "menantikan",
+          "origUnicode": "ἐκδέχεται",
+          "origAscii": "ekdechetai",
+          "strong": "1551",
+          "morphology": "V-PNI-3S",
+          "lemma": "ἐκδέχομαι"
+        },
+        {
+          "ind": "",
+          "origUnicode": "τῆς τοῦ ὁ τὸν τῆς",
+          "origAscii": "tēs tou ho ton tēs",
+          "strong": "3588",
+          "morphology": "T-GSF T-GSM T-NSM T-ASM T-GSF",
+          "lemma": "ὁ ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "yang berharga",
+          "origUnicode": "τίμιον",
+          "origAscii": "timion",
+          "strong": "5093",
+          "morphology": "A-ASM",
+          "lemma": "τίμιος"
+        },
+        {
+          "ind": "hasil",
+          "origUnicode": "καρπὸν",
+          "origAscii": "karpon",
+          "strong": "2590",
+          "morphology": "N-ASM",
+          "lemma": "καρπός"
+        },
+        {
+          "ind": "dari",
+          "origUnicode": "τῆς τοῦ ὁ τὸν τῆς",
+          "origAscii": "tēs tou ho ton tēs",
+          "strong": "3588",
+          "morphology": "T-GSF T-GSM T-NSM T-ASM T-GSF",
+          "lemma": "ὁ ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "tanahnya",
+          "origUnicode": "γῆς",
+          "origAscii": "gēs",
+          "strong": "1093",
+          "morphology": "N-GSF",
+          "lemma": "γῆ"
+        },
+        {
+          "ind": "dan ia",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "sabar",
+          "origUnicode": "Μακροθυμήσατε μακροθυμῶν",
+          "origAscii": "Makrothumēsate makrothumōn",
+          "strong": "3114",
+          "morphology": "V-AAM-2P V-PAP-NSM",
+          "lemma": "μακροθυμέω μακροθυμέω"
+        },
+        {
+          "ind": "",
+          "origUnicode": "ἐπ᾽",
+          "origAscii": "ep᾽",
+          "strong": "1909",
+          "morphology": "PREP",
+          "lemma": "ἐπί"
+        },
+        {
+          "ind": "",
+          "strong": "846",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "sampai",
+          "origUnicode": "ἕως ἕως",
+          "origAscii": "he'ōs he'ōs",
+          "strong": "2193",
+          "morphology": "PREP PREP",
+          "lemma": "ἕως ἕως"
+        },
+        {
+          "ind": "telah turun",
+          "origUnicode": "λάβῃ",
+          "origAscii": "labē",
+          "strong": "2983",
+          "morphology": "V-2AAS-3S",
+          "lemma": "λαμβάνω"
+        },
+        {
+          "ind": "hujan musim gugur",
+          "origUnicode": "πρόϊμον",
+          "origAscii": "proimon",
+          "strong": "4406",
+          "morphology": "A-ASM",
+          "lemma": "πρώϊμος"
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί"
+        },
+        {
+          "ind": "hujan musim semi",
+          "origUnicode": "ὄψιμον·",
+          "origAscii": "opsimon",
+          "strong": "3797",
+          "morphology": "A-ASM",
+          "lemma": "ὄψιμος"
+        }
+      ],
+      "origFullText": "Μακροθυμήσατε οὖν, ἀδελφοί, ἕως τῆς παρουσίας τοῦ κυρίου. ἰδοὺ ὁ γεωργὸς ἐκδέχεται τὸν τίμιον καρπὸν τῆς γῆς μακροθυμῶν ἐπ᾽ αὐτῷ ἕως ἂν λάβῃ ὑετὸν πρόϊμον καὶ ὄψιμον·"
+    },
+    {
+      "number": "8",
+      "originalUnits": [
+        {
+          "ind": "juga Kamu harus bersabar",
+          "origUnicode": "μακροθυμήσατε",
+          "origAscii": "makrothumēsate",
+          "strong": "3114",
+          "morphology": "V-AAM-2P",
+          "lemma": "μακροθυμέω",
+          "sabdaIndex": 1
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 2
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑμεῖς,",
+          "origAscii": "humeis",
+          "strong": "4771",
+          "morphology": "P-2NP",
+          "lemma": "σύ",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "harus meneguhkan",
+          "origUnicode": "στηρίξατε",
+          "origAscii": "stērixate",
+          "strong": "4741",
+          "morphology": "V-AAM-2P",
+          "lemma": "στηρίζω",
+          "sabdaIndex": 4
+        },
+        {
+          "ind": "",
+          "origUnicode": "τὰς",
+          "origAscii": "tas",
+          "strong": "3588",
+          "morphology": "T-APF",
+          "lemma": "ὁ",
+          "sabdaIndex": 5
+        },
+        {
+          "ind": "hatimu",
+          "origUnicode": "καρδίας",
+          "origAscii": "kardias",
+          "strong": "2588",
+          "morphology": "N-APF",
+          "lemma": "καρδία",
+          "sabdaIndex": 6
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑμῶν,",
+          "origAscii": "humōn",
+          "strong": "4771",
+          "morphology": "P-2GP",
+          "lemma": "σύ",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "karena",
+          "origUnicode": "ὅτι",
+          "origAscii": "hoti",
+          "strong": "3754",
+          "morphology": "CONJ",
+          "lemma": "ὅτι",
+          "sabdaIndex": 8
+        },
+        {
+          "ind": "",
+          "origUnicode": "ἡ",
+          "origAscii": "hē",
+          "strong": "3588",
+          "morphology": "T-NSF",
+          "lemma": "ὁ",
+          "sabdaIndex": 9
+        },
+        {
+          "ind": "kedatangan",
+          "origUnicode": "παρουσία",
+          "origAscii": "parousia",
+          "strong": "3952",
+          "morphology": "N-NSF",
+          "lemma": "παρουσία",
+          "sabdaIndex": 10
+        },
+        {
+          "ind": "",
+          "origUnicode": "τοῦ",
+          "origAscii": "tou",
+          "strong": "3588",
+          "morphology": "T-GSM",
+          "lemma": "ὁ",
+          "sabdaIndex": 11
+        },
+        {
+          "ind": "Tuhan",
+          "origUnicode": "κυρίου",
+          "origAscii": "kuriou",
+          "strong": "2962",
+          "morphology": "N-GSM-T",
+          "lemma": "κύριος",
+          "sabdaIndex": 12
+        },
+        {
+          "ind": "sudah dekat",
+          "origUnicode": "ἤγγικεν.",
+          "origAscii": "ēngiken",
+          "strong": "1448",
+          "morphology": "V-RAI-3S",
+          "lemma": "ἐγγίζω",
+          "sabdaIndex": 13
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "juga",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "Kamu harus bersabar",
+          "origUnicode": "μακροθυμήσατε",
+          "origAscii": "makrothumēsate",
+          "strong": "3114",
+          "morphology": "V-AAM-2P",
+          "lemma": "μακροθυμέω"
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί"
+        },
+        {
+          "ind": "",
+          "strong": "5210",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "harus meneguhkan",
+          "origUnicode": "στηρίξατε",
+          "origAscii": "stērixate",
+          "strong": "4741",
+          "morphology": "V-AAM-2P",
+          "lemma": "στηρίζω"
+        },
+        {
+          "ind": "",
+          "origUnicode": "τὰς ἡ τοῦ",
+          "origAscii": "tas hē tou",
+          "strong": "3588",
+          "morphology": "T-APF T-NSF T-GSM",
+          "lemma": "ὁ ὁ ὁ"
+        },
+        {
+          "ind": "hatimu",
+          "origUnicode": "καρδίας",
+          "origAscii": "kardias",
+          "strong": "2588",
+          "morphology": "N-APF",
+          "lemma": "καρδία"
+        },
+        {
+          "ind": "",
+          "strong": "5216",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "karena",
+          "origUnicode": "ὅτι",
+          "origAscii": "hoti",
+          "strong": "3754",
+          "morphology": "CONJ",
+          "lemma": "ὅτι"
+        },
+        {
+          "ind": "",
+          "origUnicode": "τὰς ἡ τοῦ",
+          "origAscii": "tas hē tou",
+          "strong": "3588",
+          "morphology": "T-APF T-NSF T-GSM",
+          "lemma": "ὁ ὁ ὁ"
+        },
+        {
+          "ind": "kedatangan",
+          "origUnicode": "παρουσία",
+          "origAscii": "parousia",
+          "strong": "3952",
+          "morphology": "N-NSF",
+          "lemma": "παρουσία"
+        },
+        {
+          "ind": "",
+          "origUnicode": "τὰς ἡ τοῦ",
+          "origAscii": "tas hē tou",
+          "strong": "3588",
+          "morphology": "T-APF T-NSF T-GSM",
+          "lemma": "ὁ ὁ ὁ"
+        },
+        {
+          "ind": "Tuhan",
+          "origUnicode": "κυρίου",
+          "origAscii": "kuriou",
+          "strong": "2962",
+          "morphology": "N-GSM-T",
+          "lemma": "κύριος"
+        },
+        {
+          "ind": "sudah dekat",
+          "origUnicode": "ἤγγικεν.",
+          "origAscii": "ēngiken",
+          "strong": "1448",
+          "morphology": "V-RAI-3S",
+          "lemma": "ἐγγίζω"
+        }
+      ],
+      "origFullText": "μακροθυμήσατε καὶ ὑμεῖς, στηρίξατε τὰς καρδίας ὑμῶν, ὅτι ἡ παρουσία τοῦ κυρίου ἤγγικεν."
+    },
+    {
+      "number": "9",
+      "originalUnits": [
+        {
+          "ind": "janganlah",
+          "origUnicode": "μὴ",
+          "origAscii": "mē",
+          "strong": "3361",
+          "morphology": "PRT-N",
+          "lemma": "μή",
+          "sabdaIndex": 0
+        },
+        {
+          "ind": "kamu bersungut-sungut",
+          "origUnicode": "στενάζετε,",
+          "origAscii": "stenazete",
+          "strong": "4727",
+          "morphology": "V-PAM-2P",
+          "lemma": "στενάζω",
+          "sabdaIndex": 1
+        },
+        {
+          "ind": "Saudara-saudara",
+          "origUnicode": "ἀδελφοί,",
+          "origAscii": "adelphoi",
+          "strong": "0080",
+          "morphology": "N-VPM",
+          "lemma": "ἀδελφός",
+          "sabdaIndex": 2
+        },
+        {
+          "ind": "mempersalahkan",
+          "origUnicode": "κατ᾽",
+          "origAscii": "kat᾽",
+          "strong": "2596",
+          "morphology": "PREP",
+          "lemma": "κατά",
+          "sabdaIndex": 3
+        },
+        {
+          "ind": "dan saling",
+          "origUnicode": "ἀλλήλων,",
+          "origAscii": "allēlōn",
+          "strong": "0240",
+          "morphology": "C-GPM",
+          "lemma": "ἀλλήλων",
+          "sabdaIndex": 5
+        },
+        {
+          "ind": "supaya",
+          "origUnicode": "ἵνα",
+          "origAscii": "ina",
+          "strong": "2443",
+          "morphology": "CONJ",
+          "lemma": "ἵνα",
+          "sabdaIndex": 6
+        },
+        {
+          "ind": "jangan",
+          "origUnicode": "μὴ",
+          "origAscii": "mē",
+          "strong": "3361",
+          "morphology": "PRT-N",
+          "lemma": "μή",
+          "sabdaIndex": 7
+        },
+        {
+          "ind": "kamu dihukum",
+          "origUnicode": "κριθῆτε·",
+          "origAscii": "krithēte",
+          "strong": "2919",
+          "morphology": "V-APS-2P",
+          "lemma": "κρίνω",
+          "sabdaIndex": 8
+        },
+        {
+          "ind": "Sesungguhnya",
+          "origUnicode": "ἰδοὺ",
+          "origAscii": "idou",
+          "strong": "2400",
+          "morphology": "INJ",
+          "lemma": "ἰδού",
+          "sabdaIndex": 9
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ",
+          "origAscii": "ho",
+          "strong": "3588",
+          "morphology": "T-NSM",
+          "lemma": "ὁ",
+          "sabdaIndex": 10
+        },
+        {
+          "ind": "Hakim",
+          "origUnicode": "κριτὴς",
+          "origAscii": "kritēs",
+          "strong": "2923",
+          "morphology": "N-NSM",
+          "lemma": "κριτής",
+          "sabdaIndex": 11
+        },
+        {
+          "ind": "di ambang",
+          "origUnicode": "πρὸ",
+          "origAscii": "pro",
+          "strong": "4253",
+          "morphology": "PREP",
+          "lemma": "πρό",
+          "sabdaIndex": 12
+        },
+        {
+          "ind": "",
+          "origUnicode": "τῶν",
+          "origAscii": "tōn",
+          "strong": "3588",
+          "morphology": "T-GPF",
+          "lemma": "ὁ",
+          "sabdaIndex": 13
+        },
+        {
+          "ind": "pintu",
+          "origUnicode": "θυρῶν",
+          "origAscii": "thurōn",
+          "strong": "2374",
+          "morphology": "N-GPF",
+          "lemma": "θύρα",
+          "sabdaIndex": 14
+        },
+        {
+          "ind": "telah berdiri",
+          "origUnicode": "ἕστηκεν.",
+          "origAscii": "hestēken",
+          "strong": "2476",
+          "morphology": "V-RAI-3S",
+          "lemma": "ἵστημι",
+          "sabdaIndex": 15
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "janganlah",
+          "origUnicode": "μὴ μὴ",
+          "origAscii": "mē mē",
+          "strong": "3361",
+          "morphology": "PRT-N PRT-N",
+          "lemma": "μή μή"
+        },
+        {
+          "ind": "kamu bersungut-sungut",
+          "origUnicode": "στενάζετε,",
+          "origAscii": "stenazete",
+          "strong": "4727",
+          "morphology": "V-PAM-2P",
+          "lemma": "στενάζω"
+        },
+        {
+          "ind": "Saudara-saudara",
+          "strong": "80",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "mempersalahkan",
+          "origUnicode": "κατ᾽",
+          "origAscii": "kat᾽",
+          "strong": "2596",
+          "morphology": "PREP",
+          "lemma": "κατά"
+        },
+        {
+          "ind": "dan",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "saling",
+          "strong": "240",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "supaya",
+          "origUnicode": "ἵνα",
+          "origAscii": "ina",
+          "strong": "2443",
+          "morphology": "CONJ",
+          "lemma": "ἵνα"
+        },
+        {
+          "ind": "jangan",
+          "origUnicode": "μὴ μὴ",
+          "origAscii": "mē mē",
+          "strong": "3361",
+          "morphology": "PRT-N PRT-N",
+          "lemma": "μή μή"
+        },
+        {
+          "ind": "kamu dihukum",
+          "origUnicode": "κριθῆτε·",
+          "origAscii": "krithēte",
+          "strong": "2919",
+          "morphology": "V-APS-2P",
+          "lemma": "κρίνω"
+        },
+        {
+          "ind": "Sesungguhnya",
+          "origUnicode": "ἰδοὺ",
+          "origAscii": "idou",
+          "strong": "2400",
+          "morphology": "INJ",
+          "lemma": "ἰδού"
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ τῶν",
+          "origAscii": "ho tōn",
+          "strong": "3588",
+          "morphology": "T-NSM T-GPF",
+          "lemma": "ὁ ὁ"
+        },
+        {
+          "ind": "Hakim",
+          "origUnicode": "κριτὴς",
+          "origAscii": "kritēs",
+          "strong": "2923",
+          "morphology": "N-NSM",
+          "lemma": "κριτής"
+        },
+        {
+          "ind": "di ambang",
+          "origUnicode": "πρὸ",
+          "origAscii": "pro",
+          "strong": "4253",
+          "morphology": "PREP",
+          "lemma": "πρό"
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ τῶν",
+          "origAscii": "ho tōn",
+          "strong": "3588",
+          "morphology": "T-NSM T-GPF",
+          "lemma": "ὁ ὁ"
+        },
+        {
+          "ind": "pintu",
+          "origUnicode": "θυρῶν",
+          "origAscii": "thurōn",
+          "strong": "2374",
+          "morphology": "N-GPF",
+          "lemma": "θύρα"
+        },
+        {
+          "ind": "telah berdiri",
+          "origUnicode": "ἕστηκεν.",
+          "origAscii": "hestēken",
+          "strong": "2476",
+          "morphology": "V-RAI-3S",
+          "lemma": "ἵστημι"
+        }
+      ],
+      "origFullText": "μὴ στενάζετε, ἀδελφοί, κατ᾽ ἀλλήλων, ἵνα μὴ κριθῆτε· ἰδοὺ ὁ κριτὴς πρὸ τῶν θυρῶν ἕστηκεν."
+    },
+    {
+      "number": "10",
+      "originalUnits": [
+        {
+          "ind": "",
+          "origUnicode": "ὑπόδειγμα",
+          "origAscii": "hupodeigma",
+          "strong": "5262",
+          "morphology": "N-ASN",
+          "lemma": "ὑπόδειγμα",
+          "sabdaIndex": 0
+        },
+        {
+          "ind": "turutilah",
+          "origUnicode": "λάβετε,",
+          "origAscii": "labete",
+          "strong": "2983",
+          "morphology": "V-2AAM-2P",
+          "lemma": "λαμβάνω",
+          "sabdaIndex": 1
+        },
+        {
+          "ind": "Saudara-saudara",
+          "origUnicode": "ἀδελφοί",
+          "origAscii": "adelphoi",
+          "strong": "0080",
+          "morphology": "N-VPM",
+          "lemma": "ἀδελφός",
+          "sabdaIndex": 2
+        },
+        {
+          "ind": "",
+          "origUnicode": "μου,",
+          "origAscii": "mou",
+          "strong": "3165",
+          "morphology": "P-1GS",
+          "lemma": "ἐγώ",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "",
+          "origUnicode": "τῆς",
+          "origAscii": "tēs",
+          "strong": "3588",
+          "morphology": "T-GSF",
+          "lemma": "ὁ",
+          "sabdaIndex": 3
+        },
+        {
+          "ind": "teladan penderitaan",
+          "origUnicode": "κακοπαθείας",
+          "origAscii": "kakopatheias",
+          "strong": "2552",
+          "morphology": "N-GSF",
+          "lemma": "κακοπάθεια",
+          "sabdaIndex": 4
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 5
+        },
+        {
+          "ind": "",
+          "origUnicode": "τῆς",
+          "origAscii": "tēs",
+          "strong": "3588",
+          "morphology": "T-GSF",
+          "lemma": "ὁ",
+          "sabdaIndex": 6
+        },
+        {
+          "ind": "kesabaran",
+          "origUnicode": "μακροθυμίας",
+          "origAscii": "makrothumias",
+          "strong": "3115",
+          "morphology": "N-GSF",
+          "lemma": "μακροθυμία",
+          "sabdaIndex": 7
+        },
+        {
+          "ind": "para",
+          "origUnicode": "τοὺς",
+          "origAscii": "tous",
+          "strong": "3588",
+          "morphology": "T-APM",
+          "lemma": "ὁ",
+          "sabdaIndex": 8
+        },
+        {
+          "ind": "nabi",
+          "origUnicode": "προφήτας",
+          "origAscii": "prophētas",
+          "strong": "4396",
+          "morphology": "N-APM",
+          "lemma": "προφήτης",
+          "sabdaIndex": 9
+        },
+        {
+          "ind": "yang",
+          "origUnicode": "οἳ",
+          "origAscii": "hoi",
+          "strong": "3739",
+          "morphology": "R-NPM",
+          "lemma": "ὅς, ἥ",
+          "sabdaIndex": 10
+        },
+        {
+          "ind": "telah berbicara",
+          "origUnicode": "ἐλάλησαν",
+          "origAscii": "elalēsan",
+          "strong": "2980",
+          "morphology": "V-AAI-3P",
+          "lemma": "λαλέω",
+          "sabdaIndex": 11
+        },
+        {
+          "ind": "demi",
+          "origUnicode": "ἐν",
+          "origAscii": "en",
+          "strong": "1722",
+          "morphology": "PREP",
+          "lemma": "ἐν",
+          "sabdaIndex": 12
+        },
+        {
+          "ind": "",
+          "origUnicode": "τῷ",
+          "origAscii": "tō",
+          "strong": "3588",
+          "morphology": "T-DSN",
+          "lemma": "ὁ",
+          "sabdaIndex": 13
+        },
+        {
+          "ind": "nama",
+          "origUnicode": "ὀνόματι",
+          "origAscii": "onomati",
+          "strong": "3686",
+          "morphology": "N-DSN",
+          "lemma": "ὄνομα",
+          "sabdaIndex": 14
+        },
+        {
+          "ind": "Tuhan",
+          "origUnicode": "κυρίου.",
+          "origAscii": "kuriou",
+          "strong": "2962",
+          "morphology": "N-GSM-T",
+          "lemma": "κύριος",
+          "sabdaIndex": 15
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "",
+          "origUnicode": "ὑπόδειγμα",
+          "origAscii": "hupodeigma",
+          "strong": "5262",
+          "morphology": "N-ASN",
+          "lemma": "ὑπόδειγμα"
+        },
+        {
+          "ind": "turutilah",
+          "origUnicode": "λάβετε,",
+          "origAscii": "labete",
+          "strong": "2983",
+          "morphology": "V-2AAM-2P",
+          "lemma": "λαμβάνω"
+        },
+        {
+          "ind": "Saudara-saudara",
+          "strong": "80",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "",
+          "origUnicode": "τῆς τῆς τοὺς τῷ",
+          "origAscii": "tēs tēs tous tō",
+          "strong": "3588",
+          "morphology": "T-GSF T-GSF T-APM T-DSN",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "teladan penderitaan",
+          "origUnicode": "κακοπαθείας",
+          "origAscii": "kakopatheias",
+          "strong": "2552",
+          "morphology": "N-GSF",
+          "lemma": "κακοπάθεια"
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί"
+        },
+        {
+          "ind": "",
+          "origUnicode": "τῆς τῆς τοὺς τῷ",
+          "origAscii": "tēs tēs tous tō",
+          "strong": "3588",
+          "morphology": "T-GSF T-GSF T-APM T-DSN",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "kesabaran",
+          "origUnicode": "μακροθυμίας",
+          "origAscii": "makrothumias",
+          "strong": "3115",
+          "morphology": "N-GSF",
+          "lemma": "μακροθυμία"
+        },
+        {
+          "ind": "para",
+          "origUnicode": "τῆς τῆς τοὺς τῷ",
+          "origAscii": "tēs tēs tous tō",
+          "strong": "3588",
+          "morphology": "T-GSF T-GSF T-APM T-DSN",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "nabi",
+          "origUnicode": "προφήτας",
+          "origAscii": "prophētas",
+          "strong": "4396",
+          "morphology": "N-APM",
+          "lemma": "προφήτης"
+        },
+        {
+          "ind": "yang",
+          "origUnicode": "οἳ",
+          "origAscii": "hoi",
+          "strong": "3739",
+          "morphology": "R-NPM",
+          "lemma": "ὅς, ἥ"
+        },
+        {
+          "ind": "telah berbicara",
+          "origUnicode": "ἐλάλησαν",
+          "origAscii": "elalēsan",
+          "strong": "2980",
+          "morphology": "V-AAI-3P",
+          "lemma": "λαλέω"
+        },
+        {
+          "ind": "demi",
+          "origUnicode": "ἐν",
+          "origAscii": "en",
+          "strong": "1722",
+          "morphology": "PREP",
+          "lemma": "ἐν"
+        },
+        {
+          "ind": "",
+          "origUnicode": "τῆς τῆς τοὺς τῷ",
+          "origAscii": "tēs tēs tous tō",
+          "strong": "3588",
+          "morphology": "T-GSF T-GSF T-APM T-DSN",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "nama",
+          "origUnicode": "ὀνόματι",
+          "origAscii": "onomati",
+          "strong": "3686",
+          "morphology": "N-DSN",
+          "lemma": "ὄνομα"
+        },
+        {
+          "ind": "Tuhan",
+          "origUnicode": "κυρίου.",
+          "origAscii": "kuriou",
+          "strong": "2962",
+          "morphology": "N-GSM-T",
+          "lemma": "κύριος"
+        }
+      ],
+      "origFullText": "ὑπόδειγμα λάβετε, ἀδελφοί μου, τῆς κακοπαθείας καὶ τῆς μακροθυμίας τοὺς προφήτας οἳ ἐλάλησαν ἐν τῷ ὀνόματι κυρίου."
+    },
+    {
+      "number": "11",
+      "originalUnits": [
+        {
+          "ind": "Sesungguhnya",
+          "origUnicode": "ἰδοὺ",
+          "origAscii": "idou",
+          "strong": "2400",
+          "morphology": "INJ",
+          "lemma": "ἰδού",
+          "sabdaIndex": 0
+        },
+        {
+          "ind": "mereka kami menyebut berbahagia",
+          "origUnicode": "μακαρίζομεν",
+          "origAscii": "makarizomen",
+          "strong": "3106",
+          "morphology": "V-PAI-1P",
+          "lemma": "μακαρίζω",
+          "sabdaIndex": 2
+        },
+        {
+          "ind": "yaitu mereka",
+          "origUnicode": "τοὺς",
+          "origAscii": "tous",
+          "strong": "3588",
+          "morphology": "T-APM",
+          "lemma": "ὁ",
+          "sabdaIndex": 3
+        },
+        {
+          "ind": "yang telah bertekun",
+          "origUnicode": "ὑπομείναντας·",
+          "origAscii": "hupomeinantas",
+          "strong": "5278",
+          "morphology": "V-AAP-APM",
+          "lemma": "ὑπομένω",
+          "sabdaIndex": 4
+        },
+        {
+          "ind": "tentang",
+          "origUnicode": "τὴν",
+          "origAscii": "tēn",
+          "strong": "3588",
+          "morphology": "T-ASF",
+          "lemma": "ὁ",
+          "sabdaIndex": 5
+        },
+        {
+          "ind": "ketekunan",
+          "origUnicode": "ὑπομονὴν",
+          "origAscii": "hupomonēn",
+          "strong": "5281",
+          "morphology": "N-ASF",
+          "lemma": "ὑπομονή",
+          "sabdaIndex": 6
+        },
+        {
+          "ind": "Ayub",
+          "origUnicode": "Ἰὼβ",
+          "origAscii": "Iōb",
+          "strong": "2492",
+          "morphology": "N-GSM-P",
+          "lemma": "Ἰώβ",
+          "sabdaIndex": 7
+        },
+        {
+          "ind": "kamu telah mendengar",
+          "origUnicode": "ἠκούσατε",
+          "origAscii": "ēkousate",
+          "strong": "0191",
+          "morphology": "V-AAI-2P",
+          "lemma": "ἀκούω",
+          "sabdaIndex": 8
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 9
+        },
+        {
+          "ind": "apa yang pada",
+          "origUnicode": "τὸ",
+          "origAscii": "to",
+          "strong": "3588",
+          "morphology": "T-ASN",
+          "lemma": "ὁ",
+          "sabdaIndex": 10
+        },
+        {
+          "ind": "akhirnya",
+          "origUnicode": "τέλος",
+          "origAscii": "telos",
+          "strong": "5056",
+          "morphology": "N-ASN",
+          "lemma": "τέλος",
+          "sabdaIndex": 11
+        },
+        {
+          "ind": "disediakan Tuhan",
+          "origUnicode": "κυρίου",
+          "origAscii": "kuriou",
+          "strong": "2962",
+          "morphology": "N-GSM-T",
+          "lemma": "κύριος",
+          "sabdaIndex": 13
+        },
+        {
+          "ind": "",
+          "origUnicode": "εἴδετε,",
+          "origAscii": "eidete",
+          "strong": "1492",
+          "morphology": "V-2AAI-2P",
+          "lemma": "εἴδω",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "karena",
+          "origUnicode": "ὅτι",
+          "origAscii": "hoti",
+          "strong": "3754",
+          "morphology": "CONJ",
+          "lemma": "ὅτι",
+          "sabdaIndex": 16
+        },
+        {
+          "ind": "maha penyayang",
+          "origUnicode": "πολύσπλαγχνός",
+          "origAscii": "polusplagchnos",
+          "strong": "4184",
+          "morphology": "A-NSM",
+          "lemma": "πολύσπλαγχνος",
+          "sabdaIndex": 17
+        },
+        {
+          "ind": "baginya",
+          "origUnicode": "ἐστιν",
+          "origAscii": "estin",
+          "strong": "1510",
+          "morphology": "V-PAI-3S",
+          "lemma": "εἰμί",
+          "sabdaIndex": 18
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ",
+          "origAscii": "ho",
+          "strong": "3588",
+          "morphology": "T-NSM",
+          "lemma": "ὁ",
+          "sabdaIndex": 19
+        },
+        {
+          "ind": "Tuhan",
+          "origUnicode": "κύριος",
+          "origAscii": "kurios",
+          "strong": "2962",
+          "morphology": "N-NSM-T",
+          "lemma": "κύριος",
+          "sabdaIndex": 20
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 21
+        },
+        {
+          "ind": "penuh belas kasihan",
+          "origUnicode": "οἰκτίρμων.¶",
+          "origAscii": "oiktirmōn",
+          "strong": "3629",
+          "morphology": "A-NSM",
+          "lemma": "οἰκτίρμων",
+          "sabdaIndex": 22
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "Sesungguhnya",
+          "origUnicode": "ἰδοὺ",
+          "origAscii": "idou",
+          "strong": "2400",
+          "morphology": "INJ",
+          "lemma": "ἰδού"
+        },
+        {
+          "ind": "mereka",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "kami menyebut berbahagia",
+          "origUnicode": "μακαρίζομεν",
+          "origAscii": "makarizomen",
+          "strong": "3106",
+          "morphology": "V-PAI-1P",
+          "lemma": "μακαρίζω"
+        },
+        {
+          "ind": "yaitu mereka",
+          "origUnicode": "τοὺς τὴν τὸ ὁ",
+          "origAscii": "tous tēn to ho",
+          "strong": "3588",
+          "morphology": "T-APM T-ASF T-ASN T-NSM",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "yang telah bertekun",
+          "origUnicode": "ὑπομείναντας·",
+          "origAscii": "hupomeinantas",
+          "strong": "5278",
+          "morphology": "V-AAP-APM",
+          "lemma": "ὑπομένω"
+        },
+        {
+          "ind": "tentang",
+          "origUnicode": "τοὺς τὴν τὸ ὁ",
+          "origAscii": "tous tēn to ho",
+          "strong": "3588",
+          "morphology": "T-APM T-ASF T-ASN T-NSM",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "ketekunan",
+          "origUnicode": "ὑπομονὴν",
+          "origAscii": "hupomonēn",
+          "strong": "5281",
+          "morphology": "N-ASF",
+          "lemma": "ὑπομονή"
+        },
+        {
+          "ind": "Ayub",
+          "origUnicode": "Ἰὼβ",
+          "origAscii": "Iōb",
+          "strong": "2492",
+          "morphology": "N-GSM-P",
+          "lemma": "Ἰώβ"
+        },
+        {
+          "ind": "kamu telah mendengar",
+          "strong": "191",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ καὶ",
+          "origAscii": "kai kai",
+          "strong": "2532",
+          "morphology": "CONJ CONJ",
+          "lemma": "καί καί"
+        },
+        {
+          "ind": "apa yang pada",
+          "origUnicode": "τοὺς τὴν τὸ ὁ",
+          "origAscii": "tous tēn to ho",
+          "strong": "3588",
+          "morphology": "T-APM T-ASF T-ASN T-NSM",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "akhirnya",
+          "origUnicode": "τέλος",
+          "origAscii": "telos",
+          "strong": "5056",
+          "morphology": "N-ASN",
+          "lemma": "τέλος"
+        },
+        {
+          "ind": "disediakan",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "Tuhan",
+          "origUnicode": "κυρίου κύριος",
+          "origAscii": "kuriou kurios",
+          "strong": "2962",
+          "morphology": "N-GSM-T N-NSM-T",
+          "lemma": "κύριος κύριος"
+        },
+        {
+          "ind": "kamu telah tahu",
+          "strong": "3708",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "baginya",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "karena",
+          "origUnicode": "ὅτι",
+          "origAscii": "hoti",
+          "strong": "3754",
+          "morphology": "CONJ",
+          "lemma": "ὅτι"
+        },
+        {
+          "ind": "maha penyayang",
+          "origUnicode": "πολύσπλαγχνός",
+          "origAscii": "polusplagchnos",
+          "strong": "4184",
+          "morphology": "A-NSM",
+          "lemma": "πολύσπλαγχνος"
+        },
+        {
+          "ind": "",
+          "origUnicode": "ἐστιν",
+          "origAscii": "estin",
+          "strong": "1510",
+          "morphology": "V-PAI-3S",
+          "lemma": "εἰμί"
+        },
+        {
+          "ind": "",
+          "origUnicode": "τοὺς τὴν τὸ ὁ",
+          "origAscii": "tous tēn to ho",
+          "strong": "3588",
+          "morphology": "T-APM T-ASF T-ASN T-NSM",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "Tuhan",
+          "origUnicode": "κυρίου κύριος",
+          "origAscii": "kuriou kurios",
+          "strong": "2962",
+          "morphology": "N-GSM-T N-NSM-T",
+          "lemma": "κύριος κύριος"
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ καὶ",
+          "origAscii": "kai kai",
+          "strong": "2532",
+          "morphology": "CONJ CONJ",
+          "lemma": "καί καί"
+        },
+        {
+          "ind": "penuh belas kasihan",
+          "origUnicode": "οἰκτίρμων.¶",
+          "origAscii": "oiktirmōn",
+          "strong": "3629",
+          "morphology": "A-NSM",
+          "lemma": "οἰκτίρμων"
+        }
+      ],
+      "origFullText": "ἰδοὺ μακαρίζομεν τοὺς ὑπομείναντας· τὴν ὑπομονὴν Ἰὼβ ἠκούσατε καὶ τὸ τέλος κυρίου εἴδετε, ὅτι πολύσπλαγχνός ἐστιν ὁ κύριος καὶ οἰκτίρμων.¶"
+    },
+    {
+      "number": "12",
+      "originalUnits": [
+        {
+          "ind": "yang",
+          "origUnicode": "Πρὸ",
+          "origAscii": "Pro",
+          "strong": "4253",
+          "morphology": "PREP",
+          "lemma": "πρό",
+          "sabdaIndex": 0
+        },
+        {
+          "ind": "terutama",
+          "origUnicode": "πάντων",
+          "origAscii": "pantōn",
+          "strong": "3956",
+          "morphology": "A-GPN",
+          "lemma": "πᾶς",
+          "sabdaIndex": 1
+        },
+        {
+          "ind": "Tetapi",
+          "origUnicode": "δέ,",
+          "origAscii": "de",
+          "strong": "1161",
+          "morphology": "CONJ",
+          "lemma": "δέ",
+          "sabdaIndex": 2
+        },
+        {
+          "ind": "saudara-saudara",
+          "origUnicode": "ἀδελφοί",
+          "origAscii": "adelphoi",
+          "strong": "0080",
+          "morphology": "N-VPM",
+          "lemma": "ἀδελφός",
+          "sabdaIndex": 3
+        },
+        {
+          "ind": "",
+          "origUnicode": "μου,",
+          "origAscii": "mou",
+          "strong": "3165",
+          "morphology": "P-1GS",
+          "lemma": "ἐγώ",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "janganlah",
+          "origUnicode": "μὴ",
+          "origAscii": "mē",
+          "strong": "3361",
+          "morphology": "PRT-N",
+          "lemma": "μή",
+          "sabdaIndex": 5
+        },
+        {
+          "ind": "kamu bersumpah",
+          "origUnicode": "ὀμνύετε,",
+          "origAscii": "omnuete",
+          "strong": "3660",
+          "morphology": "V-PAM-2P",
+          "lemma": "ὄμνυμι",
+          "sabdaIndex": 6
+        },
+        {
+          "ind": "demi",
+          "origUnicode": "μήτε",
+          "origAscii": "mēte",
+          "strong": "3383",
+          "morphology": "CONJ-N",
+          "lemma": "μήτε",
+          "sabdaIndex": 7
+        },
+        {
+          "ind": "",
+          "origUnicode": "τὸν",
+          "origAscii": "ton",
+          "strong": "3588",
+          "morphology": "T-ASM",
+          "lemma": "ὁ",
+          "sabdaIndex": 8
+        },
+        {
+          "ind": "sorga",
+          "origUnicode": "οὐρανὸν",
+          "origAscii": "ouranon",
+          "strong": "3772",
+          "morphology": "N-ASM",
+          "lemma": "οὐρανός",
+          "sabdaIndex": 9
+        },
+        {
+          "ind": "maupun",
+          "origUnicode": "μήτε",
+          "origAscii": "mēte",
+          "strong": "3383",
+          "morphology": "CONJ-N",
+          "lemma": "μήτε",
+          "sabdaIndex": 10
+        },
+        {
+          "ind": "demi",
+          "origUnicode": "τὴν",
+          "origAscii": "tēn",
+          "strong": "3588",
+          "morphology": "T-ASF",
+          "lemma": "ὁ",
+          "sabdaIndex": 11
+        },
+        {
+          "ind": "bumi",
+          "origUnicode": "γῆν",
+          "origAscii": "gēn",
+          "strong": "1093",
+          "morphology": "N-ASF",
+          "lemma": "γῆ",
+          "sabdaIndex": 12
+        },
+        {
+          "ind": "atau",
+          "origUnicode": "μήτε",
+          "origAscii": "mēte",
+          "strong": "3383",
+          "morphology": "CONJ-N",
+          "lemma": "μήτε",
+          "sabdaIndex": 13
+        },
+        {
+          "ind": "yang lain",
+          "origUnicode": "ἄλλον",
+          "origAscii": "allon",
+          "strong": "0243",
+          "morphology": "A-ASM",
+          "lemma": "ἄλλος",
+          "sabdaIndex": 14
+        },
+        {
+          "ind": "sesuatu",
+          "origUnicode": "τινὰ",
+          "origAscii": "tina",
+          "strong": "5100",
+          "morphology": "X-ASM",
+          "lemma": "τις",
+          "sabdaIndex": 16
+        },
+        {
+          "ind": "hendaklah",
+          "origUnicode": "ὅρκον·",
+          "origAscii": "horkon",
+          "strong": "3727",
+          "morphology": "N-ASM",
+          "lemma": "ὅρκος",
+          "sabdaIndex": 17
+        },
+        {
+          "ind": "demi",
+          "origUnicode": "ἤτω",
+          "origAscii": "ētō",
+          "strong": "1510",
+          "morphology": "V-PAM-3S",
+          "lemma": "εἰμί",
+          "sabdaIndex": 18
+        },
+        {
+          "ind": "",
+          "origUnicode": "δὲ",
+          "origAscii": "de",
+          "strong": "1161",
+          "morphology": "CONJ",
+          "lemma": "δέ",
+          "sabdaIndex": 19
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑμῶν",
+          "origAscii": "humōn",
+          "strong": "4771",
+          "morphology": "P-2GP",
+          "lemma": "σύ",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "Jika",
+          "origUnicode": "τὸ",
+          "origAscii": "to",
+          "strong": "3588",
+          "morphology": "T-NSN",
+          "lemma": "ὁ",
+          "sabdaIndex": 21
+        },
+        {
+          "ind": "ya",
+          "origUnicode": "ναὶ",
+          "origAscii": "nai",
+          "strong": "3483",
+          "morphology": "PRT",
+          "lemma": "ναί",
+          "sabdaIndex": 22
+        },
+        {
+          "ind": "ya",
+          "origUnicode": "ναὶ",
+          "origAscii": "nai",
+          "strong": "3483",
+          "morphology": "PRT",
+          "lemma": "ναί",
+          "sabdaIndex": 24
+        },
+        {
+          "ind": "jika",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 25
+        },
+        {
+          "ind": "katakan hendaklah kamu katakan",
+          "origUnicode": "τὸ",
+          "origAscii": "to",
+          "strong": "3588",
+          "morphology": "T-NSN",
+          "lemma": "ὁ",
+          "sabdaIndex": 26
+        },
+        {
+          "ind": "tidak",
+          "origUnicode": "οὒ",
+          "origAscii": "ou",
+          "strong": "3756",
+          "morphology": "PRT-N",
+          "lemma": "οὐ",
+          "sabdaIndex": 27
+        },
+        {
+          "ind": "tidak",
+          "origUnicode": "οὔ,",
+          "origAscii": "ou",
+          "strong": "3756",
+          "morphology": "PRT-N",
+          "lemma": "οὐ",
+          "sabdaIndex": 29
+        },
+        {
+          "ind": "supaya",
+          "origUnicode": "ἵνα",
+          "origAscii": "ina",
+          "strong": "2443",
+          "morphology": "CONJ",
+          "lemma": "ἵνα",
+          "sabdaIndex": 30
+        },
+        {
+          "ind": "jangan",
+          "origUnicode": "μὴ",
+          "origAscii": "mē",
+          "strong": "3361",
+          "morphology": "PRT-N",
+          "lemma": "μή",
+          "sabdaIndex": 31
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑπὸ",
+          "origAscii": "hupo",
+          "strong": "5259",
+          "morphology": "PREP",
+          "lemma": "ὑπό",
+          "sabdaIndex": 32
+        },
+        {
+          "ind": "hukuman",
+          "origUnicode": "κρίσιν",
+          "origAscii": "krisin",
+          "strong": "2920",
+          "morphology": "N-ASF",
+          "lemma": "κρίσις",
+          "sabdaIndex": 33
+        },
+        {
+          "ind": "kamu kena",
+          "origUnicode": "πέσητε.¶",
+          "origAscii": "pesēte",
+          "strong": "4098",
+          "morphology": "V-2AAS-2P",
+          "lemma": "πίπτω",
+          "sabdaIndex": 34
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "yang",
+          "origUnicode": "Πρὸ",
+          "origAscii": "Pro",
+          "strong": "4253",
+          "morphology": "PREP",
+          "lemma": "πρό"
+        },
+        {
+          "ind": "terutama",
+          "origUnicode": "πάντων",
+          "origAscii": "pantōn",
+          "strong": "3956",
+          "morphology": "A-GPN",
+          "lemma": "πᾶς"
+        },
+        {
+          "ind": "Tetapi",
+          "origUnicode": "δέ, δὲ",
+          "origAscii": "de de",
+          "strong": "1161",
+          "morphology": "CONJ CONJ",
+          "lemma": "δέ δέ"
+        },
+        {
+          "ind": "saudara-saudara",
+          "strong": "80",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "",
+          "strong": "3450",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "janganlah",
+          "origUnicode": "μὴ μὴ",
+          "origAscii": "mē mē",
+          "strong": "3361",
+          "morphology": "PRT-N PRT-N",
+          "lemma": "μή μή"
+        },
+        {
+          "ind": "kamu bersumpah",
+          "origUnicode": "ὀμνύετε,",
+          "origAscii": "omnuete",
+          "strong": "3660",
+          "morphology": "V-PAM-2P",
+          "lemma": "ὄμνυμι"
+        },
+        {
+          "ind": "demi",
+          "origUnicode": "μήτε μήτε μήτε",
+          "origAscii": "mēte mēte mēte",
+          "strong": "3383",
+          "morphology": "CONJ-N CONJ-N CONJ-N",
+          "lemma": "μήτε μήτε μήτε"
+        },
+        {
+          "ind": "",
+          "origUnicode": "τὸν τὴν τὸ τὸ",
+          "origAscii": "ton tēn to to",
+          "strong": "3588",
+          "morphology": "T-ASM T-ASF T-NSN T-NSN",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "sorga",
+          "origUnicode": "οὐρανὸν",
+          "origAscii": "ouranon",
+          "strong": "3772",
+          "morphology": "N-ASM",
+          "lemma": "οὐρανός"
+        },
+        {
+          "ind": "maupun",
+          "origUnicode": "μήτε μήτε μήτε",
+          "origAscii": "mēte mēte mēte",
+          "strong": "3383",
+          "morphology": "CONJ-N CONJ-N CONJ-N",
+          "lemma": "μήτε μήτε μήτε"
+        },
+        {
+          "ind": "demi",
+          "origUnicode": "τὸν τὴν τὸ τὸ",
+          "origAscii": "ton tēn to to",
+          "strong": "3588",
+          "morphology": "T-ASM T-ASF T-NSN T-NSN",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "bumi",
+          "origUnicode": "γῆν",
+          "origAscii": "gēn",
+          "strong": "1093",
+          "morphology": "N-ASF",
+          "lemma": "γῆ"
+        },
+        {
+          "ind": "atau",
+          "origUnicode": "μήτε μήτε μήτε",
+          "origAscii": "mēte mēte mēte",
+          "strong": "3383",
+          "morphology": "CONJ-N CONJ-N CONJ-N",
+          "lemma": "μήτε μήτε μήτε"
+        },
+        {
+          "ind": "yang lain",
+          "strong": "243",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "demi",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "sesuatu",
+          "origUnicode": "τινὰ",
+          "origAscii": "tina",
+          "strong": "5100",
+          "morphology": "X-ASM",
+          "lemma": "τις"
+        },
+        {
+          "ind": "hendaklah",
+          "origUnicode": "ὅρκον·",
+          "origAscii": "horkon",
+          "strong": "3727",
+          "morphology": "N-ASM",
+          "lemma": "ὅρκος"
+        },
+        {
+          "ind": "",
+          "origUnicode": "ἤτω",
+          "origAscii": "ētō",
+          "strong": "1510",
+          "morphology": "V-PAM-3S",
+          "lemma": "εἰμί"
+        },
+        {
+          "ind": "",
+          "origUnicode": "δέ, δὲ",
+          "origAscii": "de de",
+          "strong": "1161",
+          "morphology": "CONJ CONJ",
+          "lemma": "δέ δέ"
+        },
+        {
+          "ind": "kamu",
+          "strong": "5216",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "Jika",
+          "origUnicode": "τὸν τὴν τὸ τὸ",
+          "origAscii": "ton tēn to to",
+          "strong": "3588",
+          "morphology": "T-ASM T-ASF T-NSN T-NSN",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "ya",
+          "origUnicode": "ναὶ ναὶ",
+          "origAscii": "nai nai",
+          "strong": "3483",
+          "morphology": "PRT PRT",
+          "lemma": "ναί ναί"
+        },
+        {
+          "ind": "katakan",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "ya",
+          "origUnicode": "ναὶ ναὶ",
+          "origAscii": "nai nai",
+          "strong": "3483",
+          "morphology": "PRT PRT",
+          "lemma": "ναί ναί"
+        },
+        {
+          "ind": "jika",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί"
+        },
+        {
+          "ind": "",
+          "origUnicode": "τὸν τὴν τὸ τὸ",
+          "origAscii": "ton tēn to to",
+          "strong": "3588",
+          "morphology": "T-ASM T-ASF T-NSN T-NSN",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "tidak",
+          "origUnicode": "οὒ οὔ,",
+          "origAscii": "ou ou",
+          "strong": "3756",
+          "morphology": "PRT-N PRT-N",
+          "lemma": "οὐ οὐ"
+        },
+        {
+          "ind": "hendaklah kamu katakan",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "tidak",
+          "origUnicode": "οὒ οὔ,",
+          "origAscii": "ou ou",
+          "strong": "3756",
+          "morphology": "PRT-N PRT-N",
+          "lemma": "οὐ οὐ"
+        },
+        {
+          "ind": "supaya",
+          "origUnicode": "ἵνα",
+          "origAscii": "ina",
+          "strong": "2443",
+          "morphology": "CONJ",
+          "lemma": "ἵνα"
+        },
+        {
+          "ind": "jangan",
+          "origUnicode": "μὴ μὴ",
+          "origAscii": "mē mē",
+          "strong": "3361",
+          "morphology": "PRT-N PRT-N",
+          "lemma": "μή μή"
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑπὸ",
+          "origAscii": "hupo",
+          "strong": "5259",
+          "morphology": "PREP",
+          "lemma": "ὑπό"
+        },
+        {
+          "ind": "hukuman",
+          "origUnicode": "κρίσιν",
+          "origAscii": "krisin",
+          "strong": "2920",
+          "morphology": "N-ASF",
+          "lemma": "κρίσις"
+        },
+        {
+          "ind": "kamu kena",
+          "origUnicode": "πέσητε.¶",
+          "origAscii": "pesēte",
+          "strong": "4098",
+          "morphology": "V-2AAS-2P",
+          "lemma": "πίπτω"
+        }
+      ],
+      "origFullText": "Πρὸ πάντων δέ, ἀδελφοί μου, μὴ ὀμνύετε, μήτε τὸν οὐρανὸν μήτε τὴν γῆν μήτε ἄλλον τινὰ ὅρκον· ἤτω δὲ ὑμῶν τὸ ναὶ ναὶ καὶ τὸ οὒ οὔ, ἵνα μὴ ὑπὸ κρίσιν πέσητε.¶"
+    },
+    {
+      "number": "13",
+      "originalUnits": [
+        {
+          "ind": "yang menderita",
+          "origUnicode": "Κακοπαθεῖ",
+          "origAscii": "Kakopathei",
+          "strong": "2553",
+          "morphology": "V-PAI-3S",
+          "lemma": "κακοπαθέω",
+          "sabdaIndex": 1
+        },
+        {
+          "ind": "Kalau ada seorang",
+          "origUnicode": "τις",
+          "origAscii": "tis",
+          "strong": "5100",
+          "morphology": "X-NSM",
+          "lemma": "τις",
+          "sabdaIndex": 3
+        },
+        {
+          "ind": "di antara",
+          "origUnicode": "ἐν",
+          "origAscii": "en",
+          "strong": "1722",
+          "morphology": "PREP",
+          "lemma": "ἐν",
+          "sabdaIndex": 4
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑμῖν;",
+          "origAscii": "humin",
+          "strong": "4771",
+          "morphology": "P-2DP",
+          "lemma": "σύ",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "baiklah ia berdoa",
+          "origUnicode": "προσευχέσθω·",
+          "origAscii": "proseuchesthō",
+          "strong": "4336",
+          "morphology": "V-PNM-3S",
+          "lemma": "προσεύχομαι",
+          "sabdaIndex": 7
+        },
+        {
+          "ind": "yang bergembira",
+          "origUnicode": "εὐθυμεῖ",
+          "origAscii": "euthumei",
+          "strong": "2114",
+          "morphology": "V-PAI-3S",
+          "lemma": "εὐθυμέω",
+          "sabdaIndex": 9
+        },
+        {
+          "ind": "Kalau ada seorang",
+          "origUnicode": "τις;",
+          "origAscii": "tis",
+          "strong": "5100",
+          "morphology": "X-NSM",
+          "lemma": "τις",
+          "sabdaIndex": 11
+        },
+        {
+          "ind": "baiklah ia menyanyi",
+          "origUnicode": "ψαλλέτω.",
+          "origAscii": "psalletō",
+          "strong": "5567",
+          "morphology": "V-PAM-3S",
+          "lemma": "ψάλλω",
+          "sabdaIndex": 13
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "yang",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "menderita",
+          "origUnicode": "Κακοπαθεῖ",
+          "origAscii": "Kakopathei",
+          "strong": "2553",
+          "morphology": "V-PAI-3S",
+          "lemma": "κακοπαθέω"
+        },
+        {
+          "ind": "Kalau",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "ada seorang",
+          "origUnicode": "τις τις;",
+          "origAscii": "tis tis",
+          "strong": "5100",
+          "morphology": "X-NSM X-NSM",
+          "lemma": "τις τις"
+        },
+        {
+          "ind": "di antara",
+          "origUnicode": "ἐν",
+          "origAscii": "en",
+          "strong": "1722",
+          "morphology": "PREP",
+          "lemma": "ἐν"
+        },
+        {
+          "ind": "kamu",
+          "strong": "5213",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "baiklah",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "ia berdoa",
+          "origUnicode": "προσευχέσθω·",
+          "origAscii": "proseuchesthō",
+          "strong": "4336",
+          "morphology": "V-PNM-3S",
+          "lemma": "προσεύχομαι"
+        },
+        {
+          "ind": "yang",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "bergembira",
+          "origUnicode": "εὐθυμεῖ",
+          "origAscii": "euthumei",
+          "strong": "2114",
+          "morphology": "V-PAI-3S",
+          "lemma": "εὐθυμέω"
+        },
+        {
+          "ind": "Kalau",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "ada seorang",
+          "origUnicode": "τις τις;",
+          "origAscii": "tis tis",
+          "strong": "5100",
+          "morphology": "X-NSM X-NSM",
+          "lemma": "τις τις"
+        },
+        {
+          "ind": "baiklah",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "ia menyanyi",
+          "origUnicode": "ψαλλέτω.",
+          "origAscii": "psalletō",
+          "strong": "5567",
+          "morphology": "V-PAM-3S",
+          "lemma": "ψάλλω"
+        }
+      ],
+      "origFullText": "Κακοπαθεῖ τις ἐν ὑμῖν; προσευχέσθω· εὐθυμεῖ τις; ψαλλέτω."
+    },
+    {
+      "number": "14",
+      "originalUnits": [
+        {
+          "ind": "yang sakit",
+          "origUnicode": "ἀσθενεῖ",
+          "origAscii": "asthenei",
+          "strong": "0770",
+          "morphology": "V-PAI-3S",
+          "lemma": "ἀσθενέω",
+          "sabdaIndex": 1
+        },
+        {
+          "ind": "Kalau ada seorang",
+          "origUnicode": "τις",
+          "origAscii": "tis",
+          "strong": "5100",
+          "morphology": "X-NSM",
+          "lemma": "τις",
+          "sabdaIndex": 3
+        },
+        {
+          "ind": "di antara",
+          "origUnicode": "ἐν",
+          "origAscii": "en",
+          "strong": "1722",
+          "morphology": "PREP",
+          "lemma": "ἐν",
+          "sabdaIndex": 4
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑμῖν;",
+          "origAscii": "humin",
+          "strong": "4771",
+          "morphology": "P-2DP",
+          "lemma": "σύ",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "baiklah ia memanggil",
+          "origUnicode": "προσκαλεσάσθω",
+          "origAscii": "proskalesasthō",
+          "strong": "4341",
+          "morphology": "V-ADM-3S",
+          "lemma": "προσκαλέω",
+          "sabdaIndex": 7
+        },
+        {
+          "ind": "para",
+          "origUnicode": "τοὺς",
+          "origAscii": "tous",
+          "strong": "3588",
+          "morphology": "T-APM",
+          "lemma": "ὁ",
+          "sabdaIndex": 8
+        },
+        {
+          "ind": "penatua",
+          "origUnicode": "πρεσβυτέρους",
+          "origAscii": "presbuterous",
+          "strong": "4245",
+          "morphology": "N-APM",
+          "lemma": "πρεσβύτερος",
+          "sabdaIndex": 9
+        },
+        {
+          "ind": "",
+          "origUnicode": "τῆς",
+          "origAscii": "tēs",
+          "strong": "3588",
+          "morphology": "T-GSF",
+          "lemma": "ὁ",
+          "sabdaIndex": 10
+        },
+        {
+          "ind": "jemaat",
+          "origUnicode": "ἐκκλησίας",
+          "origAscii": "ekklēsias",
+          "strong": "1577",
+          "morphology": "N-GSF",
+          "lemma": "ἐκκλησία",
+          "sabdaIndex": 11
+        },
+        {
+          "ind": "supaya",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 12
+        },
+        {
+          "ind": "mereka mendoakan",
+          "origUnicode": "προσευξάσθωσαν",
+          "origAscii": "proseuxasthōsan",
+          "strong": "4336",
+          "morphology": "V-ADM-3P",
+          "lemma": "προσεύχομαι",
+          "sabdaIndex": 13
+        },
+        {
+          "ind": "serta",
+          "origUnicode": "ἐπ᾽",
+          "origAscii": "ep᾽",
+          "strong": "1909",
+          "morphology": "PREP",
+          "lemma": "ἐπί",
+          "sabdaIndex": 14
+        },
+        {
+          "ind": "dia",
+          "origUnicode": "αὐτὸν",
+          "origAscii": "auton",
+          "strong": "0846",
+          "morphology": "P-ASM",
+          "lemma": "αὐτός",
+          "sabdaIndex": 15
+        },
+        {
+          "ind": "mengolesnya",
+          "origUnicode": "ἀλείψαντες",
+          "origAscii": "aleipsantes",
+          "strong": "0218",
+          "morphology": "V-AAP-NPM",
+          "lemma": "ἀλείφω",
+          "sabdaIndex": 17
+        },
+        {
+          "ind": "",
+          "origUnicode": "αὐτὸν",
+          "origAscii": "auton",
+          "strong": "0846",
+          "morphology": "P-ASM",
+          "lemma": "αὐτός",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "minyak",
+          "origUnicode": "ἐλαίῳ",
+          "origAscii": "elaiō",
+          "strong": "1637",
+          "morphology": "N-DSN",
+          "lemma": "ἔλαιον",
+          "sabdaIndex": 19
+        },
+        {
+          "ind": "dalam",
+          "origUnicode": "ἐν",
+          "origAscii": "en",
+          "strong": "1722",
+          "morphology": "PREP",
+          "lemma": "ἐν",
+          "sabdaIndex": 20
+        },
+        {
+          "ind": "dengan",
+          "origUnicode": "τῷ",
+          "origAscii": "tō",
+          "strong": "3588",
+          "morphology": "T-DSN",
+          "lemma": "ὁ",
+          "sabdaIndex": 21
+        },
+        {
+          "ind": "nama",
+          "origUnicode": "ὀνόματι",
+          "origAscii": "onomati",
+          "strong": "3686",
+          "morphology": "N-DSN",
+          "lemma": "ὄνομα",
+          "sabdaIndex": 22
+        },
+        {
+          "ind": "",
+          "origUnicode": "τοῦ",
+          "origAscii": "tou",
+          "strong": "3588",
+          "morphology": "T-GSM",
+          "lemma": "ὁ",
+          "sabdaIndex": 23
+        },
+        {
+          "ind": "Tuhan",
+          "origUnicode": "κυρίου.",
+          "origAscii": "kuriou",
+          "strong": "2962",
+          "morphology": "N-GSM-T",
+          "lemma": "κύριος",
+          "sabdaIndex": 24
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "yang",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "sakit",
+          "strong": "770",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "Kalau",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "ada seorang",
+          "origUnicode": "τις",
+          "origAscii": "tis",
+          "strong": "5100",
+          "morphology": "X-NSM",
+          "lemma": "τις"
+        },
+        {
+          "ind": "di antara",
+          "origUnicode": "ἐν ἐν",
+          "origAscii": "en en",
+          "strong": "1722",
+          "morphology": "PREP PREP",
+          "lemma": "ἐν ἐν"
+        },
+        {
+          "ind": "kamu",
+          "strong": "5213",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "baiklah",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "ia memanggil",
+          "origUnicode": "προσκαλεσάσθω",
+          "origAscii": "proskalesasthō",
+          "strong": "4341",
+          "morphology": "V-ADM-3S",
+          "lemma": "προσκαλέω"
+        },
+        {
+          "ind": "para",
+          "origUnicode": "τοὺς τῆς τῷ τοῦ",
+          "origAscii": "tous tēs tō tou",
+          "strong": "3588",
+          "morphology": "T-APM T-GSF T-DSN T-GSM",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "penatua",
+          "origUnicode": "πρεσβυτέρους",
+          "origAscii": "presbuterous",
+          "strong": "4245",
+          "morphology": "N-APM",
+          "lemma": "πρεσβύτερος"
+        },
+        {
+          "ind": "",
+          "origUnicode": "τοὺς τῆς τῷ τοῦ",
+          "origAscii": "tous tēs tō tou",
+          "strong": "3588",
+          "morphology": "T-APM T-GSF T-DSN T-GSM",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "jemaat",
+          "origUnicode": "ἐκκλησίας",
+          "origAscii": "ekklēsias",
+          "strong": "1577",
+          "morphology": "N-GSF",
+          "lemma": "ἐκκλησία"
+        },
+        {
+          "ind": "supaya",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί"
+        },
+        {
+          "ind": "mereka mendoakan",
+          "origUnicode": "προσευξάσθωσαν",
+          "origAscii": "proseuxasthōsan",
+          "strong": "4336",
+          "morphology": "V-ADM-3P",
+          "lemma": "προσεύχομαι"
+        },
+        {
+          "ind": "",
+          "origUnicode": "ἐπ᾽",
+          "origAscii": "ep᾽",
+          "strong": "1909",
+          "morphology": "PREP",
+          "lemma": "ἐπί"
+        },
+        {
+          "ind": "dia",
+          "strong": "846",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "serta",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "mengolesnya",
+          "strong": "218",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "dengan",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "minyak",
+          "origUnicode": "ἐλαίῳ",
+          "origAscii": "elaiō",
+          "strong": "1637",
+          "morphology": "N-DSN",
+          "lemma": "ἔλαιον"
+        },
+        {
+          "ind": "dalam",
+          "origUnicode": "ἐν ἐν",
+          "origAscii": "en en",
+          "strong": "1722",
+          "morphology": "PREP PREP",
+          "lemma": "ἐν ἐν"
+        },
+        {
+          "ind": "",
+          "origUnicode": "τοὺς τῆς τῷ τοῦ",
+          "origAscii": "tous tēs tō tou",
+          "strong": "3588",
+          "morphology": "T-APM T-GSF T-DSN T-GSM",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "nama",
+          "origUnicode": "ὀνόματι",
+          "origAscii": "onomati",
+          "strong": "3686",
+          "morphology": "N-DSN",
+          "lemma": "ὄνομα"
+        },
+        {
+          "ind": "",
+          "origUnicode": "τοὺς τῆς τῷ τοῦ",
+          "origAscii": "tous tēs tō tou",
+          "strong": "3588",
+          "morphology": "T-APM T-GSF T-DSN T-GSM",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "Tuhan",
+          "origUnicode": "κυρίου.",
+          "origAscii": "kuriou",
+          "strong": "2962",
+          "morphology": "N-GSM-T",
+          "lemma": "κύριος"
+        }
+      ],
+      "origFullText": "ἀσθενεῖ τις ἐν ὑμῖν; προσκαλεσάσθω τοὺς πρεσβυτέρους τῆς ἐκκλησίας καὶ προσευξάσθωσαν ἐπ᾽ αὐτὸν ἀλείψαντες αὐτὸν ἐλαίῳ ἐν τῷ ὀνόματι τοῦ κυρίου."
+    },
+    {
+      "number": "15",
+      "originalUnits": [
+        {
+          "ind": "Dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 0
+        },
+        {
+          "ind": "",
+          "origUnicode": "ἡ",
+          "origAscii": "hē",
+          "strong": "3588",
+          "morphology": "T-NSF",
+          "lemma": "ὁ",
+          "sabdaIndex": 1
+        },
+        {
+          "ind": "doa",
+          "origUnicode": "εὐχὴ",
+          "origAscii": "euchē",
+          "strong": "2171",
+          "morphology": "N-NSF",
+          "lemma": "εὐχή",
+          "sabdaIndex": 2
+        },
+        {
+          "ind": "yang lahir dari",
+          "origUnicode": "τῆς",
+          "origAscii": "tēs",
+          "strong": "3588",
+          "morphology": "T-GSF",
+          "lemma": "ὁ",
+          "sabdaIndex": 3
+        },
+        {
+          "ind": "iman",
+          "origUnicode": "πίστεως",
+          "origAscii": "pisteōs",
+          "strong": "4102",
+          "morphology": "N-GSF",
+          "lemma": "πίστις",
+          "sabdaIndex": 4
+        },
+        {
+          "ind": "akan menyelamatkan",
+          "origUnicode": "σώσει",
+          "origAscii": "sōsei",
+          "strong": "4982",
+          "morphology": "V-FAI-3S",
+          "lemma": "σῴζω",
+          "sabdaIndex": 5
+        },
+        {
+          "ind": "orang",
+          "origUnicode": "τὸν",
+          "origAscii": "ton",
+          "strong": "3588",
+          "morphology": "T-ASM",
+          "lemma": "ὁ",
+          "sabdaIndex": 6
+        },
+        {
+          "ind": "sakit",
+          "origUnicode": "κάμνοντα",
+          "origAscii": "kamnonta",
+          "strong": "2577",
+          "morphology": "V-PAP-ASM",
+          "lemma": "κάμνω",
+          "sabdaIndex": 7
+        },
+        {
+          "ind": "itu dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 9
+        },
+        {
+          "ind": "akan membangunkan",
+          "origUnicode": "ἐγερεῖ",
+          "origAscii": "egerei",
+          "strong": "1453",
+          "morphology": "V-FAI-3S",
+          "lemma": "ἐγείρω",
+          "sabdaIndex": 10
+        },
+        {
+          "ind": "dia",
+          "origUnicode": "αὐτὸν",
+          "origAscii": "auton",
+          "strong": "0846",
+          "morphology": "P-ASM",
+          "lemma": "αὐτός",
+          "sabdaIndex": 11
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ",
+          "origAscii": "ho",
+          "strong": "3588",
+          "morphology": "T-NSM",
+          "lemma": "ὁ",
+          "sabdaIndex": 12
+        },
+        {
+          "ind": "Tuhan",
+          "origUnicode": "κύριος·",
+          "origAscii": "kurios",
+          "strong": "2962",
+          "morphology": "N-NSM-T",
+          "lemma": "κύριος",
+          "sabdaIndex": 13
+        },
+        {
+          "ind": "",
+          "origUnicode": "κἂν",
+          "origAscii": "kan",
+          "strong": "2532",
+          "morphology": "CONJ + G1437",
+          "lemma": "κἄν",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "dosa",
+          "origUnicode": "ἁμαρτίας",
+          "origAscii": "hamartias",
+          "strong": "0266",
+          "morphology": "N-APF",
+          "lemma": "ἁμαρτία",
+          "sabdaIndex": 15
+        },
+        {
+          "ind": "ia",
+          "origUnicode": "ᾖ",
+          "origAscii": "ē",
+          "strong": "1510",
+          "morphology": "V-PAS-3S",
+          "lemma": "εἰμί",
+          "sabdaIndex": 16
+        },
+        {
+          "ind": "telah berbuat",
+          "origUnicode": "πεποιηκώς,",
+          "origAscii": "pepoiēkōs",
+          "strong": "4160",
+          "morphology": "V-RAP-NSM",
+          "lemma": "ποιέω",
+          "sabdaIndex": 17
+        },
+        {
+          "ind": "akan diampuni",
+          "origUnicode": "ἀφεθήσεται",
+          "origAscii": "aphethēsetai",
+          "strong": "0863",
+          "morphology": "V-FPI-3S",
+          "lemma": "ἀφίημι",
+          "sabdaIndex": 19
+        },
+        {
+          "ind": "maka dosanya itu",
+          "origUnicode": "αὐτῷ.¶",
+          "origAscii": "autō",
+          "strong": "0846",
+          "morphology": "P-DSM",
+          "lemma": "αὐτός",
+          "sabdaIndex": 20
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "Dan",
+          "origUnicode": "καὶ καὶ κἂν",
+          "origAscii": "kai kai kan",
+          "strong": "2532",
+          "morphology": "CONJ CONJ CONJ + G1437",
+          "lemma": "καί καί κἄν"
+        },
+        {
+          "ind": "",
+          "origUnicode": "ἡ τῆς τὸν ὁ",
+          "origAscii": "hē tēs ton ho",
+          "strong": "3588",
+          "morphology": "T-NSF T-GSF T-ASM T-NSM",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "doa",
+          "origUnicode": "εὐχὴ",
+          "origAscii": "euchē",
+          "strong": "2171",
+          "morphology": "N-NSF",
+          "lemma": "εὐχή"
+        },
+        {
+          "ind": "yang lahir dari",
+          "origUnicode": "ἡ τῆς τὸν ὁ",
+          "origAscii": "hē tēs ton ho",
+          "strong": "3588",
+          "morphology": "T-NSF T-GSF T-ASM T-NSM",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "iman",
+          "origUnicode": "πίστεως",
+          "origAscii": "pisteōs",
+          "strong": "4102",
+          "morphology": "N-GSF",
+          "lemma": "πίστις"
+        },
+        {
+          "ind": "akan menyelamatkan",
+          "origUnicode": "σώσει",
+          "origAscii": "sōsei",
+          "strong": "4982",
+          "morphology": "V-FAI-3S",
+          "lemma": "σῴζω"
+        },
+        {
+          "ind": "orang",
+          "origUnicode": "ἡ τῆς τὸν ὁ",
+          "origAscii": "hē tēs ton ho",
+          "strong": "3588",
+          "morphology": "T-NSF T-GSF T-ASM T-NSM",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "sakit",
+          "origUnicode": "κάμνοντα",
+          "origAscii": "kamnonta",
+          "strong": "2577",
+          "morphology": "V-PAP-ASM",
+          "lemma": "κάμνω"
+        },
+        {
+          "ind": "itu",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ καὶ κἂν",
+          "origAscii": "kai kai kan",
+          "strong": "2532",
+          "morphology": "CONJ CONJ CONJ + G1437",
+          "lemma": "καί καί κἄν"
+        },
+        {
+          "ind": "akan membangunkan",
+          "origUnicode": "ἐγερεῖ",
+          "origAscii": "egerei",
+          "strong": "1453",
+          "morphology": "V-FAI-3S",
+          "lemma": "ἐγείρω"
+        },
+        {
+          "ind": "dia",
+          "strong": "846",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "",
+          "origUnicode": "ἡ τῆς τὸν ὁ",
+          "origAscii": "hē tēs ton ho",
+          "strong": "3588",
+          "morphology": "T-NSF T-GSF T-ASM T-NSM",
+          "lemma": "ὁ ὁ ὁ ὁ"
+        },
+        {
+          "ind": "Tuhan",
+          "origUnicode": "κύριος·",
+          "origAscii": "kurios",
+          "strong": "2962",
+          "morphology": "N-NSM-T",
+          "lemma": "κύριος"
+        },
+        {
+          "ind": "dan jika",
+          "strong": "2579",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "dosa",
+          "strong": "266",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "ia",
+          "origUnicode": "ᾖ",
+          "origAscii": "ē",
+          "strong": "1510",
+          "morphology": "V-PAS-3S",
+          "lemma": "εἰμί"
+        },
+        {
+          "ind": "telah berbuat",
+          "origUnicode": "πεποιηκώς,",
+          "origAscii": "pepoiēkōs",
+          "strong": "4160",
+          "morphology": "V-RAP-NSM",
+          "lemma": "ποιέω"
+        },
+        {
+          "ind": "maka dosanya itu",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "akan diampuni",
+          "strong": "863",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "",
+          "strong": "846",
+          "morphology": "",
+          "lemma": ""
+        }
+      ],
+      "origFullText": "καὶ ἡ εὐχὴ τῆς πίστεως σώσει τὸν κάμνοντα καὶ ἐγερεῖ αὐτὸν ὁ κύριος· κἂν ἁμαρτίας ᾖ πεποιηκώς, ἀφεθήσεται αὐτῷ.¶"
+    },
+    {
+      "number": "16",
+      "originalUnits": [
+        {
+          "ind": "hendaklah kamu mengaku",
+          "origUnicode": "ἐξομολογεῖσθε",
+          "origAscii": "exomologeisthe",
+          "strong": "1843",
+          "morphology": "V-PMM-2P",
+          "lemma": "ἐξομολογέομαι",
+          "sabdaIndex": 1
+        },
+        {
+          "ind": "Karena itu",
+          "origUnicode": "οὖν",
+          "origAscii": "oun",
+          "strong": "3767",
+          "morphology": "CONJ",
+          "lemma": "οὖν",
+          "sabdaIndex": 2
+        },
+        {
+          "ind": "saling",
+          "origUnicode": "ἀλλήλοις",
+          "origAscii": "allēlois",
+          "strong": "0240",
+          "morphology": "C-DPM",
+          "lemma": "ἀλλήλων",
+          "sabdaIndex": 3
+        },
+        {
+          "ind": "",
+          "origUnicode": "τὰς",
+          "origAscii": "tas",
+          "strong": "3588",
+          "morphology": "T-APF",
+          "lemma": "ὁ",
+          "sabdaIndex": 4
+        },
+        {
+          "ind": "dosamu",
+          "origUnicode": "ἁμαρτίας",
+          "origAscii": "hamartias",
+          "strong": "0266",
+          "morphology": "N-APF",
+          "lemma": "ἁμαρτία",
+          "sabdaIndex": 5
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 6
+        },
+        {
+          "ind": "",
+          "origUnicode": "εὔχεσθε",
+          "origAscii": "euchesthe",
+          "strong": "2172",
+          "morphology": "V-PNM-2P",
+          "lemma": "εὔχομαι",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑπὲρ",
+          "origAscii": "huper",
+          "strong": "5228",
+          "morphology": "PREP",
+          "lemma": "ὑπέρ",
+          "sabdaIndex": 8
+        },
+        {
+          "ind": "saling",
+          "origUnicode": "ἀλλήλων,",
+          "origAscii": "allēlōn",
+          "strong": "0240",
+          "morphology": "C-GPM",
+          "lemma": "ἀλλήλων",
+          "sabdaIndex": 9
+        },
+        {
+          "ind": "supaya",
+          "origUnicode": "ὅπως",
+          "origAscii": "hopōs",
+          "strong": "3704",
+          "morphology": "CONJ",
+          "lemma": "ὅπως",
+          "sabdaIndex": 10
+        },
+        {
+          "ind": "kamu sembuh",
+          "origUnicode": "ἰαθῆτε·",
+          "origAscii": "iathēte",
+          "strong": "2390",
+          "morphology": "V-APS-2P",
+          "lemma": "ἰάομαι",
+          "sabdaIndex": 11
+        },
+        {
+          "ind": "bila dengan yakin didoakan",
+          "origUnicode": "πολὺ",
+          "origAscii": "polu",
+          "strong": "4183",
+          "morphology": "A-ASN",
+          "lemma": "πολύς",
+          "sabdaIndex": 12
+        },
+        {
+          "ind": "sangat besar",
+          "origUnicode": "ἰσχύει",
+          "origAscii": "ischuei",
+          "strong": "2480",
+          "morphology": "V-PAI-3S",
+          "lemma": "ἰσχύω",
+          "sabdaIndex": 13
+        },
+        {
+          "ind": "Doa",
+          "origUnicode": "δέησις",
+          "origAscii": "deēsis",
+          "strong": "1162",
+          "morphology": "N-NSF",
+          "lemma": "δέησις",
+          "sabdaIndex": 14
+        },
+        {
+          "ind": "orang yang benar",
+          "origUnicode": "δικαίου",
+          "origAscii": "dikaiou",
+          "strong": "1342",
+          "morphology": "A-GSM",
+          "lemma": "δίκαιος",
+          "sabdaIndex": 16
+        },
+        {
+          "ind": "kuasanya",
+          "origUnicode": "ἐνεργουμένη.",
+          "origAscii": "energoumenē",
+          "strong": "1754",
+          "morphology": "V-PMP-NSF",
+          "lemma": "ἐνεργέω",
+          "sabdaIndex": 17
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "hendaklah",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "kamu mengaku",
+          "origUnicode": "ἐξομολογεῖσθε",
+          "origAscii": "exomologeisthe",
+          "strong": "1843",
+          "morphology": "V-PMM-2P",
+          "lemma": "ἐξομολογέομαι"
+        },
+        {
+          "ind": "Karena itu",
+          "origUnicode": "οὖν",
+          "origAscii": "oun",
+          "strong": "3767",
+          "morphology": "CONJ",
+          "lemma": "οὖν"
+        },
+        {
+          "ind": "saling",
+          "strong": "240",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "",
+          "origUnicode": "τὰς",
+          "origAscii": "tas",
+          "strong": "3588",
+          "morphology": "T-APF",
+          "lemma": "ὁ"
+        },
+        {
+          "ind": "dosamu",
+          "strong": "266",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί"
+        },
+        {
+          "ind": "mendoakan",
+          "strong": "4336",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑπὲρ",
+          "origAscii": "huper",
+          "strong": "5228",
+          "morphology": "PREP",
+          "lemma": "ὑπέρ"
+        },
+        {
+          "ind": "saling",
+          "strong": "240",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "supaya",
+          "origUnicode": "ὅπως",
+          "origAscii": "hopōs",
+          "strong": "3704",
+          "morphology": "CONJ",
+          "lemma": "ὅπως"
+        },
+        {
+          "ind": "kamu sembuh",
+          "origUnicode": "ἰαθῆτε·",
+          "origAscii": "iathēte",
+          "strong": "2390",
+          "morphology": "V-APS-2P",
+          "lemma": "ἰάομαι"
+        },
+        {
+          "ind": "bila dengan yakin didoakan",
+          "origUnicode": "πολὺ",
+          "origAscii": "polu",
+          "strong": "4183",
+          "morphology": "A-ASN",
+          "lemma": "πολύς"
+        },
+        {
+          "ind": "sangat besar",
+          "origUnicode": "ἰσχύει",
+          "origAscii": "ischuei",
+          "strong": "2480",
+          "morphology": "V-PAI-3S",
+          "lemma": "ἰσχύω"
+        },
+        {
+          "ind": "Doa",
+          "origUnicode": "δέησις",
+          "origAscii": "deēsis",
+          "strong": "1162",
+          "morphology": "N-NSF",
+          "lemma": "δέησις"
+        },
+        {
+          "ind": "orang yang",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "benar",
+          "origUnicode": "δικαίου",
+          "origAscii": "dikaiou",
+          "strong": "1342",
+          "morphology": "A-GSM",
+          "lemma": "δίκαιος"
+        },
+        {
+          "ind": "kuasanya",
+          "origUnicode": "ἐνεργουμένη.",
+          "origAscii": "energoumenē",
+          "strong": "1754",
+          "morphology": "V-PMP-NSF",
+          "lemma": "ἐνεργέω"
+        }
+      ],
+      "origFullText": "ἐξομολογεῖσθε οὖν ἀλλήλοις τὰς ἁμαρτίας καὶ εὔχεσθε ὑπὲρ ἀλλήλων, ὅπως ἰαθῆτε· πολὺ ἰσχύει δέησις δικαίου ἐνεργουμένη."
+    },
+    {
+      "number": "17",
+      "originalUnits": [
+        {
+          "ind": "Elia",
+          "origUnicode": "Ἠλίας",
+          "origAscii": "Ēlias",
+          "strong": "2243",
+          "morphology": "N-NSM-P",
+          "lemma": "Ἡλίας",
+          "sabdaIndex": 0
+        },
+        {
+          "ind": "manusia",
+          "origUnicode": "ἄνθρωπος",
+          "origAscii": "anthrōpos",
+          "strong": "0444",
+          "morphology": "N-NSM",
+          "lemma": "ἄνθρωπος",
+          "sabdaIndex": 1
+        },
+        {
+          "ind": "adalah",
+          "origUnicode": "ἦν",
+          "origAscii": "ēn",
+          "strong": "1510",
+          "morphology": "V-IAI-3S",
+          "lemma": "εἰμί",
+          "sabdaIndex": 2
+        },
+        {
+          "ind": "biasa sama seperti",
+          "origUnicode": "ὁμοιοπαθὴς",
+          "origAscii": "homoiopathēs",
+          "strong": "3663",
+          "morphology": "A-NSM",
+          "lemma": "ὁμοιοπαθής",
+          "sabdaIndex": 4
+        },
+        {
+          "ind": "",
+          "origUnicode": "ἡμῖν",
+          "origAscii": "hēmin",
+          "strong": "3165",
+          "morphology": "P-1DP",
+          "lemma": "ἐγώ",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 6
+        },
+        {
+          "ind": "ia telah bersungguh-sungguh",
+          "origUnicode": "προσευχῇ",
+          "origAscii": "proseuchēa",
+          "strong": "4335",
+          "morphology": "N-DSF",
+          "lemma": "προσευχή",
+          "sabdaIndex": 7
+        },
+        {
+          "ind": "berdoa",
+          "origUnicode": "προσηύξατο",
+          "origAscii": "prosēuxato",
+          "strong": "4336",
+          "morphology": "V-ADI-3S",
+          "lemma": "προσεύχομαι",
+          "sabdaIndex": 8
+        },
+        {
+          "ind": "supaya",
+          "origUnicode": "τοῦ",
+          "origAscii": "tou",
+          "strong": "3588",
+          "morphology": "T-GSN",
+          "lemma": "ὁ",
+          "sabdaIndex": 9
+        },
+        {
+          "ind": "jangan",
+          "origUnicode": "μὴ",
+          "origAscii": "mē",
+          "strong": "3361",
+          "morphology": "PRT-N",
+          "lemma": "μή",
+          "sabdaIndex": 10
+        },
+        {
+          "ind": "hujan turun",
+          "origUnicode": "βρέξαι·",
+          "origAscii": "brexai",
+          "strong": "1026",
+          "morphology": "V-AAN",
+          "lemma": "βρέχω",
+          "sabdaIndex": 12
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 13
+        },
+        {
+          "ind": "tidak",
+          "origUnicode": "οὐκ",
+          "origAscii": "ouk",
+          "strong": "3756",
+          "morphology": "PRT-N",
+          "lemma": "οὐ",
+          "sabdaIndex": 14
+        },
+        {
+          "ind": "hujanpun turun",
+          "origUnicode": "ἔβρεξεν",
+          "origAscii": "ebrexen",
+          "strong": "1026",
+          "morphology": "V-AAI-3S",
+          "lemma": "βρέχω",
+          "sabdaIndex": 15
+        },
+        {
+          "ind": "di",
+          "origUnicode": "ἐπὶ",
+          "origAscii": "epi",
+          "strong": "1909",
+          "morphology": "PREP",
+          "lemma": "ἐπί",
+          "sabdaIndex": 16
+        },
+        {
+          "ind": "selama",
+          "origUnicode": "τῆς",
+          "origAscii": "tēs",
+          "strong": "3588",
+          "morphology": "T-GSF",
+          "lemma": "ὁ",
+          "sabdaIndex": 17
+        },
+        {
+          "ind": "bumi",
+          "origUnicode": "γῆς",
+          "origAscii": "gēs",
+          "strong": "1093",
+          "morphology": "N-GSF",
+          "lemma": "γῆ",
+          "sabdaIndex": 18
+        },
+        {
+          "ind": "tahun",
+          "origUnicode": "ἐνιαυτοὺς",
+          "origAscii": "eniautous",
+          "strong": "1763",
+          "morphology": "N-APM",
+          "lemma": "ἐνιαυτός",
+          "sabdaIndex": 19
+        },
+        {
+          "ind": "tiga",
+          "origUnicode": "τρεῖς",
+          "origAscii": "treis",
+          "strong": "5140",
+          "morphology": "A-APM",
+          "lemma": "τρεῖς, τρία",
+          "sabdaIndex": 21
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 22
+        },
+        {
+          "ind": "bulan",
+          "origUnicode": "μῆνας",
+          "origAscii": "mēnas",
+          "strong": "3376",
+          "morphology": "N-APM",
+          "lemma": "μήν",
+          "sabdaIndex": 23
+        },
+        {
+          "ind": "enam",
+          "origUnicode": "ἕξ·",
+          "origAscii": "hex",
+          "strong": "1803",
+          "morphology": "A-NUI",
+          "lemma": "ἕξ",
+          "sabdaIndex": 24
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "Elia",
+          "origUnicode": "Ἠλίας",
+          "origAscii": "Ēlias",
+          "strong": "2243",
+          "morphology": "N-NSM-P",
+          "lemma": "Ἡλίας"
+        },
+        {
+          "ind": "manusia",
+          "strong": "444",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "adalah",
+          "origUnicode": "ἦν",
+          "origAscii": "ēn",
+          "strong": "1510",
+          "morphology": "V-IAI-3S",
+          "lemma": "εἰμί"
+        },
+        {
+          "ind": "biasa",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "sama seperti",
+          "origUnicode": "ὁμοιοπαθὴς",
+          "origAscii": "homoiopathēs",
+          "strong": "3663",
+          "morphology": "A-NSM",
+          "lemma": "ὁμοιοπαθής"
+        },
+        {
+          "ind": "kita",
+          "strong": "2254",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ καὶ καὶ",
+          "origAscii": "kai kai kai",
+          "strong": "2532",
+          "morphology": "CONJ CONJ CONJ",
+          "lemma": "καί καί καί"
+        },
+        {
+          "ind": "ia telah bersungguh-sungguh",
+          "origUnicode": "προσευχῇ",
+          "origAscii": "proseuchēa",
+          "strong": "4335",
+          "morphology": "N-DSF",
+          "lemma": "προσευχή"
+        },
+        {
+          "ind": "berdoa",
+          "origUnicode": "προσηύξατο",
+          "origAscii": "prosēuxato",
+          "strong": "4336",
+          "morphology": "V-ADI-3S",
+          "lemma": "προσεύχομαι"
+        },
+        {
+          "ind": "",
+          "origUnicode": "τοῦ τῆς",
+          "origAscii": "tou tēs",
+          "strong": "3588",
+          "morphology": "T-GSN T-GSF",
+          "lemma": "ὁ ὁ"
+        },
+        {
+          "ind": "jangan",
+          "origUnicode": "μὴ",
+          "origAscii": "mē",
+          "strong": "3361",
+          "morphology": "PRT-N",
+          "lemma": "μή"
+        },
+        {
+          "ind": "supaya",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "hujan turun",
+          "origUnicode": "βρέξαι· ἔβρεξεν",
+          "origAscii": "brexai ebrexen",
+          "strong": "1026",
+          "morphology": "V-AAN V-AAI-3S",
+          "lemma": "βρέχω βρέχω"
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ καὶ καὶ",
+          "origAscii": "kai kai kai",
+          "strong": "2532",
+          "morphology": "CONJ CONJ CONJ",
+          "lemma": "καί καί καί"
+        },
+        {
+          "ind": "tidak",
+          "origUnicode": "οὐκ",
+          "origAscii": "ouk",
+          "strong": "3756",
+          "morphology": "PRT-N",
+          "lemma": "οὐ"
+        },
+        {
+          "ind": "hujanpun turun",
+          "origUnicode": "βρέξαι· ἔβρεξεν",
+          "origAscii": "brexai ebrexen",
+          "strong": "1026",
+          "morphology": "V-AAN V-AAI-3S",
+          "lemma": "βρέχω βρέχω"
+        },
+        {
+          "ind": "di",
+          "origUnicode": "ἐπὶ",
+          "origAscii": "epi",
+          "strong": "1909",
+          "morphology": "PREP",
+          "lemma": "ἐπί"
+        },
+        {
+          "ind": "",
+          "origUnicode": "τοῦ τῆς",
+          "origAscii": "tou tēs",
+          "strong": "3588",
+          "morphology": "T-GSN T-GSF",
+          "lemma": "ὁ ὁ"
+        },
+        {
+          "ind": "bumi",
+          "origUnicode": "γῆς",
+          "origAscii": "gēs",
+          "strong": "1093",
+          "morphology": "N-GSF",
+          "lemma": "γῆ"
+        },
+        {
+          "ind": "tahun",
+          "origUnicode": "ἐνιαυτοὺς",
+          "origAscii": "eniautous",
+          "strong": "1763",
+          "morphology": "N-APM",
+          "lemma": "ἐνιαυτός"
+        },
+        {
+          "ind": "selama",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "tiga",
+          "origUnicode": "τρεῖς",
+          "origAscii": "treis",
+          "strong": "5140",
+          "morphology": "A-APM",
+          "lemma": "τρεῖς, τρία"
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ καὶ καὶ",
+          "origAscii": "kai kai kai",
+          "strong": "2532",
+          "morphology": "CONJ CONJ CONJ",
+          "lemma": "καί καί καί"
+        },
+        {
+          "ind": "bulan",
+          "origUnicode": "μῆνας",
+          "origAscii": "mēnas",
+          "strong": "3376",
+          "morphology": "N-APM",
+          "lemma": "μήν"
+        },
+        {
+          "ind": "enam",
+          "origUnicode": "ἕξ·",
+          "origAscii": "hex",
+          "strong": "1803",
+          "morphology": "A-NUI",
+          "lemma": "ἕξ"
+        }
+      ],
+      "origFullText": "Ἠλίας ἄνθρωπος ἦν ὁμοιοπαθὴς ἡμῖν καὶ προσευχῇ προσηύξατο τοῦ μὴ βρέξαι· καὶ οὐκ ἔβρεξεν ἐπὶ τῆς γῆς ἐνιαυτοὺς τρεῖς καὶ μῆνας ἕξ·"
+    },
+    {
+      "number": "18",
+      "originalUnits": [
+        {
+          "ind": "Lalu",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 0
+        },
+        {
+          "ind": "pula",
+          "origUnicode": "πάλιν",
+          "origAscii": "palin",
+          "strong": "3825",
+          "morphology": "ADV",
+          "lemma": "πάλιν",
+          "sabdaIndex": 1
+        },
+        {
+          "ind": "ia berdoa",
+          "origUnicode": "προσηύξατο",
+          "origAscii": "prosēuxato",
+          "strong": "4336",
+          "morphology": "V-ADI-3S",
+          "lemma": "προσεύχομαι",
+          "sabdaIndex": 2
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 3
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ",
+          "origAscii": "ho",
+          "strong": "3588",
+          "morphology": "T-NSM",
+          "lemma": "ὁ",
+          "sabdaIndex": 4
+        },
+        {
+          "ind": "langit",
+          "origUnicode": "οὐρανὸς",
+          "origAscii": "ouranos",
+          "strong": "3772",
+          "morphology": "N-NSM",
+          "lemma": "οὐρανός",
+          "sabdaIndex": 5
+        },
+        {
+          "ind": "hujan",
+          "origUnicode": "ὑετὸν",
+          "origAscii": "hu'eton",
+          "strong": "5205",
+          "morphology": "N-ASM",
+          "lemma": "ὑετός",
+          "sabdaIndex": 6
+        },
+        {
+          "ind": "menurunkan",
+          "origUnicode": "ἔδωκεν",
+          "origAscii": "edōken",
+          "strong": "1325",
+          "morphology": "V-AAI-3S",
+          "lemma": "δίδωμι",
+          "sabdaIndex": 7
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 8
+        },
+        {
+          "ind": "",
+          "origUnicode": "ἡ",
+          "origAscii": "hē",
+          "strong": "3588",
+          "morphology": "T-NSF",
+          "lemma": "ὁ",
+          "sabdaIndex": 9
+        },
+        {
+          "ind": "bumipun",
+          "origUnicode": "γῆ",
+          "origAscii": "gē",
+          "strong": "1093",
+          "morphology": "N-NSF",
+          "lemma": "γῆ",
+          "sabdaIndex": 10
+        },
+        {
+          "ind": "mengeluarkan",
+          "origUnicode": "ἐβλάστησεν",
+          "origAscii": "eblastēsen",
+          "strong": "0985",
+          "morphology": "V-AAI-3S",
+          "lemma": "βλαστάνω",
+          "sabdaIndex": 11
+        },
+        {
+          "ind": "",
+          "origUnicode": "τὸν",
+          "origAscii": "ton",
+          "strong": "3588",
+          "morphology": "T-ASM",
+          "lemma": "ὁ",
+          "sabdaIndex": 12
+        },
+        {
+          "ind": "buahnya",
+          "origUnicode": "καρπὸν",
+          "origAscii": "karpon",
+          "strong": "2590",
+          "morphology": "N-ASM",
+          "lemma": "καρπός",
+          "sabdaIndex": 13
+        },
+        {
+          "ind": "",
+          "origUnicode": "αὐτῆς.¶",
+          "origAscii": "autēs",
+          "strong": "0846",
+          "morphology": "P-GSF",
+          "lemma": "αὐτός",
+          "sabdaIndex": 14
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "Lalu",
+          "origUnicode": "καὶ καὶ καὶ",
+          "origAscii": "kai kai kai",
+          "strong": "2532",
+          "morphology": "CONJ CONJ CONJ",
+          "lemma": "καί καί καί"
+        },
+        {
+          "ind": "pula",
+          "origUnicode": "πάλιν",
+          "origAscii": "palin",
+          "strong": "3825",
+          "morphology": "ADV",
+          "lemma": "πάλιν"
+        },
+        {
+          "ind": "ia berdoa",
+          "origUnicode": "προσηύξατο",
+          "origAscii": "prosēuxato",
+          "strong": "4336",
+          "morphology": "V-ADI-3S",
+          "lemma": "προσεύχομαι"
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ καὶ καὶ",
+          "origAscii": "kai kai kai",
+          "strong": "2532",
+          "morphology": "CONJ CONJ CONJ",
+          "lemma": "καί καί καί"
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ ἡ τὸν",
+          "origAscii": "ho hē ton",
+          "strong": "3588",
+          "morphology": "T-NSM T-NSF T-ASM",
+          "lemma": "ὁ ὁ ὁ"
+        },
+        {
+          "ind": "langit",
+          "origUnicode": "οὐρανὸς",
+          "origAscii": "ouranos",
+          "strong": "3772",
+          "morphology": "N-NSM",
+          "lemma": "οὐρανός"
+        },
+        {
+          "ind": "hujan",
+          "origUnicode": "ὑετὸν",
+          "origAscii": "hu'eton",
+          "strong": "5205",
+          "morphology": "N-ASM",
+          "lemma": "ὑετός"
+        },
+        {
+          "ind": "menurunkan",
+          "origUnicode": "ἔδωκεν",
+          "origAscii": "edōken",
+          "strong": "1325",
+          "morphology": "V-AAI-3S",
+          "lemma": "δίδωμι"
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ καὶ καὶ",
+          "origAscii": "kai kai kai",
+          "strong": "2532",
+          "morphology": "CONJ CONJ CONJ",
+          "lemma": "καί καί καί"
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ ἡ τὸν",
+          "origAscii": "ho hē ton",
+          "strong": "3588",
+          "morphology": "T-NSM T-NSF T-ASM",
+          "lemma": "ὁ ὁ ὁ"
+        },
+        {
+          "ind": "bumipun",
+          "origUnicode": "γῆ",
+          "origAscii": "gē",
+          "strong": "1093",
+          "morphology": "N-NSF",
+          "lemma": "γῆ"
+        },
+        {
+          "ind": "mengeluarkan",
+          "strong": "985",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ ἡ τὸν",
+          "origAscii": "ho hē ton",
+          "strong": "3588",
+          "morphology": "T-NSM T-NSF T-ASM",
+          "lemma": "ὁ ὁ ὁ"
+        },
+        {
+          "ind": "buahnya",
+          "origUnicode": "καρπὸν",
+          "origAscii": "karpon",
+          "strong": "2590",
+          "morphology": "N-ASM",
+          "lemma": "καρπός"
+        },
+        {
+          "ind": "",
+          "strong": "846",
+          "morphology": "",
+          "lemma": ""
+        }
+      ],
+      "origFullText": "καὶ πάλιν προσηύξατο καὶ ὁ οὐρανὸς ὑετὸν ἔδωκεν καὶ ἡ γῆ ἐβλάστησεν τὸν καρπὸν αὐτῆς.¶"
+    },
+    {
+      "number": "19",
+      "originalUnits": [
+        {
+          "ind": "Saudara-saudaraku",
+          "origUnicode": "Ἀδελφοί",
+          "origAscii": "Adelphoi",
+          "strong": "0080",
+          "morphology": "N-VPM",
+          "lemma": "ἀδελφός",
+          "sabdaIndex": 0
+        },
+        {
+          "ind": "",
+          "origUnicode": "μου,",
+          "origAscii": "mou",
+          "strong": "3165",
+          "morphology": "P-1GS",
+          "lemma": "ἐγώ",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "jika",
+          "origUnicode": "ἐάν",
+          "origAscii": "ean",
+          "strong": "1437",
+          "morphology": "COND",
+          "lemma": "ἐάν",
+          "sabdaIndex": 2
+        },
+        {
+          "ind": "ada",
+          "origUnicode": "τις",
+          "origAscii": "tis",
+          "strong": "5100",
+          "morphology": "X-NSM",
+          "lemma": "τις",
+          "sabdaIndex": 3
+        },
+        {
+          "ind": "di antara",
+          "origUnicode": "ἐν",
+          "origAscii": "en",
+          "strong": "1722",
+          "morphology": "PREP",
+          "lemma": "ἐν",
+          "sabdaIndex": 4
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὑμῖν",
+          "origAscii": "humin",
+          "strong": "4771",
+          "morphology": "P-2DP",
+          "lemma": "σύ",
+          "sabdaIndex": -1
+        },
+        {
+          "ind": "menyimpang",
+          "origUnicode": "πλανηθῇ",
+          "origAscii": "planēthēa",
+          "strong": "4105",
+          "morphology": "V-APS-3S",
+          "lemma": "πλανάω",
+          "sabdaIndex": 7
+        },
+        {
+          "ind": "dari",
+          "origUnicode": "ἀπὸ",
+          "origAscii": "apo",
+          "strong": "0575",
+          "morphology": "PREP",
+          "lemma": "ἀπό",
+          "sabdaIndex": 8
+        },
+        {
+          "ind": "yang yang",
+          "origUnicode": "τῆς",
+          "origAscii": "tēs",
+          "strong": "3588",
+          "morphology": "T-GSF",
+          "lemma": "ὁ",
+          "sabdaIndex": 9
+        },
+        {
+          "ind": "kebenaran",
+          "origUnicode": "ἀληθείας",
+          "origAscii": "alētheias",
+          "strong": "0225",
+          "morphology": "N-GSF",
+          "lemma": "ἀλήθεια",
+          "sabdaIndex": 10
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 11
+        },
+        {
+          "ind": "membuat berbalik",
+          "origUnicode": "ἐπιστρέψῃ",
+          "origAscii": "epistrepsē",
+          "strong": "1994",
+          "morphology": "V-AAS-3S",
+          "lemma": "ἐπιστρέφω",
+          "sabdaIndex": 13
+        },
+        {
+          "ind": "ada seorang",
+          "origUnicode": "τις",
+          "origAscii": "tis",
+          "strong": "5100",
+          "morphology": "X-NSM",
+          "lemma": "τις",
+          "sabdaIndex": 14
+        },
+        {
+          "ind": "dia",
+          "origUnicode": "αὐτόν,",
+          "origAscii": "auton",
+          "strong": "0846",
+          "morphology": "P-ASM",
+          "lemma": "αὐτός",
+          "sabdaIndex": 15
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "Saudara-saudaraku",
+          "strong": "80",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "",
+          "strong": "3450",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "jika",
+          "origUnicode": "ἐάν",
+          "origAscii": "ean",
+          "strong": "1437",
+          "morphology": "COND",
+          "lemma": "ἐάν"
+        },
+        {
+          "ind": "ada",
+          "origUnicode": "τις τις",
+          "origAscii": "tis tis",
+          "strong": "5100",
+          "morphology": "X-NSM X-NSM",
+          "lemma": "τις τις"
+        },
+        {
+          "ind": "di antara",
+          "origUnicode": "ἐν",
+          "origAscii": "en",
+          "strong": "1722",
+          "morphology": "PREP",
+          "lemma": "ἐν"
+        },
+        {
+          "ind": "kamu",
+          "strong": "5213",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "yang",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "menyimpang",
+          "origUnicode": "πλανηθῇ",
+          "origAscii": "planēthēa",
+          "strong": "4105",
+          "morphology": "V-APS-3S",
+          "lemma": "πλανάω"
+        },
+        {
+          "ind": "dari",
+          "strong": "575",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "",
+          "origUnicode": "τῆς",
+          "origAscii": "tēs",
+          "strong": "3588",
+          "morphology": "T-GSF",
+          "lemma": "ὁ"
+        },
+        {
+          "ind": "kebenaran",
+          "strong": "225",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί"
+        },
+        {
+          "ind": "yang",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "membuat berbalik",
+          "origUnicode": "ἐπιστρέψῃ",
+          "origAscii": "epistrepsē",
+          "strong": "1994",
+          "morphology": "V-AAS-3S",
+          "lemma": "ἐπιστρέφω"
+        },
+        {
+          "ind": "ada seorang",
+          "origUnicode": "τις τις",
+          "origAscii": "tis tis",
+          "strong": "5100",
+          "morphology": "X-NSM X-NSM",
+          "lemma": "τις τις"
+        },
+        {
+          "ind": "dia",
+          "strong": "846",
+          "morphology": "",
+          "lemma": ""
+        }
+      ],
+      "origFullText": "Ἀδελφοί μου, ἐάν τις ἐν ὑμῖν πλανηθῇ ἀπὸ τῆς ἀληθείας καὶ ἐπιστρέψῃ τις αὐτόν,"
+    },
+    {
+      "number": "20",
+      "originalUnits": [
+        {
+          "ind": "ketahuilah",
+          "origUnicode": "γινωσκέτω",
+          "origAscii": "ginōsketō",
+          "strong": "1097",
+          "morphology": "V-PAM-3S",
+          "lemma": "γινώσκω",
+          "sabdaIndex": 0
+        },
+        {
+          "ind": "bahwa",
+          "origUnicode": "ὅτι",
+          "origAscii": "hoti",
+          "strong": "3754",
+          "morphology": "CONJ",
+          "lemma": "ὅτι",
+          "sabdaIndex": 1
+        },
+        {
+          "ind": "barangsiapa membuat",
+          "origUnicode": "ὁ",
+          "origAscii": "ho",
+          "strong": "3588",
+          "morphology": "T-NSM",
+          "lemma": "ὁ",
+          "sabdaIndex": 2
+        },
+        {
+          "ind": "berbalik",
+          "origUnicode": "ἐπιστρέψας",
+          "origAscii": "epistrepsas",
+          "strong": "1994",
+          "morphology": "V-AAP-NSM",
+          "lemma": "ἐπιστρέφω",
+          "sabdaIndex": 3
+        },
+        {
+          "ind": "orang berdosa",
+          "origUnicode": "ἁμαρτωλὸν",
+          "origAscii": "hamartōlon",
+          "strong": "0268",
+          "morphology": "A-ASM",
+          "lemma": "ἁμαρτωλός",
+          "sabdaIndex": 5
+        },
+        {
+          "ind": "dari",
+          "origUnicode": "ἐκ",
+          "origAscii": "ek",
+          "strong": "1537",
+          "morphology": "PREP",
+          "lemma": "ἐκ",
+          "sabdaIndex": 6
+        },
+        {
+          "ind": "sesat",
+          "origUnicode": "πλάνης",
+          "origAscii": "planēs",
+          "strong": "4106",
+          "morphology": "N-GSF",
+          "lemma": "πλάνη",
+          "sabdaIndex": 8
+        },
+        {
+          "ind": "jalannya",
+          "origUnicode": "ὁδοῦ",
+          "origAscii": "hodou",
+          "strong": "3598",
+          "morphology": "N-GSF",
+          "lemma": "ὁδός",
+          "sabdaIndex": 9
+        },
+        {
+          "ind": "yang",
+          "origUnicode": "αὐτοῦ,",
+          "origAscii": "autou",
+          "strong": "0846",
+          "morphology": "P-GSM",
+          "lemma": "αὐτός",
+          "sabdaIndex": 10
+        },
+        {
+          "ind": "ia akan menyelamatkan",
+          "origUnicode": "σώσει",
+          "origAscii": "sōsei",
+          "strong": "4982",
+          "morphology": "V-FAI-3S",
+          "lemma": "σῴζω",
+          "sabdaIndex": 11
+        },
+        {
+          "ind": "jiwa",
+          "origUnicode": "ψυχὴν",
+          "origAscii": "psuchēn",
+          "strong": "5590",
+          "morphology": "N-ASF",
+          "lemma": "ψυχή",
+          "sabdaIndex": 12
+        },
+        {
+          "ind": "orang itu",
+          "origUnicode": "αὐτοῦ",
+          "origAscii": "autou",
+          "strong": "0846",
+          "morphology": "P-GSM",
+          "lemma": "αὐτός",
+          "sabdaIndex": 13
+        },
+        {
+          "ind": "dari",
+          "origUnicode": "ἐκ",
+          "origAscii": "ek",
+          "strong": "1537",
+          "morphology": "PREP",
+          "lemma": "ἐκ",
+          "sabdaIndex": 14
+        },
+        {
+          "ind": "maut",
+          "origUnicode": "θανάτου",
+          "origAscii": "thanatou",
+          "strong": "2288",
+          "morphology": "N-GSM",
+          "lemma": "θάνατος",
+          "sabdaIndex": 15
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί",
+          "sabdaIndex": 16
+        },
+        {
+          "ind": "menutupi",
+          "origUnicode": "καλύψει",
+          "origAscii": "kalupsei",
+          "strong": "2572",
+          "morphology": "V-FAI-3S",
+          "lemma": "καλύπτω",
+          "sabdaIndex": 17
+        },
+        {
+          "ind": "banyak",
+          "origUnicode": "πλῆθος",
+          "origAscii": "plēthos",
+          "strong": "4128",
+          "morphology": "N-ASN",
+          "lemma": "πλῆθος",
+          "sabdaIndex": 18
+        },
+        {
+          "ind": "dosa",
+          "origUnicode": "ἁμαρτιῶν.¶",
+          "origAscii": "hamartiōn",
+          "strong": "0266",
+          "morphology": "N-GPF",
+          "lemma": "ἁμαρτία",
+          "sabdaIndex": 19
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "ketahuilah",
+          "origUnicode": "γινωσκέτω",
+          "origAscii": "ginōsketō",
+          "strong": "1097",
+          "morphology": "V-PAM-3S",
+          "lemma": "γινώσκω"
+        },
+        {
+          "ind": "bahwa",
+          "origUnicode": "ὅτι",
+          "origAscii": "hoti",
+          "strong": "3754",
+          "morphology": "CONJ",
+          "lemma": "ὅτι"
+        },
+        {
+          "ind": "",
+          "origUnicode": "ὁ",
+          "origAscii": "ho",
+          "strong": "3588",
+          "morphology": "T-NSM",
+          "lemma": "ὁ"
+        },
+        {
+          "ind": "berbalik",
+          "origUnicode": "ἐπιστρέψας",
+          "origAscii": "epistrepsas",
+          "strong": "1994",
+          "morphology": "V-AAP-NSM",
+          "lemma": "ἐπιστρέφω"
+        },
+        {
+          "ind": "barangsiapa membuat",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "orang berdosa",
+          "strong": "268",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "dari",
+          "origUnicode": "ἐκ ἐκ",
+          "origAscii": "ek ek",
+          "strong": "1537",
+          "morphology": "PREP PREP",
+          "lemma": "ἐκ ἐκ"
+        },
+        {
+          "ind": "yang",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "sesat",
+          "origUnicode": "πλάνης",
+          "origAscii": "planēs",
+          "strong": "4106",
+          "morphology": "N-GSF",
+          "lemma": "πλάνη"
+        },
+        {
+          "ind": "jalannya",
+          "origUnicode": "ὁδοῦ",
+          "origAscii": "hodou",
+          "strong": "3598",
+          "morphology": "N-GSF",
+          "lemma": "ὁδός"
+        },
+        {
+          "ind": "",
+          "strong": "846",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "ia akan menyelamatkan",
+          "origUnicode": "σώσει",
+          "origAscii": "sōsei",
+          "strong": "4982",
+          "morphology": "V-FAI-3S",
+          "lemma": "σῴζω"
+        },
+        {
+          "ind": "jiwa",
+          "origUnicode": "ψυχὴν",
+          "origAscii": "psuchēn",
+          "strong": "5590",
+          "morphology": "N-ASF",
+          "lemma": "ψυχή"
+        },
+        {
+          "ind": "orang itu",
+          "strong": "846",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "dari",
+          "origUnicode": "ἐκ ἐκ",
+          "origAscii": "ek ek",
+          "strong": "1537",
+          "morphology": "PREP PREP",
+          "lemma": "ἐκ ἐκ"
+        },
+        {
+          "ind": "maut",
+          "origUnicode": "θανάτου",
+          "origAscii": "thanatou",
+          "strong": "2288",
+          "morphology": "N-GSM",
+          "lemma": "θάνατος"
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "καὶ",
+          "origAscii": "kai",
+          "strong": "2532",
+          "morphology": "CONJ",
+          "lemma": "καί"
+        },
+        {
+          "ind": "menutupi",
+          "origUnicode": "καλύψει",
+          "origAscii": "kalupsei",
+          "strong": "2572",
+          "morphology": "V-FAI-3S",
+          "lemma": "καλύπτω"
+        },
+        {
+          "ind": "banyak",
+          "origUnicode": "πλῆθος",
+          "origAscii": "plēthos",
+          "strong": "4128",
+          "morphology": "N-ASN",
+          "lemma": "πλῆθος"
+        },
+        {
+          "ind": "dosa",
+          "strong": "266",
+          "morphology": "",
+          "lemma": ""
+        }
+      ],
+      "origFullText": "γινωσκέτω ὅτι ὁ ἐπιστρέψας ἁμαρτωλὸν ἐκ πλάνης ὁδοῦ αὐτοῦ, σώσει ψυχὴν αὐτοῦ ἐκ θανάτου καὶ καλύψει πλῆθος ἁμαρτιῶν.¶"
+    }
+  ]
+}
