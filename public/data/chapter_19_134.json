@@ -1,0 +1,514 @@
+{
+  "title": "Mazmur 134",
+  "verses": [
+    {
+      "number": "1",
+      "originalUnits": [
+        {
+          "ind": "Nyanyian",
+          "origUnicode": "שִׁ֗יר",
+          "origAscii": "shiyr",
+          "strong": "7892",
+          "morphology": "HNcbsc",
+          "lemma": "7892 a",
+          "sabdaIndex": 0
+        },
+        {
+          "ind": "ziarah",
+          "origUnicode": "הַֽמַּ֫עֲל֥וֹת",
+          "origAscii": "ha/maalot",
+          "strong": "4609",
+          "morphology": "HTd/Ncfpa",
+          "lemma": "d/4609 b",
+          "sabdaIndex": 1
+        },
+        {
+          "ind": "Mari",
+          "origUnicode": "הִנֵּ֤ה",
+          "origAscii": "hineh",
+          "strong": "2009",
+          "morphology": "HTm",
+          "lemma": "2009",
+          "sabdaIndex": 2
+        },
+        {
+          "ind": "pujilah",
+          "origUnicode": "בָּרֲכ֣וּ",
+          "origAscii": "barakhu",
+          "strong": "1288",
+          "morphology": "HVpv2mp",
+          "lemma": "1288",
+          "sabdaIndex": 3
+        },
+        {
+          "ind": "hai",
+          "origUnicode": "אֶת־",
+          "origAscii": "et-",
+          "strong": "853",
+          "morphology": "HTo",
+          "lemma": "853",
+          "sabdaIndex": 4
+        },
+        {
+          "ind": "TUHAN",
+          "origUnicode": "יְ֭הוָה",
+          "origAscii": "yehvah",
+          "strong": "3068",
+          "morphology": "HNp",
+          "lemma": "3068",
+          "sabdaIndex": 5
+        },
+        {
+          "ind": "semua",
+          "origUnicode": "כָּל־",
+          "origAscii": "kal-",
+          "strong": "3605",
+          "morphology": "HNcmsc",
+          "lemma": "3605",
+          "sabdaIndex": 7
+        },
+        {
+          "ind": "hamba",
+          "origUnicode": "עַבְדֵ֣י",
+          "origAscii": "avedey",
+          "strong": "5650",
+          "morphology": "HNcmpc",
+          "lemma": "5650",
+          "sabdaIndex": 8
+        },
+        {
+          "ind": "TUHAN",
+          "origUnicode": "יְהוָ֑ה",
+          "origAscii": "yehvah",
+          "strong": "3068",
+          "morphology": "HNp",
+          "lemma": "3068",
+          "sabdaIndex": 9
+        },
+        {
+          "ind": "yang datang melayani",
+          "origUnicode": "הָעֹמְדִ֥ים",
+          "origAscii": "ha/omediym",
+          "strong": "5975",
+          "morphology": "HTd/Vqrmpa",
+          "lemma": "d/5975",
+          "sabdaIndex": 11
+        },
+        {
+          "ind": "di rumah",
+          "origUnicode": "בְּבֵית־",
+          "origAscii": "be/veyt-",
+          "strong": "1004",
+          "morphology": "HR/Ncmsc",
+          "lemma": "b/1004 b",
+          "sabdaIndex": 13
+        },
+        {
+          "ind": "TUHAN",
+          "origUnicode": "יְ֝הוָ֗ה",
+          "origAscii": "yehvah",
+          "strong": "3068",
+          "morphology": "HNp",
+          "lemma": "3068",
+          "sabdaIndex": 14
+        },
+        {
+          "ind": "pada waktu malam",
+          "origUnicode": "בַּלֵּילֽוֹת",
+          "origAscii": "ba/leylot",
+          "strong": "3915",
+          "morphology": "HRd/Ncmpa",
+          "lemma": "b/3915",
+          "sabdaIndex": 16
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "Nyanyian",
+          "origUnicode": "שִׁ֗יר",
+          "origAscii": "shiyr",
+          "strong": "7892",
+          "morphology": "HNcbsc",
+          "lemma": "7892 a"
+        },
+        {
+          "ind": "ziarah",
+          "origUnicode": "הַֽ/מַּ֫עֲל֥וֹת",
+          "origAscii": "ha/maalot",
+          "strong": "4609",
+          "morphology": "HTd/Ncfpa",
+          "lemma": "d/4609 b"
+        },
+        {
+          "ind": "Mari",
+          "origUnicode": "הִנֵּ֤ה",
+          "origAscii": "hineh",
+          "strong": "2009",
+          "morphology": "HTm",
+          "lemma": "2009"
+        },
+        {
+          "ind": "pujilah",
+          "origUnicode": "בָּרֲכ֣וּ",
+          "origAscii": "barakhu",
+          "strong": "1288",
+          "morphology": "HVpv2mp",
+          "lemma": "1288"
+        },
+        {
+          "ind": "",
+          "origUnicode": "אֶת־",
+          "origAscii": "et-",
+          "strong": "853",
+          "morphology": "HTo",
+          "lemma": "853"
+        },
+        {
+          "ind": "TUHAN",
+          "origUnicode": "יְ֭הוָה יְהוָ֑ה יְ֝הוָ֗ה",
+          "origAscii": "yehvah yehvah yehvah",
+          "strong": "3068",
+          "morphology": "HNp HNp HNp",
+          "lemma": "3068 3068 3068"
+        },
+        {
+          "ind": "hai",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "semua",
+          "origUnicode": "כָּל־",
+          "origAscii": "kal-",
+          "strong": "3605",
+          "morphology": "HNcmsc",
+          "lemma": "3605"
+        },
+        {
+          "ind": "hamba",
+          "origUnicode": "עַבְדֵ֣י",
+          "origAscii": "avedey",
+          "strong": "5650",
+          "morphology": "HNcmpc",
+          "lemma": "5650"
+        },
+        {
+          "ind": "TUHAN",
+          "origUnicode": "יְ֭הוָה יְהוָ֑ה יְ֝הוָ֗ה",
+          "origAscii": "yehvah yehvah yehvah",
+          "strong": "3068",
+          "morphology": "HNp HNp HNp",
+          "lemma": "3068 3068 3068"
+        },
+        {
+          "ind": "yang",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "datang melayani",
+          "origUnicode": "הָ/עֹמְדִ֥ים",
+          "origAscii": "ha/omediym",
+          "strong": "5975",
+          "morphology": "HTd/Vqrmpa",
+          "lemma": "d/5975"
+        },
+        {
+          "ind": "di",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "rumah",
+          "origUnicode": "בְּ/בֵית־",
+          "origAscii": "be/veyt-",
+          "strong": "1004",
+          "morphology": "HR/Ncmsc",
+          "lemma": "b/1004 b"
+        },
+        {
+          "ind": "TUHAN",
+          "origUnicode": "יְ֭הוָה יְהוָ֑ה יְ֝הוָ֗ה",
+          "origAscii": "yehvah yehvah yehvah",
+          "strong": "3068",
+          "morphology": "HNp HNp HNp",
+          "lemma": "3068 3068 3068"
+        },
+        {
+          "ind": "pada",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "waktu malam",
+          "origUnicode": "בַּ/לֵּילֽוֹת",
+          "origAscii": "ba/leylot",
+          "strong": "3915",
+          "morphology": "HRd/Ncmpa",
+          "lemma": "b/3915"
+        }
+      ],
+      "origFullText": "שִׁ֗יר הַֽ/מַּ֫עֲל֥וֹת הִנֵּ֤ה בָּרֲכ֣וּ אֶת־ יְ֭הוָה כָּל־ עַבְדֵ֣י יְהוָ֑ה הָ/עֹמְדִ֥ים בְּ/בֵית־ יְ֝הוָ֗ה בַּ/לֵּילֽוֹת"
+    },
+    {
+      "number": "2",
+      "originalUnits": [
+        {
+          "ind": "Angkatlah",
+          "origUnicode": "שְׂאֽוּ־",
+          "origAscii": "seu-",
+          "strong": "5375",
+          "morphology": "HVqv2mp",
+          "lemma": "5375",
+          "sabdaIndex": 0
+        },
+        {
+          "ind": "tanganmu",
+          "origUnicode": "יְדֵכֶ֥ם",
+          "origAscii": "yede/khem",
+          "strong": "3027",
+          "morphology": "HNcbdc/Sp2mp",
+          "lemma": "3027",
+          "sabdaIndex": 1
+        },
+        {
+          "ind": "ke tempat kudus",
+          "origUnicode": "קֹ֑דֶשׁ",
+          "origAscii": "qodesh",
+          "strong": "6944",
+          "morphology": "HNcmsa",
+          "lemma": "6944",
+          "sabdaIndex": 3
+        },
+        {
+          "ind": "pujilah",
+          "origUnicode": "וּ֝בָרֲכוּ",
+          "origAscii": "u/varakhu",
+          "strong": "1288",
+          "morphology": "HC/Vpv2mp",
+          "lemma": "c/1288",
+          "sabdaIndex": 5
+        },
+        {
+          "ind": "dan",
+          "origUnicode": "אֶת־",
+          "origAscii": "et-",
+          "strong": "853",
+          "morphology": "HTo",
+          "lemma": "853",
+          "sabdaIndex": 6
+        },
+        {
+          "ind": "TUHAN",
+          "origUnicode": "יְהוָֽה",
+          "origAscii": "yehvah",
+          "strong": "3068",
+          "morphology": "HNp",
+          "lemma": "3068",
+          "sabdaIndex": 7
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "Angkatlah",
+          "origUnicode": "שְׂאֽוּ־",
+          "origAscii": "seu-",
+          "strong": "5375",
+          "morphology": "HVqv2mp",
+          "lemma": "5375"
+        },
+        {
+          "ind": "tanganmu",
+          "origUnicode": "יְדֵ/כֶ֥ם",
+          "origAscii": "yede/khem",
+          "strong": "3027",
+          "morphology": "HNcbdc/Sp2mp",
+          "lemma": "3027"
+        },
+        {
+          "ind": "ke",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "tempat kudus",
+          "origUnicode": "קֹ֑דֶשׁ",
+          "origAscii": "qodesh",
+          "strong": "6944",
+          "morphology": "HNcmsa",
+          "lemma": "6944"
+        },
+        {
+          "ind": "dan",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "pujilah",
+          "origUnicode": "וּ֝/בָרֲכוּ",
+          "origAscii": "u/varakhu",
+          "strong": "1288",
+          "morphology": "HC/Vpv2mp",
+          "lemma": "c/1288"
+        },
+        {
+          "ind": "",
+          "origUnicode": "אֶת־",
+          "origAscii": "et-",
+          "strong": "853",
+          "morphology": "HTo",
+          "lemma": "853"
+        },
+        {
+          "ind": "TUHAN",
+          "origUnicode": "יְהוָֽה",
+          "origAscii": "yehvah",
+          "strong": "3068",
+          "morphology": "HNp",
+          "lemma": "3068"
+        }
+      ],
+      "origFullText": "שְׂאֽוּ־ יְדֵ/כֶ֥ם קֹ֑דֶשׁ וּ֝/בָרֲכוּ אֶת־ יְהוָֽה"
+    },
+    {
+      "number": "3",
+      "originalUnits": [
+        {
+          "ind": "memberkati",
+          "origUnicode": "יְבָרֶכְךָ֣",
+          "origAscii": "yevarekhe/kha",
+          "strong": "1288",
+          "morphology": "HVpi3ms/Sp2ms",
+          "lemma": "1288",
+          "sabdaIndex": 0
+        },
+        {
+          "ind": "Kiranya TUHAN",
+          "origUnicode": "יְ֭הוָה",
+          "origAscii": "yehvah",
+          "strong": "3068",
+          "morphology": "HNp",
+          "lemma": "3068",
+          "sabdaIndex": 2
+        },
+        {
+          "ind": "engkau dari Sion",
+          "origUnicode": "מִצִּיּ֑וֹן",
+          "origAscii": "mi/tziyon",
+          "strong": "6726",
+          "morphology": "HR/Np",
+          "lemma": "m/6726",
+          "sabdaIndex": 4
+        },
+        {
+          "ind": "yang menjadikan",
+          "origUnicode": "עֹ֝שֵׂ֗ה",
+          "origAscii": "oseh",
+          "strong": "6213",
+          "morphology": "HVqrmsc",
+          "lemma": "6213 a",
+          "sabdaIndex": 6
+        },
+        {
+          "ind": "langit",
+          "origUnicode": "שָׁמַ֥יִם",
+          "origAscii": "shamayim",
+          "strong": "8064",
+          "morphology": "HNcmpa",
+          "lemma": "8064",
+          "sabdaIndex": 7
+        },
+        {
+          "ind": "dan bumi",
+          "origUnicode": "וָאָֽרֶץ",
+          "origAscii": "va/aretz",
+          "strong": "776",
+          "morphology": "HC/Ncbsa",
+          "lemma": "c/776",
+          "sabdaIndex": 9
+        }
+      ],
+      "indonesianUnits": [
+        {
+          "ind": "memberkati",
+          "origUnicode": "יְבָרֶכְ/ךָ֣",
+          "origAscii": "yevarekhe/kha",
+          "strong": "1288",
+          "morphology": "HVpi3ms/Sp2ms",
+          "lemma": "1288"
+        },
+        {
+          "ind": "Kiranya",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "TUHAN",
+          "origUnicode": "יְ֭הוָה",
+          "origAscii": "yehvah",
+          "strong": "3068",
+          "morphology": "HNp",
+          "lemma": "3068"
+        },
+        {
+          "ind": "engkau dari",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "Sion",
+          "origUnicode": "מִ/צִּיּ֑וֹן",
+          "origAscii": "mi/tziyon",
+          "strong": "6726",
+          "morphology": "HR/Np",
+          "lemma": "m/6726"
+        },
+        {
+          "ind": "yang",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "menjadikan",
+          "origUnicode": "עֹ֝שֵׂ֗ה",
+          "origAscii": "oseh",
+          "strong": "6213",
+          "morphology": "HVqrmsc",
+          "lemma": "6213 a"
+        },
+        {
+          "ind": "langit",
+          "origUnicode": "שָׁמַ֥יִם",
+          "origAscii": "shamayim",
+          "strong": "8064",
+          "morphology": "HNcmpa",
+          "lemma": "8064"
+        },
+        {
+          "ind": "dan",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
+        {
+          "ind": "bumi",
+          "origUnicode": "וָ/אָֽרֶץ",
+          "origAscii": "va/aretz",
+          "strong": "776",
+          "morphology": "HC/Ncbsa",
+          "lemma": "c/776"
+        }
+      ],
+      "origFullText": "יְבָרֶכְ/ךָ֣ יְ֭הוָה מִ/צִּיּ֑וֹן עֹ֝שֵׂ֗ה שָׁמַ֥יִם וָ/אָֽרֶץ"
+    }
+  ]
+}

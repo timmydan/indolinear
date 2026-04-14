@@ -1,8 +1,0 @@
-- Clone or download the project repository to your local computer.
-- Find the file named bible.db and delete it. (If you also see files named bible.db-journal, bible.db-wal, or bible.db-shm, delete those as well.)
-- Run `npm install` to install dependencies.
-- Run `npm run dev` in one terminal to start the local server.
--Run `npm run export` in another terminal. This will take a long time and will populate the `public/data/` folder with all the Bible chapters and Strong's definitions.
-- If there was an error resulting in a skipped chapter, run `npm run export` again.
-- Once the export is complete, run `npm run build:static`.
-- The resulting `dist/` folder will contain your fully static app (HTML, JS, CSS, and all the JSON data), which you can directly upload or deploy to GitHub Pages!
