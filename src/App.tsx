@@ -70,7 +70,22 @@ export default function App() {
   const [textSize, setTextSize] = useState(1);
   const [spacing, setSpacing] = useState(1);
   const [showSettings, setShowSettings] = useState(false);
-  const [isMobileLexiconExpanded, setIsMobileLexiconExpanded] = useState(false);
+  const [mobileHeight, setMobileHeight] = useState<number>(20); // default 20vh
+  const [isDragging, setIsDragging] = useState(false);
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    setIsDragging(true);
+    const touchY = e.touches[0].clientY;
+    const windowHeight = window.innerHeight;
+    let newVh = ((windowHeight - touchY) / windowHeight) * 100;
+    if (newVh < 15) newVh = 15;
+    if (newVh > 85) newVh = 85;
+    setMobileHeight(newVh);
+  };
+
+  const handleTouchEnd = () => {
+    setIsDragging(false);
+  };
 
   useEffect(() => {
     fetchBooks();
@@ -273,7 +288,9 @@ export default function App() {
                             if (unit.strong !== '0') {
                               setSelectedStrong(unit.strong);
                               setSelectedUnit(unit);
-                              setIsMobileLexiconExpanded(true);
+                              if (mobileHeight < 40) {
+                                setMobileHeight(45);
+                              }
                             }
                           }}
                           className={`flex flex-col items-center p-3 transition-all cursor-pointer rounded-lg min-w-[90px] ${isHovered ? 'bg-[#1A1A1A] text-[#F5F2ED] shadow-2xl scale-110 z-10' : 'hover:bg-[#1A1A1A]/5'}`}
@@ -325,19 +342,30 @@ export default function App() {
         {/* Sidebar */}
         <aside className="lg:col-span-1">
           <div className="fixed bottom-0 left-0 right-0 z-40 lg:sticky lg:top-24 lg:bottom-auto lg:left-auto lg:right-auto lg:z-auto transition-all duration-300">
-            <div className={`border-t lg:border border-[#1A1A1A]/10 p-4 lg:p-6 lg:rounded-lg bg-[#F5F2ED]/95 lg:bg-white/50 backdrop-blur-md lg:backdrop-blur-sm shadow-[0_-10px_40px_rgba(0,0,0,0.1)] lg:shadow-sm overflow-y-auto custom-scrollbar flex flex-col transition-all duration-300 ${isMobileLexiconExpanded ? 'h-[75vh]' : 'max-h-[30vh]'} lg:max-h-[calc(100vh-8rem)] lg:h-auto`}>
+            <div 
+              className={`border-t lg:border border-[#1A1A1A]/10 p-4 lg:p-6 lg:rounded-lg bg-[#F5F2ED]/95 lg:bg-white/50 backdrop-blur-md lg:backdrop-blur-sm shadow-[0_-10px_40px_rgba(0,0,0,0.1)] lg:shadow-sm overflow-y-auto overscroll-contain custom-scrollbar flex flex-col h-[var(--mobile-height)] lg:!h-auto lg:max-h-[calc(100vh-8rem)] ${isDragging ? 'duration-0' : 'transition-[height] duration-300'}`}
+              style={{ 
+                '--mobile-height': `${mobileHeight}vh`
+              } as React.CSSProperties}
+            >
               
-              {/* Mobile Drag Handle */}
+              {/* Mobile Drag Handle & Header */}
               <div 
-                className="lg:hidden flex justify-center pb-4 -mt-2 cursor-pointer"
-                onClick={() => setIsMobileLexiconExpanded(!isMobileLexiconExpanded)}
+                className="flex flex-col touch-none cursor-grab active:cursor-grabbing shrink-0"
+                onTouchMove={handleTouchMove}
+                onTouchEnd={handleTouchEnd}
+                onClick={() => {
+                  if (mobileHeight > 30) setMobileHeight(20);
+                  else setMobileHeight(45);
+                }}
               >
-                <div className="w-12 h-1.5 bg-[#1A1A1A]/20 rounded-full" />
-              </div>
-
-              <div className="flex items-center gap-2 border-b border-[#1A1A1A]/10 pb-3 mb-4 lg:mb-6 shrink-0">
-                <Info className="w-4 h-4" />
-                <h3 className="font-serif italic text-lg uppercase tracking-tight">Detail Leksikon</h3>
+                <div className="lg:hidden flex justify-center pb-4 -mt-2">
+                  <div className="w-12 h-1.5 bg-[#1A1A1A]/20 rounded-full" />
+                </div>
+                <div className="flex items-center gap-2 border-b border-[#1A1A1A]/10 pb-3 mb-4 lg:mb-6 pointer-events-none">
+                  <Info className="w-4 h-4" />
+                  <h3 className="font-serif italic text-lg uppercase tracking-tight">Detail Leksikon</h3>
+                </div>
               </div>
 
               {!selectedStrong ? (
