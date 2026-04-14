@@ -74,23 +74,49 @@ export function parseMorphology(code: string): { en: string; id: string } | null
         detailsEn.push(aspectEn);
         detailsId.push(aspectId);
 
-        if (currentCode.length >= 6) {
-          const person = currentCode[3];
-          const gender = currentCode[4];
-          const number = currentCode[5];
-
-          if (person !== 'x') {
-            detailsEn.push(`${person} person`);
-            detailsId.push(`orang ke-${person}`);
+        if (aspectCode === 'r' || aspectCode === 's') {
+          // Participles: Gender, Number, State
+          if (currentCode.length >= 4) {
+            const gender = currentCode[3];
+            if (gender === 'm') { detailsEn.push('masculine'); detailsId.push('maskulin'); }
+            if (gender === 'f') { detailsEn.push('feminine'); detailsId.push('feminin'); }
+            if (gender === 'b') { detailsEn.push('both'); detailsId.push('keduanya'); }
+            if (gender === 'c') { detailsEn.push('common'); detailsId.push('umum'); }
           }
-          if (gender === 'm') { detailsEn.push('masculine'); detailsId.push('maskulin'); }
-          if (gender === 'f') { detailsEn.push('feminine'); detailsId.push('feminin'); }
-          if (gender === 'b') { detailsEn.push('both'); detailsId.push('keduanya'); }
-          if (gender === 'c') { detailsEn.push('common'); detailsId.push('umum'); }
-
-          if (number === 's') { detailsEn.push('singular'); detailsId.push('tunggal'); }
-          if (number === 'p') { detailsEn.push('plural'); detailsId.push('jamak'); }
-          if (number === 'd') { detailsEn.push('dual'); detailsId.push('ganda'); }
+          if (currentCode.length >= 5) {
+            const number = currentCode[4];
+            if (number === 's') { detailsEn.push('singular'); detailsId.push('tunggal'); }
+            if (number === 'p') { detailsEn.push('plural'); detailsId.push('jamak'); }
+            if (number === 'd') { detailsEn.push('dual'); detailsId.push('ganda'); }
+          }
+          if (currentCode.length >= 6) {
+            const state = currentCode[5];
+            if (state === 'a') { detailsEn.push('absolute'); detailsId.push('absolut'); }
+            if (state === 'c') { detailsEn.push('construct'); detailsId.push('konstruk'); }
+            if (state === 'd') { detailsEn.push('determined'); detailsId.push('tertentu'); }
+          }
+        } else if (aspectCode !== 'a' && aspectCode !== 'c') {
+          // Regular verbs: Person, Gender, Number
+          if (currentCode.length >= 4) {
+            const person = currentCode[3];
+            if (person !== 'x' && person >= '1' && person <= '3') {
+              detailsEn.push(`${person} person`);
+              detailsId.push(`orang ke-${person}`);
+            }
+          }
+          if (currentCode.length >= 5) {
+            const gender = currentCode[4];
+            if (gender === 'm') { detailsEn.push('masculine'); detailsId.push('maskulin'); }
+            if (gender === 'f') { detailsEn.push('feminine'); detailsId.push('feminin'); }
+            if (gender === 'b') { detailsEn.push('both'); detailsId.push('keduanya'); }
+            if (gender === 'c') { detailsEn.push('common'); detailsId.push('umum'); }
+          }
+          if (currentCode.length >= 6) {
+            const number = currentCode[5];
+            if (number === 's') { detailsEn.push('singular'); detailsId.push('tunggal'); }
+            if (number === 'p') { detailsEn.push('plural'); detailsId.push('jamak'); }
+            if (number === 'd') { detailsEn.push('dual'); detailsId.push('ganda'); }
+          }
         }
       } else if (posCode === 'N') {
         // Noun parsing
