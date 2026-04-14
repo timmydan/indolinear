@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BookOpen, Info, ChevronLeft, ChevronRight, ExternalLink } from "lucide-react";
+import { BookOpen, Info, ChevronLeft, ChevronRight, ExternalLink, Settings2 } from "lucide-react";
 import { motion } from "motion/react";
 import { parseMorphology } from "./lib/morphology";
 
@@ -7,7 +7,7 @@ const STATIC_MODE = import.meta.env.VITE_STATIC_MODE === 'true';
 
 async function apiFetch(path: string) {
   if (STATIC_MODE) {
-	  // Use import.meta.env.BASE_URL to ensure paths are correct regardless of where the app is hosted (e.g. GitHub Pages subfolder)
+    // Use import.meta.env.BASE_URL to ensure paths are correct regardless of where the app is hosted (e.g. GitHub Pages subfolder)
     const base = import.meta.env.BASE_URL;
     if (path === '/api/books') {
       return fetch(`${base}data/books.json`);
@@ -67,6 +67,10 @@ export default function App() {
   const [strongData, setStrongData] = useState<StrongData | null>(null);
   const [strongLoading, setStrongLoading] = useState(false);
   const [hoveredStrong, setHoveredStrong] = useState<string | null>(null);
+  const [textSize, setTextSize] = useState(1);
+  const [spacing, setSpacing] = useState(1);
+  const [showSettings, setShowSettings] = useState(false);
+  const [isMobileLexiconExpanded, setIsMobileLexiconExpanded] = useState(false);
 
   useEffect(() => {
     fetchBooks();
@@ -139,7 +143,7 @@ export default function App() {
         <div className="flex items-center gap-6">
           <div className="flex items-center gap-3">
             {/* 
-			<button
+            <button
               onClick={async () => {
                 try {
                   await fetch('/api/admin/scrape', {
@@ -156,7 +160,7 @@ export default function App() {
             >
               Scrape & Cache Book
             </button>
-			*/}
+            */}
             <select 
               value={selectedBook}
               onChange={(e) => {
@@ -171,6 +175,36 @@ export default function App() {
             </select>
 
             <div className="flex items-center gap-1">
+              <div className="relative mr-2">
+                <button 
+                  onClick={() => setShowSettings(!showSettings)}
+                  className={`p-1.5 transition-colors border border-[#1A1A1A]/20 rounded-sm ${showSettings ? 'bg-[#1A1A1A] text-[#F5F2ED]' : 'hover:bg-[#1A1A1A]/10'}`}
+                >
+                  <Settings2 className="w-4 h-4" />
+                </button>
+                {showSettings && (
+                  <div className="absolute right-0 top-full mt-2 w-64 bg-[#F5F2ED] border border-[#1A1A1A]/20 rounded-lg shadow-xl p-4 z-50">
+                    <div className="space-y-4">
+                      <div>
+                        <label className="text-xs font-bold uppercase opacity-50 block mb-2">Ukuran Teks</label>
+                        <input 
+                          type="range" min="0.5" max="1.5" step="0.1" 
+                          value={textSize} onChange={(e) => setTextSize(parseFloat(e.target.value))}
+                          className="w-full accent-[#1A1A1A]"
+                        />
+                      </div>
+                      <div>
+                        <label className="text-xs font-bold uppercase opacity-50 block mb-2">Jarak Spasi</label>
+                        <input 
+                          type="range" min="0.5" max="1.5" step="0.1" 
+                          value={spacing} onChange={(e) => setSpacing(parseFloat(e.target.value))}
+                          className="w-full accent-[#1A1A1A]"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
               <button 
                 onClick={() => setSelectedChapter(prev => Math.max(1, parseInt(prev) - 1).toString())}
                 className="p-1.5 hover:bg-[#1A1A1A] hover:text-[#F5F2ED] transition-colors border border-[#1A1A1A]/20 rounded-sm"
@@ -214,15 +248,16 @@ export default function App() {
           ) : (
             <div className="space-y-16">
               {chapterData?.verses.map((verse) => (
-                <div key={verse.number} className="relative group pb-16 pl-12 sm:pl-16 border-b border-[#1A1A1A]/5 last:border-0">
+                <div key={verse.number} className="relative group pl-12 sm:pl-16 border-b border-[#1A1A1A]/5 last:border-0" style={{ paddingBottom: `${4 * spacing}rem` }}>
                   {/* Verse Number */}
-                  <div className="absolute left-0 top-0 font-serif italic text-2xl opacity-40 group-hover:opacity-100 transition-opacity">
+                  <div className="absolute left-0 top-0 font-serif italic opacity-40 group-hover:opacity-100 transition-opacity" style={{ fontSize: `${1.5 * textSize}rem` }}>
                     {verse.number}
                   </div>
 
                   {/* Interlinear Row */}
                   <div 
-                    className="flex flex-wrap gap-x-8 gap-y-14"
+                    className="flex flex-wrap"
+                    style={{ rowGap: `${3.5 * spacing}rem`, columnGap: `${2 * spacing}rem` }}
                     dir={isRTL ? 'rtl' : 'ltr'}
                   >
                     {verse.originalUnits.map((unit, idx) => {
@@ -238,20 +273,21 @@ export default function App() {
                             if (unit.strong !== '0') {
                               setSelectedStrong(unit.strong);
                               setSelectedUnit(unit);
+                              setIsMobileLexiconExpanded(true);
                             }
                           }}
                           className={`flex flex-col items-center p-3 transition-all cursor-pointer rounded-lg min-w-[90px] ${isHovered ? 'bg-[#1A1A1A] text-[#F5F2ED] shadow-2xl scale-110 z-10' : 'hover:bg-[#1A1A1A]/5'}`}
                         >
                           {/* Strong's Number */}
                           <div className="h-4 flex items-center justify-center mb-1">
-                            <span className={`font-mono text-[10px] tracking-tighter ${isHovered ? 'text-[#F5F2ED]/60' : 'text-[#1A1A1A]/30'}`}>
+                            <span className={`font-mono tracking-tighter ${isHovered ? 'text-[#F5F2ED]/60' : 'text-[#1A1A1A]/30'}`} style={{ fontSize: `${10 * textSize}px` }}>
                               {unit.strong !== '0' ? unit.strong : ''}
                             </span>
                           </div>
 
                           {/* Original Language Word */}
                           <div className="h-14 flex items-center justify-center">
-                            <span className={`text-4xl leading-none font-serif ${isHebrew ? 'font-bold' : ''}`}>
+                            <span className={`leading-none font-serif ${isHebrew ? 'font-bold' : ''}`} style={{ fontSize: `${2.25 * textSize}rem` }}>
                               {unit.origUnicode}
                             </span>
                           </div>
@@ -259,12 +295,12 @@ export default function App() {
                           {/* Transliteration & Morphology */}
                           <div className="h-8 flex flex-col items-center justify-center mt-1">
                             {hasInd && (
-                              <span className={`font-mono text-[11px] italic opacity-30 ${isHovered ? 'text-[#F5F2ED]' : ''}`}>
+                              <span className={`font-mono italic opacity-30 ${isHovered ? 'text-[#F5F2ED]' : ''}`} style={{ fontSize: `${11 * textSize}px` }}>
                                 {unit.origAscii}
                               </span>
                             )}
                             {unit.morphology && (
-                              <span className={`font-mono text-[9px] uppercase tracking-wider opacity-40 mt-0.5 ${isHovered ? 'text-[#F5F2ED]' : 'text-[#1A1A1A]'}`}>
+                              <span className={`font-mono uppercase tracking-wider opacity-40 mt-0.5 ${isHovered ? 'text-[#F5F2ED]' : 'text-[#1A1A1A]'}`} style={{ fontSize: `${9 * textSize}px` }}>
                                 {unit.morphology}
                               </span>
                             )}
@@ -272,7 +308,7 @@ export default function App() {
 
                           {/* Indonesian Translation */}
                           <div className="mt-3 pt-3 border-t border-[#1A1A1A]/10 w-full flex justify-center">
-                            <span className={`text-sm font-medium text-center max-w-[140px] leading-snug ${isHovered ? 'text-[#F5F2ED]' : 'text-[#1A1A1A]/80'}`}>
+                            <span className={`font-medium text-center max-w-[140px] leading-snug ${isHovered ? 'text-[#F5F2ED]' : 'text-[#1A1A1A]/80'}`} style={{ fontSize: `${0.875 * textSize}rem` }}>
                               {hasInd ? unit.ind : ''}
                             </span>
                           </div>
@@ -288,9 +324,18 @@ export default function App() {
 
         {/* Sidebar */}
         <aside className="lg:col-span-1">
-          <div className="fixed bottom-0 left-0 right-0 z-40 lg:sticky lg:top-24 lg:bottom-auto lg:left-auto lg:right-auto lg:z-auto">
-            <div className="border-t lg:border border-[#1A1A1A]/10 p-4 lg:p-6 lg:rounded-lg bg-[#F5F2ED]/95 lg:bg-white/50 backdrop-blur-md lg:backdrop-blur-sm shadow-[0_-10px_40px_rgba(0,0,0,0.1)] lg:shadow-sm max-h-[50vh] lg:max-h-[calc(100vh-8rem)] overflow-y-auto custom-scrollbar">
-              <div className="flex items-center gap-2 border-b border-[#1A1A1A]/10 pb-3 mb-4 lg:mb-6">
+          <div className="fixed bottom-0 left-0 right-0 z-40 lg:sticky lg:top-24 lg:bottom-auto lg:left-auto lg:right-auto lg:z-auto transition-all duration-300">
+            <div className={`border-t lg:border border-[#1A1A1A]/10 p-4 lg:p-6 lg:rounded-lg bg-[#F5F2ED]/95 lg:bg-white/50 backdrop-blur-md lg:backdrop-blur-sm shadow-[0_-10px_40px_rgba(0,0,0,0.1)] lg:shadow-sm overflow-y-auto custom-scrollbar flex flex-col transition-all duration-300 ${isMobileLexiconExpanded ? 'h-[75vh]' : 'max-h-[30vh]'} lg:max-h-[calc(100vh-8rem)] lg:h-auto`}>
+              
+              {/* Mobile Drag Handle */}
+              <div 
+                className="lg:hidden flex justify-center pb-4 -mt-2 cursor-pointer"
+                onClick={() => setIsMobileLexiconExpanded(!isMobileLexiconExpanded)}
+              >
+                <div className="w-12 h-1.5 bg-[#1A1A1A]/20 rounded-full" />
+              </div>
+
+              <div className="flex items-center gap-2 border-b border-[#1A1A1A]/10 pb-3 mb-4 lg:mb-6 shrink-0">
                 <Info className="w-4 h-4" />
                 <h3 className="font-serif italic text-lg uppercase tracking-tight">Detail Leksikon</h3>
               </div>
@@ -329,18 +374,18 @@ export default function App() {
                   </div>
 
                   <div>
-                    <div className="text-[9px] uppercase font-bold opacity-40 tracking-[0.2em] mb-2">Bahasa Inggris</div>
+                    <div className="text-[9px] uppercase font-bold opacity-40 tracking-[0.2em] mb-2">Definisi</div>
                     <div className="text-sm font-serif leading-relaxed text-[#1A1A1A]/90 bg-[#1A1A1A]/5 p-4 rounded-md border border-[#1A1A1A]/5">
-                      {strongData.nasbUsage}
+                      {strongData.definition}
                     </div>
                   </div>
 
-                  {/*{strongData.avUsage && (
+                  {strongData.avUsage && (
                     <div>
-                      <div className="text-[9px] uppercase font-bold opacity-40 tracking-[0.2em] mb-2">Bahasa Inggris</div>
+                      <div className="text-[9px] uppercase font-bold opacity-40 tracking-[0.2em] mb-2">Penggunaan AV</div>
                       <div className="text-xs leading-relaxed opacity-80">{strongData.avUsage}</div>
                     </div>
-                  )} */}
+                  )}
 
                   {selectedUnit?.morphology && (
                     <div>
