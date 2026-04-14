@@ -147,7 +147,7 @@
           "sabdaIndex": 0
         },
         {
-          "ind": "dan",
+          "ind": "",
           "origUnicode": "הָיְתָ֥ה",
           "origAscii": "hayetah",
           "strong": "1961",
@@ -165,7 +165,7 @@
           "sabdaIndex": 2
         },
         {
-          "ind": "kosong",
+          "ind": "dan kosong",
           "origUnicode": "וָבֹ֔הוּ",
           "origAscii": "va/vohu",
           "strong": "922",
@@ -183,7 +183,7 @@
           "sabdaIndex": 5
         },
         {
-          "ind": "dan",
+          "ind": "",
           "origUnicode": "עַל־",
           "origAscii": "al-",
           "strong": "5921",
@@ -290,13 +290,7 @@
           "lemma": "8414"
         },
         {
-          "ind": "dan",
-          "strong": "",
-          "morphology": "",
-          "lemma": ""
-        },
-        {
-          "ind": "kosong",
+          "ind": "dan kosong",
           "origUnicode": "וָ/בֹ֔הוּ",
           "origAscii": "va/vohu",
           "strong": "922",
@@ -432,7 +426,7 @@
           "sabdaIndex": 3
         },
         {
-          "ind": "itu jadi",
+          "ind": "Lalu jadi",
           "origUnicode": "וַֽיְהִי־",
           "origAscii": "va/yehiy-",
           "strong": "1961",
@@ -441,14 +435,20 @@
           "sabdaIndex": 5
         },
         {
-          "ind": "Lalu terang",
+          "ind": "terang",
           "origUnicode": "אֽוֹר",
           "origAscii": "or",
           "strong": "216",
           "morphology": "HNcbsa",
           "lemma": "216",
           "sabdaIndex": 7
-        }
+        },
+		{
+          "ind": "itu",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
       ],
       "indonesianUnits": [
         {
@@ -484,24 +484,12 @@
           "lemma": "216 216"
         },
         {
-          "ind": "itu",
-          "strong": "",
-          "morphology": "",
-          "lemma": ""
-        },
-        {
-          "ind": "jadi",
+          "ind": "Lalu jadi",
           "origUnicode": "יְהִ֣י וַֽ/יְהִי־",
           "origAscii": "yehiy va/yehiy-",
           "strong": "1961",
           "morphology": "HVqj3ms HC/Vqw3ms",
           "lemma": "1961 c/1961"
-        },
-        {
-          "ind": "Lalu",
-          "strong": "",
-          "morphology": "",
-          "lemma": ""
         },
         {
           "ind": "terang",
@@ -510,7 +498,13 @@
           "strong": "216",
           "morphology": "HNcbsa HNcbsa",
           "lemma": "216 216"
-        }
+        },
+		{
+          "ind": "itu",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
       ],
       "origFullText": "וַ/יֹּ֥אמֶר אֱלֹהִ֖ים יְהִ֣י א֑וֹר וַֽ/יְהִי־ אֽוֹר"
     },
@@ -535,8 +529,14 @@
           "lemma": "430",
           "sabdaIndex": 1
         },
+		{
+          "ind": "bahwa",
+          "strong": "",
+          "morphology": "",
+          "lemma": ""
+        },
         {
-          "ind": "itu",
+          "ind": "",
           "origUnicode": "אֶת־",
           "origAscii": "et-",
           "strong": "853",
@@ -545,7 +545,7 @@
           "sabdaIndex": 2
         },
         {
-          "ind": "terang",
+          "ind": "terang itu",
           "origUnicode": "הָא֖וֹר",
           "origAscii": "ha/or",
           "strong": "216",
@@ -572,7 +572,7 @@
           "sabdaIndex": 6
         },
         {
-          "ind": "lalu",
+          "ind": "lalu dipisahkan-",
           "origUnicode": "וַיַּבְדֵּ֣ל",
           "origAscii": "va/yavedel",
           "strong": "914",
@@ -581,7 +581,7 @@
           "sabdaIndex": 9
         },
         {
-          "ind": "dipisahkan-Nyalah",
+          "ind": "-Nyalah",
           "origUnicode": "אֱלֹהִ֔ים",
           "origAscii": "elohiym",
           "strong": "430",
@@ -590,7 +590,7 @@
           "sabdaIndex": 8
         },
         {
-          "ind": "itu",
+          "ind": "",
           "origUnicode": "בֵּ֥ין",
           "origAscii": "beyn",
           "strong": "996",
@@ -682,13 +682,7 @@
           "lemma": "2896 a"
         },
         {
-          "ind": "lalu",
-          "strong": "",
-          "morphology": "",
-          "lemma": ""
-        },
-        {
-          "ind": "dipisahkan-Nyalah",
+          "ind": "-Nyalah",
           "origUnicode": "אֱלֹהִ֛ים אֱלֹהִ֔ים",
           "origAscii": "elohiym elohiym",
           "strong": "430",
@@ -696,7 +690,7 @@
           "lemma": "430 430"
         },
         {
-          "ind": "",
+          "ind": "lalu dipisahkan-",
           "origUnicode": "וַ/יַּבְדֵּ֣ל",
           "origAscii": "va/yavedel",
           "strong": "914",
