@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { ChevronLeft, ChevronRight, BookOpen } from 'lucide-react';
 
 export default function InterlinearView({
@@ -12,6 +12,41 @@ export default function InterlinearView({
   currentBookName,
   currentChapter
 }) {
+  const touchStartX = useRef(null);
+  const touchStartY = useRef(null);
+
+  const handleTouchStart = (e) => {
+    if (e.touches && e.touches.length === 1) {
+      touchStartX.current = e.touches[0].clientX;
+      touchStartY.current = e.touches[0].clientY;
+    }
+  };
+
+  const handleTouchEnd = (e) => {
+    if (touchStartX.current === null || touchStartY.current === null) return;
+    if (!e.changedTouches || e.changedTouches.length === 0) return;
+
+    const touchEndX = e.changedTouches[0].clientX;
+    const touchEndY = e.changedTouches[0].clientY;
+
+    const deltaX = touchEndX - touchStartX.current;
+    const deltaY = touchEndY - touchStartY.current;
+
+    touchStartX.current = null;
+    touchStartY.current = null;
+
+    // Minimum swipe threshold: 60px horizontally & horizontal distance must dominate vertical scroll
+    if (Math.abs(deltaX) > 60 && Math.abs(deltaX) > Math.abs(deltaY) * 1.2) {
+      if (deltaX < 0) {
+        // Swiped Left -> Go to Next Chapter
+        onNextChapter();
+      } else {
+        // Swiped Right -> Go to Previous Chapter
+        onPrevChapter();
+      }
+    }
+  };
+
   if (!chapterData || chapterData.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center py-24 text-[var(--text-muted)]">
@@ -37,7 +72,11 @@ export default function InterlinearView({
   const fontConfig = fontSizes[settings.fontSize] || fontSizes.medium;
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
+    <div 
+      className="max-w-6xl mx-auto px-4 sm:px-6 py-8 select-none sm:select-text"
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
+    >
       
       {/* Top Chapter Navigation Banner */}
       <div className="flex items-center justify-between mb-8 pb-4 border-b border-[var(--border-color)]">
