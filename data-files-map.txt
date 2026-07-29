@@ -1,0 +1,11 @@
+* bib_id_ayt_texts.sql      : Teks AYT Kejadian-Wahyu
+* bib_id_aytst_texts.sql    : Teks AYT dengan nomor strong (embedded) Kejadian-Wahyu
+* bib_id_ayt_pl_words.sql   : Teks AYT Perjanjian Lama per kata
+* hebrew.sql                : Daftar kata dalam Ibrani
+* bhsstr_word.sql           : Teks Alkitab Biblia Hebraica Stuttgartensia (BHS) with Strong PL Ibrani Per Kata
+* itl_linkage_heb2ayt.sql   : Table korelasi Hebrew/Ibrani-AYT
+* bib_id_ayt_pb_words.sql   : Teks AYT Perjanjian Baru per kata
+* greek.sql                 : Daftar kata dalam Yunani
+* wh_word.sql               : Teks Alkitab Westcott-Hort PB Yunani per kata
+* itl_linkage_grk2ayt.sql   : Table korelasi per kata Alkitab Greek/Yunani-AYT
+* vrefs.sql                 : Table referensi ayat dari nomor 1-31102 ((Kejadian 1:1 s.d. Wahyu 22:21)
