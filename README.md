@@ -1,75 +1,96 @@
-# AYT Interlinear
+# Alkitab Interlinear AYT Modern (v2.0)
 
-## Apa itu AYT?
-Alkitab Yang Terbuka (AYT) adalah Alkitab berbahasa Indonesia yang dibuat dan diterbitkan oleh Yayasan Lembaga SABDA (YLSA) dengan dukungan para mitra untuk mempersembahkan sebuah versi Alkitab bahasa Indonesia yang tepat dan bertanggung jawab. AYT bukan Alkitab terjemahan baru, tetapi terjemahan ulang yang berdasar pada bahasa asli (Ibrani dan Yunani), Inggris, Indonesia, dan seluruh peralatan biblika modern.
+Situs web Alkitab Interlinear Indonesia modern berbasis React, Vite, dan Tailwind CSS. Aplikasi ini menampilkan teks **Ibrani BHS** (*Biblia Hebraica Stuttgartensia*) bervokal lengkap untuk Perjanjian Lama, teks **Yunani WH** (*Westcott-Hort*) beraksen lengkap untuk Perjanjian Baru, nomor Strong's, serta analisis morfologi dan tata bahasa dalam Bahasa Indonesia.
 
-## Definisi Interlinear
-Baris-baris paralel yang unsur-unsur kalimatnya saling berkorelasi dan memberi suatu informasi, sebagai “alat studi kata” bahasa tertentu.
+---
 
-## Kegunaan Interlinear
-Alkitab sebagai buku yang paling populer dan berpengaruh, paling banyak dicetak dan diterjemahkan dalam berbagai bahasa. (Namun) ada kemungkinan gap (kesenjangan) antar terjemahan, khususnya bahasa asli alkitab dan bahasa terjemahan.
-Interlinear sebagai sarana untuk melihat makna kata atau frasa pada teks asli.
+### ✨ Fitur Utama
 
-## Jenis-jenis Interlinear
-a. Classic Interlinear
-    ![Classic Interlinear](./assets/AYT_Classic_Interlinear__John_3_16.png)
-b. Reverse Interlinear
-    ![Classic Interlinear](./assets/AYT_Reverse_Interlinear__John_3_16.png)
-c. Bi-linear
-    ![Classic Interlinear](./assets/AYT_Bilinear__John_3_16.png)
+- **📖 Teks Asli Lengkap & Presisi**:
+  - **Perjanjian Lama**: Teks Ibrani BHS lengkap dengan penanda vokal (*nikud*) dan tanda baca (*cantillation*). Teks RTL (*Right-to-Left*).
+  - **Perjanjian Baru**: Teks Yunani WH lengkap dengan aksen dan tanda nafas.
+- **🇮🇩 Analisis Morfologi Bahasa Indonesia**:
+  - Penjelasan tata bahasa dan morfologi yang telah diterjemahkan ke dalam Bahasa Indonesia (misal: *Verba Presens Aktif Indikatif*, *Nomina Genitif Tunggal*).
+- **📚 Kamus Strong's & Pencarian**:
+  - Pencarian cepat berdasarkan nama kitab, referensi ayat (contoh: `Yoh 3:16`, `Kej 1:1`), atau nomor Strong's (contoh: `G976`, `H7225`).
+  - Pencarian nomor Strong's menampilkan kartu definisi kamus lengkap (*lemma*, transliterasi, pengucapan, terjemahan KJV, dan definisi) serta daftar kemunculan ayat.
+- **🔀 Tiga Mode Tampilan Interlinear**:
+  1. **Klasik**: Teks bahasa asli (Ibrani/Yunani) di atas, terjemahan AYT Indonesia di bawah.
+  2. **Terbalik**: Terjemahan AYT Indonesia di atas, teks bahasa asli di bawah dalam urutan LTR Bahasa Indonesia.
+  3. **Pararel (Bilinear)**: Kalimat utuh AYT diikuti dengan teks bahasa asli yang dapat diklik per kata.
+- **📱 Responsif & Tema Gelap/Terang**:
+  - Tampilan *mobile-first* dengan bar navigasi *Command Dock* melayang.
+  - Dukungan tema Gelap (*Dark Mode*) dan Terang (*Light Mode*) yang konsisten.
+  - Tombol **Salin Detail** kata yang kompatibel dengan perangkat seluler (*mobile fallback*).
 
-## Datasets
-Kami menyediakan data dalam format SQL, semua file berada dalam directory [data](./data). 
-Berikut ini adalah informasi tentang file-file tersebut:
-```
-* bib_id_ayt_texts.sql      : Teks AYT Kejadian-Wahyu
-* bib_id_aytst_texts.sql    : Teks AYT dengan nomor strong (embedded) Kejadian-Wahyu
-* bib_id_ayt_pl_words.sql   : Teks AYT Perjanjian Lama per kata
-* hebrew.sql                : Daftar kata dalam Ibrani
-* bhsstr_word.sql           : Teks Alkitab Biblia Hebraica Stuttgartensia (BHS) with Strong PL Ibrani Per Kata
-* itl_linkage_heb2ayt.sql   : Table korelasi Hebrew/Ibrani-AYT
-* bib_id_ayt_pb_words.sql   : Teks AYT Perjanjian Baru per kata
-* greek.sql                 : Daftar kata dalam Yunani
-* wh_word.sql               : Teks Alkitab Westcott-Hort PB Yunani per kata
-* itl_linkage_grk2ayt.sql   : Table korelasi per kata Alkitab Greek/Yunani-AYT
-* vrefs.sql                 : Table referensi ayat dari nomor 1-31102 ((Kejadian 1:1 s.d. Wahyu 22:21)
-```
+---
 
-## Lisensi
+### 🛠️ Teknologi yang Digunakan
 
-AYT is Alkitab Yang Terbuka, PB (2010,..-2024) and PL (2014,...2024).
+* **Frontend**: React 18, Vite 5, Tailwind CSS
+* **Ikon**: Lucide React
+* **Font**: *Noto Serif Hebrew*, *Gentium Plus*, *Plus Jakarta Sans*
+* **Dataset**: Dataset Interlinear AYT Yayasan Lembaga SABDA (YLSA)
 
-AYT - text is Copyrighted, YLSA-AYT 2011,2024© -- this is to preserve and protect the quality of the Text. Suggestions, Comments, Changes, Corrections are encouraged, and can be submitted to YLSA-AYT.
+---
 
-AYT - usage (non-commercial) is CopyLefted, 2011🄯 -- this is to allow free usage/distribution of the text
+### 🚀 Cara Menjalankan Secara Lokal
 
-AYT - derivatives (form, format, media, tools, resources) is CC, YLSA-AYT 2011(cc) -- we encourage you to use the AYT in creative ways, and to share the results. Creative Commons(CC) type is Credit(BY), Non-Commercial(NC), Shareable(SA)
+1. **Clone repository & masuk ke direktori**:
+   ```bash
+   git clone https://github.com/USERNAME/ayt-interlinear.git
+   cd ayt-interlinear
+   ```
 
-AYT - translation license is freely given, 2011-2024 -- information and/or reporting is appreciated, but not required.
+2. **Install dependensi**:
+   ```bash
+   npm install
+   ```
 
-AYT permissions are managed by YLSA.
+3. **Jalankan server pengembangan**:
+   ```bash
+   npm run dev
+   ```
+   Buka `http://localhost:3000` (atau port yang ditampilkan di terminal) di browser Anda.
 
-AYT (and Alkitab Yang Terbuka) name are Trademarks associated with the AYT Bible, and AYT ecosystem/tools.
+4. **Build untuk produksi**:
+   ```bash
+   npm run build
+   ```
 
-URL: 
-AYT  : https://ayt.co
-YLSA : https://ylsa.org
+---
 
-Email: ylsa@sabda.org
+### 🌐 Cara Deploy ke GitHub Pages
 
+Aplikasi ini telah dikonfigurasi untuk kompatibilitas GitHub Pages (`base: './'`).
 
-## Referensi
-+ [Teks Alkitab AYT GitHub](https://github.com/sabdacode/ayt/)
-+ Interlinear AYT Perjanjian Lama: 
-  - [Indeks Kata](https://ayt.co/interlinear/heb2ayt/), 
-  - [Classic Interlinear](https://ayt.co/interlinear/view/?book=1&chapter=1&version=ayt&dir=classic&show=all), 
-  - [Reverse Interlinear](https://ayt.co/interlinear/view/?book=1&chapter=1&version=ayt&dir=reverse&show=all), 
-  - [Bi-linear](https://ayt.co/interlinear/heb2ayt/detail.php?id=1)
-+ Interlinear AYT Perjanjian Baru: 
-  - [Indeks Kata](https://ayt.co/interlinear/grk2ayt/), 
-  - [Classic Interlinear](https://ayt.co/interlinear/view/?book=40&chapter=1&version=ayt&dir=classic&show=all), 
-  - [Reverse Interlinear](https://ayt.co/interlinear/view/?book=40&chapter=1&version=ayt&dir=reverse&show=all), 
-  - [Bi-linear](https://ayt.co/interlinear/grk2ayt/detail.php?id=23146)
-+ Contoh multilinear dalam situs Alkitab.SABDA.org: [Yoh 3:16](https://alkitab.sabda.org/verse.php?book=Yoh&chapter=3&verse=16#str)
-+ [File PDF Bible Interlinear](./Bible_Interlinear.pdf)
-+ Situs AYT: https://ayt.co, situs YLSA: https://ylsa.org
+1. **Jalankan build**:
+   ```bash
+   npm run build
+   ```
+
+2. **Commit & Push ke GitHub**:
+   ```bash
+   git add .
+   git commit -m "Deploy AYT Interlinear Modern"
+   git push origin main
+   ```
+
+3. **Aktifkan GitHub Pages**:
+   - Buka repositori Anda di GitHub ➔ **Settings** ➔ **Pages**.
+   - Pada **Source**, pilih **Deploy from a branch**.
+   - Pilih branch `main` dan folder `/ (root)` atau `/dist`, lalu simpan.
+
+---
+
+### 📜 Lisensi & Hak Cipta
+
+Proyek ini menggunakan model lisensi ganda:
+
+1. **Kode Sumber Web (Software/Code)**: **MIT License** — Bebas digunakan, dipelajari, dan dikembangkan.
+2. **Teks Alkitab & Data Interlinear (Data/Content)**: **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
+   - **Teks AYT & Data Korelasi Interlinear**: © Yayasan Lembaga SABDA (YLSA) — [ayt.co](https://ayt.co) / [ylsa.org](https://ylsa.org).
+   - **Teks Ibrani BHS**: Public Domain / Open Scriptures Hebrew Bible.
+   - **Teks Yunani WH**: Public Domain / Macula Greek.
+
+Lihat file [LICENSE](./LICENSE) untuk detail lisensi selengkapnya.
