@@ -4,7 +4,7 @@ Situs web Alkitab Interlinear Indonesia modern berbasis React, Vite, dan Tailwin
 
 ---
 
-### ✨ Fitur Utama
+### Fitur Utama
 
 - **📖 Teks Asli Lengkap & Presisi**:
   - **Perjanjian Lama**: Teks Ibrani BHS lengkap dengan penanda vokal (*nikud*) dan tanda baca (*cantillation*). Teks RTL (*Right-to-Left*).
@@ -15,7 +15,7 @@ Situs web Alkitab Interlinear Indonesia modern berbasis React, Vite, dan Tailwin
   - Pencarian cepat berdasarkan nama kitab, referensi ayat (contoh: `Yoh 3:16`, `Kej 1:1`), atau nomor Strong's (contoh: `G976`, `H7225`).
   - Pencarian nomor Strong's menampilkan kartu definisi kamus lengkap (*lemma*, transliterasi, pengucapan, terjemahan KJV, dan definisi) serta daftar kemunculan ayat.
 - **🔀 Tiga Mode Tampilan Interlinear**:
-  1. **Klasik**: Teks bahasa asli (Ibrani/Yunani) di atas, terjemahan AYT Indonesia di bawah.
+  1. **Klasik**: Teks bahasa asli (Ibrani/Yunani) di atas, terjemahan AYT Indonesia di bawah. Teks AYT diambil dari https://github.com/sabdacode/ayt-interlinear/.
   2. **Terbalik**: Terjemahan AYT Indonesia di atas, teks bahasa asli di bawah dalam urutan LTR Bahasa Indonesia.
   3. **Pararel (Bilinear)**: Kalimat utuh AYT diikuti dengan teks bahasa asli yang dapat diklik per kata.
 - **📱 Responsif & Tema Gelap/Terang**:
@@ -38,8 +38,8 @@ Situs web Alkitab Interlinear Indonesia modern berbasis React, Vite, dan Tailwin
 
 1. **Clone repository & masuk ke direktori**:
    ```bash
-   git clone https://github.com/USERNAME/ayt-interlinear.git
-   cd ayt-interlinear
+   git clone https://github.com/timmydan/indolinear.git
+   cd indolinear
    ```
 
 2. **Install dependensi**:

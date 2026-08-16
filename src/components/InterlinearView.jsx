@@ -1,5 +1,16 @@
-import React, { useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { ChevronLeft, ChevronRight, BookOpen } from 'lucide-react';
+
+export const getWordMatchKey = (w) => {
+  if (!w) return null;
+  if (w.strong && typeof w.strong === 'string' && w.strong.trim() !== '') {
+    return w.strong.trim();
+  }
+  if (w.word_orig && typeof w.word_orig === 'string') {
+    return w.word_orig.replace(/\//g, '').trim();
+  }
+  return null;
+};
 
 export default function InterlinearView({
   chapterData,
@@ -14,6 +25,36 @@ export default function InterlinearView({
 }) {
   const touchStartX = useRef(null);
   const touchStartY = useRef(null);
+
+  const [hoveredKey, setHoveredKey] = useState(null);
+  const [selectedKey, setSelectedKey] = useState(null);
+
+  // Clear hover and persistent highlights when changing books or chapters
+  useEffect(() => {
+    setHoveredKey(null);
+    setSelectedKey(null);
+  }, [currentBookName, currentChapter, chapterData]);
+
+  const handleWordMouseEnter = (w) => {
+    const key = getWordMatchKey(w);
+    setHoveredKey(key);
+    // When hovering another word, release previous persistent highlight
+    if (selectedKey && selectedKey !== key) {
+      setSelectedKey(null);
+    }
+  };
+
+  const handleWordMouseLeave = () => {
+    setHoveredKey(null);
+  };
+
+  const handleWordClick = (w, isHeb) => {
+    const key = getWordMatchKey(w);
+    setSelectedKey(key);
+    onSelectWord(w, isHeb);
+  };
+
+  const activeHighlightKey = hoveredKey || selectedKey;
 
   const handleTouchStart = (e) => {
     if (e.touches && e.touches.length === 1) {
@@ -163,49 +204,54 @@ export default function InterlinearView({
                 dir={isHebrew ? 'rtl' : 'ltr'}
                 className="flex flex-wrap gap-2.5 pt-2"
               >
-                {verse.words.map((w, idx) => (
-                  <div
-                    key={idx}
-                    onClick={() => onSelectWord(w, isHebrew)}
-                    className="interlinear-word-card group/word relative"
-                    title="Klik/tap untuk detail morfologi & kamus"
-                  >
-                    {/* Original Word */}
-                    <span 
-                      dir={isHebrew ? 'rtl' : 'ltr'}
-                      lang={isHebrew ? 'he' : 'el'}
-                      className={`${langClass} ${fontConfig.orig} tracking-wide transition-transform group-hover/word:scale-105`}
+                {verse.words.map((w, idx) => {
+                  const isHighlighted = Boolean(activeHighlightKey && getWordMatchKey(w) === activeHighlightKey);
+                  return (
+                    <div
+                      key={idx}
+                      onClick={() => handleWordClick(w, isHebrew)}
+                      onMouseEnter={() => handleWordMouseEnter(w)}
+                      onMouseLeave={handleWordMouseLeave}
+                      className={`interlinear-word-card group/word relative ${isHighlighted ? 'is-highlighted' : ''}`}
+                      title="Klik/tap untuk detail morfologi & kamus"
                     >
-                      {cleanWord(w.word_orig)}
-                    </span>
-
-                    {/* Transliteration */}
-                    {settings.showTranslit && w.translit && (
-                      <span dir="ltr" className={`text-[var(--text-muted)] italic ${fontConfig.translit}`}>
-                        {w.translit}
+                      {/* Original Word */}
+                      <span 
+                        dir={isHebrew ? 'rtl' : 'ltr'}
+                        lang={isHebrew ? 'he' : 'el'}
+                        className={`${langClass} ${fontConfig.orig} tracking-wide transition-transform group-hover/word:scale-105`}
+                      >
+                        {cleanWord(w.word_orig)}
                       </span>
-                    )}
 
-                    {/* Strong's Badge */}
-                    {settings.showStrongs && w.strong && (
-                      <span dir="ltr" className="strong-badge">
-                        {w.strong}
+                      {/* Transliteration */}
+                      {settings.showTranslit && w.translit && (
+                        <span dir="ltr" className={`text-[var(--text-muted)] italic ${fontConfig.translit}`}>
+                          {w.translit}
+                        </span>
+                      )}
+
+                      {/* Strong's Badge */}
+                      {settings.showStrongs && w.strong && (
+                        <span dir="ltr" className="strong-badge">
+                          {w.strong}
+                        </span>
+                      )}
+
+                      {/* Morphology Badge */}
+                      {settings.showMorph && w.morph && (
+                        <span dir="ltr" className="morph-badge" title={w.morph_id}>
+                          {w.morph}
+                        </span>
+                      )}
+
+                      {/* AYT Indonesian Word */}
+                      <span dir="ltr" className={`ayt-word-text mt-1 ${fontConfig.ayt}`}>
+                        {w.ayt_word || '—'}
                       </span>
-                    )}
-
-                    {/* Morphology Badge */}
-                    {settings.showMorph && w.morph && (
-                      <span dir="ltr" className="morph-badge" title={w.morph_id}>
-                        {w.morph}
-                      </span>
-                    )}
-
-                    {/* AYT Indonesian Word */}
-                    <span dir="ltr" className={`ayt-word-text mt-1 ${fontConfig.ayt}`}>
-                      {w.ayt_word || '—'}
-                    </span>
-                  </div>
-                ))}
+                    </div>
+                  );
+                })}
               </div>
             )}
 
@@ -215,42 +261,47 @@ export default function InterlinearView({
                 dir="ltr"
                 className="flex flex-wrap gap-2.5 pt-2"
               >
-                {verse.words.map((w, idx) => (
-                  <div
-                    key={idx}
-                    onClick={() => onSelectWord(w, isHebrew)}
-                    className="interlinear-word-card group/word relative"
-                    title="Klik/tap untuk detail morfologi & kamus"
-                  >
-                    {/* AYT Indonesian Word Top */}
-                    <span dir="ltr" className={`ayt-word-text text-indigo-500 font-black ${fontConfig.ayt}`}>
-                      {w.ayt_word || '—'}
-                    </span>
-
-                    {/* Strong's Badge */}
-                    {settings.showStrongs && w.strong && (
-                      <span dir="ltr" className="strong-badge">
-                        {w.strong}
-                      </span>
-                    )}
-
-                    {/* Original Hebrew/Greek Word Bottom */}
-                    <span 
-                      dir={isHebrew ? 'rtl' : 'ltr'}
-                      lang={isHebrew ? 'he' : 'el'}
-                      className={`${langClass} ${fontConfig.orig} tracking-wide mt-1`}
+                {verse.words.map((w, idx) => {
+                  const isHighlighted = Boolean(activeHighlightKey && getWordMatchKey(w) === activeHighlightKey);
+                  return (
+                    <div
+                      key={idx}
+                      onClick={() => handleWordClick(w, isHebrew)}
+                      onMouseEnter={() => handleWordMouseEnter(w)}
+                      onMouseLeave={handleWordMouseLeave}
+                      className={`interlinear-word-card group/word relative ${isHighlighted ? 'is-highlighted' : ''}`}
+                      title="Klik/tap untuk detail morfologi & kamus"
                     >
-                      {cleanWord(w.word_orig)}
-                    </span>
-
-                    {/* Transliteration */}
-                    {settings.showTranslit && w.translit && (
-                      <span dir="ltr" className={`text-[var(--text-muted)] italic ${fontConfig.translit}`}>
-                        {w.translit}
+                      {/* AYT Indonesian Word Top */}
+                      <span dir="ltr" className={`ayt-word-text text-indigo-500 font-black ${fontConfig.ayt}`}>
+                        {w.ayt_word || '—'}
                       </span>
-                    )}
-                  </div>
-                ))}
+
+                      {/* Strong's Badge */}
+                      {settings.showStrongs && w.strong && (
+                        <span dir="ltr" className="strong-badge">
+                          {w.strong}
+                        </span>
+                      )}
+
+                      {/* Original Hebrew/Greek Word Bottom */}
+                      <span 
+                        dir={isHebrew ? 'rtl' : 'ltr'}
+                        lang={isHebrew ? 'he' : 'el'}
+                        className={`${langClass} ${fontConfig.orig} tracking-wide mt-1`}
+                      >
+                        {cleanWord(w.word_orig)}
+                      </span>
+
+                      {/* Transliteration */}
+                      {settings.showTranslit && w.translit && (
+                        <span dir="ltr" className={`text-[var(--text-muted)] italic ${fontConfig.translit}`}>
+                          {w.translit}
+                        </span>
+                      )}
+                    </div>
+                  );
+                })}
               </div>
             )}
 
@@ -265,19 +316,26 @@ export default function InterlinearView({
                   }}
                   className="p-4 sm:p-5 rounded-2xl border leading-loose"
                 >
-                  {verse.words.map((w, idx) => (
-                    <React.Fragment key={idx}>
-                      <span
-                        onClick={() => onSelectWord(w, isHebrew)}
-                        lang={isHebrew ? 'he' : 'el'}
-                        className={`${langClass} text-2xl sm:text-3xl inline-block cursor-pointer hover:text-[var(--accent-gold)] hover:underline transition-colors px-1.5 py-0.5 rounded-lg hover:bg-[var(--bg-card-hover)] mx-1.5 my-1`}
-                        title={`Klik untuk detail: ${cleanWord(w.word_orig)} (${w.strong})`}
-                      >
-                        {cleanWord(w.word_orig)}
-                      </span>
-                      {"\u00A0\u00A0"}
-                    </React.Fragment>
-                  ))}
+                  {verse.words.map((w, idx) => {
+                    const isHighlighted = Boolean(activeHighlightKey && getWordMatchKey(w) === activeHighlightKey);
+                    return (
+                      <React.Fragment key={idx}>
+                        <span
+                          onClick={() => handleWordClick(w, isHebrew)}
+                          onMouseEnter={() => handleWordMouseEnter(w)}
+                          onMouseLeave={handleWordMouseLeave}
+                          lang={isHebrew ? 'he' : 'el'}
+                          className={`bilinear-word ${langClass} text-2xl sm:text-3xl inline-block ${
+                            isHighlighted ? 'is-highlighted' : ''
+                          }`}
+                          title={`Klik untuk detail: ${cleanWord(w.word_orig)} (${w.strong})`}
+                        >
+                          {cleanWord(w.word_orig)}
+                        </span>
+                        {"\u00A0\u00A0"}
+                      </React.Fragment>
+                    );
+                  })}
                 </div>
               </div>
             )}
